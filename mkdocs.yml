@@ -1,0 +1,17 @@
+site_name: PURCO SA
+
+nav:
+  - 'Nav 1': 'index.md'
+  - 'Nav 2':
+    - 'SubNav 2-1': 'civicrm.md'
+    - 'SubNav 2-2': 'civicrm2.md'
+  - 'Nav 3':
+    - 'SubNav 3-1':
+      - 'SubSubNav 3-1-1': 'index2.md'
+
+theme:
+  name: readthedocs
+  locale: en
+
+extra_css:
+  - style.css
