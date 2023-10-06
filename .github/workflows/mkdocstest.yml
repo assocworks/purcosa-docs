@@ -1,24 +1,45 @@
-name: Publish docs via GitHub Pages
+name: Build and Deploy MkDocs
+
 on:
   push:
     branches:
-      - main
+      - main  # Trigger the workflow on push to the main branch
 
 jobs:
-  build:
-    name: Deploy docs
+  build-deploy:
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout main
-        uses: actions/checkout@v2
 
-      - name: Deploy docs
-        uses: mhausenblas/mkdocs-deploy-gh-pages@nomaterial
-        # Or use mhausenblas/mkdocs-deploy-gh-pages@master to build with the mkdocs-material theme
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          # CUSTOM_DOMAIN: optionaldomain.com
-          # CONFIG_FILE: folder/mkdocs.yml
-          # EXTRA_PACKAGES: build-base
-          # GITHUB_DOMAIN: github.myenterprise.com
-          # REQUIREMENTS: folder/requirements.txt
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Setup Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8  # Specify the Python version you want to use
+
+    - name: Cache Dependencies
+      uses: actions/cache@v2
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+
+    - name: Install Dependencies
+      run: |
+        pip install mkdocs
+        # pip install mkdocs-material  # Optionally, install a theme like MkDocs Material
+        # Install any other dependencies you have listed in a requirements.txt file
+        # pip install -r requirements.txt
+
+    - name: Build MkDocs Site
+      run: |
+        mkdocs build
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        # publish_dir: ./site  # The directory where MkDocs builds the site to
+
