@@ -37,13 +37,13 @@ jobs:
       run: |
         mkdocs build
 
-    #- name: Deploy to GitHub Pages
-    #  uses: peaceiris/actions-gh-pages@v3
-    #  with:
-    #    github_token: ${{ secrets.GITHUB_TOKEN }}
-    #    # publish_dir: ./site  # The directory where MkDocs builds the site to
-
     - name: Deploy to GitHub Pages
-      run: |
-        mkdocs gh-deploy --clean
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./site  # The directory where MkDocs builds the site to
+
+    #- name: Deploy to GitHub Pages
+    #  run: |
+    #    mkdocs gh-deploy --clean
 
