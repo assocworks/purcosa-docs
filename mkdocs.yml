@@ -6,6 +6,10 @@ nav:
     - 'SubNav 2-1': 'civicrm.md'
     - 'SubNav 2-2': 'civicrm2.md'
   - CiviCRM:
+    - 'Contacts': './civicrm/contacts.md'
+    - 'Groups and tags': './civicrm/groups-and-tags.md'
+    - 'Smart groups': './civicrm/smart-groups.md'
+    - 'Relationships': './civicrm/relationships.md'
     - 'Searching and reporting': './civicrm/searching.md'
 
 theme:
