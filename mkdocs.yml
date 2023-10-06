@@ -1,5 +1,5 @@
 site_name: PURCO SA
-site_url: https://test3.purcosa.co.za/user-guide
+site_url: https://test3.purcosa.co.za/user-guide/
 
 nav:
   - 'Nav 1': 'index.md'
