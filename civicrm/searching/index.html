@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Searching and reporting - PURCO SA</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+        <link href="../../style.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Searching and reporting";
+        var mkdocs_page_input_path = "civicrm/searching.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> PURCO SA
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">Nav 1</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Nav 2</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../">SubNav 2-1</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../civicrm2/">SubNav 2-2</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">CiviCRM</span></p>
+              <ul class="current">
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">Searching and reporting</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#overview">Overview</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#searching-and-reporting">Searching and reporting</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#quick-search">Quick search</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#advanced-search">Advanced search</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#display-settings-for-results">Display Settings For Results</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#views-for-display-contacts">Views for Display Contacts</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#search-settings">Search settings</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#the-date-range-filter">The Date Range Filter</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#combining-search-criteria">Combining search criteria</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#limitations-of-advanced-search">Limitations of Advanced Search</a>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#search-builder">Search Builder</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#full-text-search">Full-text Search</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#component-searches">Component searches</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#custom-searches">Custom searches</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#finding-contacts-in-one-group-but-not-in-another">Finding contacts in one group but not in another</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#household-name-and-state">Household Name and State</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#contribution-aggregate">Contribution Aggregate</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#postal-mailing">Postal Mailing</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#proximity-search">Proximity Search</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#event-aggregate">Event Aggregate</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#price-set-details-for-event-participants">Price Set Details for Event Participants</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#find-contribution-amounts-by-tag">Find Contribution Amounts by Tag</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#zip-code-range">Zip Code Range</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#date-added-to-civicrm">Date Added to CiviCRM</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#custom-group-multiple-values-listing">Custom Group Multiple Values Listing</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#contributions-made-in-year-x-and-not-year-y">Contributions made in Year X and not Year Y</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#the-search-action-workflow">The 'search-action' workflow</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#the-contact-summary-pop-up">The contact summary pop-up</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#the-wildcard">The wildcard (%)</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#case-sensitivity">Case sensitivity</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#default-number-of-rows-to-be-returned">Default number of rows to be returned.</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#search-kit">Search Kit</a>
+    </li>
+    </ul>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">PURCO SA</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">CiviCRM</li>
+      <li class="breadcrumb-item active">Searching and reporting</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="introduction">Introduction</h1>
+<p>This chapter covers different ways to find information you've stored in
+CiviCRM. </p>
+<p>We will start off with some simple searches and then move on to more
+advanced techniques. CiviCRM beginners should be familiar with
+Quick search, Advanced Search and the component searches. More advanced
+users should also look at <a href="../searching/searchkit/what-is-searchkit.md">Search Kit</a> reports, custom searches and Search Builder.</p>
+<h2 id="overview">Overview</h2>
+<p>In this introduction we will discuss at various level of detail:</p>
+<ul>
+<li><strong>Quick search</strong> - how to quickly search for contacts.</li>
+<li><strong>Advanced search</strong> - how to really dig deep for contacts with lots of search possibilities.</li>
+<li><strong>Search Builder</strong> - how to build your own searches (though if you are using CiviCRM version 5.20 or later you should really look into <a href="../searching/searchkit/what-is-searchkit.md">Search Kit</a> too).</li>
+<li><strong>Full-text search</strong> - how to search for something in all the available text fields in the database.</li>
+<li><strong>Component search</strong> - on searching within specific component entities like events, memberships, cases, contributions etc.</li>
+<li><strong>Custom searches</strong> - using the available custom made searches that can be from CiviCRM core or from one or more of your specific extensions.</li>
+<li><strong>Search actions</strong> - what you can do with the results of your search (or sometimes report).</li>
+<li><strong>The contact summary pop</strong> - what you can see and change in the popup when hovering over a contact icon in your search results.</li>
+<li><strong>The wildcard</strong> - using "%" or "%_%" in your searches as a wildcard.</li>
+<li><strong>Case sensitivity</strong> - what you can do with upper or lower case in your search.</li>
+<li><strong>Default number of rows</strong> - how many results are returned in your searches and how you can change that number.</li>
+<li><strong>Search Kit</strong> - a brief link to the <a href="../searching/searchkit/what-is-searchkit.md">Search Kit</a> functionality.</li>
+</ul>
+<h2 id="searching-and-reporting">Searching and reporting</h2>
+<p>There are three main reasons to search:</p>
+<ul>
+<li>To find a specific contact: the Quick search box can find contacts
+    by name, email address or a variety of other characteristics</li>
+<li>To perform an action on a contact or contacts that meet certain
+    criteria. For example, you might want to find all contacts in
+    the advisory group in order to invite them to a meeting, find all
+    those whose memberships have recently expired to send a renewal
+    reminder, or find all contacts aged under 25 in a specific location
+    to send them an email about an upcoming event nearby</li>
+<li>For ad-hoc reporting</li>
+</ul>
+<p>As a form of ad-hoc reporting, searching is often useful but does have
+limitations. For example, you can't group results by particular
+criteria, summarize, or easily produce graphs of the results. For more
+advanced reporting, see the <a href="../reporting/what-is-civireport.md">CiviReport</a> section.</p>
+<h2 id="quick-search">Quick search</h2>
+<p><img alt="Quicksearch" src="../img/the-user-interface/searching/quicksearch.png" /></p>
+<p>The easiest way to find a specific contact is to use the Quick search box that appears in the navigation menu at the top left of the screen. You may choose to search by one of several criteria. The criteria can be modified by going to <strong>Administer &gt; Customize Data and Screens &gt; Search Preferences</strong>. On the <em>Search Preferences</em> page, options are available to customize CiviCRM's Quick search to hide contacts' basic fields that are not normally used in a Quick search and to add custom field options.</p>
+<p>Once you click in the Quick search box, you can start typing immediately to use the default Name/Email search or you can click again to expose several other criteria in a dropdown selection list. Contacts that match the phrase you enter will appear in a dropdown list below the box. For example, if you are searching with Name/Email and you have left
+automatic wildcard enabled via <em>Search Preferences</em>, entering "peter" will find:</p>
+<ul>
+<li>people who's first or last name is <strong>Peter</strong></li>
+<li>people who have Peter appearing as part of their name, e.g. Mary
+    <strong>Peter</strong>son</li>
+<li>people who have Peter as part of their email address, e.g.
+    blue<strong>peter</strong>@gmail.com  </li>
+<li>organisations with Peter in their name, e.g. Al<strong>peter</strong>
+    Community Centre.</li>
+</ul>
+<p>You often don't need to type the full name of the person - just the first few letters.  However, if you don't see the contact you are looking for, either refine the search by typing more characters, or hit the Return key to convert your search into an Advanced Search.</p>
+<p>Quick search displays up to 10 results (by default). You can change the number of results returned from the <em>Search Preferences</em> screen described above by changing the <em>Autocomplete Results</em> setting.</p>
+<p>CiviCRM also allows for the collection of a nickname when entering new contacts.  For example, "Joe" can be a nickname for "Joseph" and "IBM" can be a nickname for "International Business Machines".  When you first install CiviCRM you will find "Joseph" when searching for "Joe" and you'll find "International Business Machines" when searching for "IBM".</p>
+<p>You can change this behavior from the <em>Search Preferences</em> screen described above by changing the <em>Include Nickname</em> setting to <em>yes</em>.</p>
+<p>!!! note
+    If you search by <strong>phone</strong> then you will need to enter the digits of 
+    the phone number without any formatting. The <strong>phone</strong> search is done 
+    against a field that consists only of digits with all non-numeric 
+    characters stripped out.</p>
+<p>!!! tip 
+    If you want to search by <strong>first</strong> and <strong>last</strong> name, use the format 
+    "Lastname, Firstname", not "Firstname Lastname".<br />
+    For example, "Peterson, Mary" not "Mary Peterson".</p>
+<h2 id="advanced-search">Advanced search</h2>
+<p><img alt="Screen shot of advanced search" src="../img/the-user-interface/searching/user-interface-advanced-search-main-screen.png" /></p>
+<p>Advanced search allows you to search across all the information you have
+about your contacts. For example, you could find "all contacts in
+Venezuela" or "all advisory group members". If you specify two or more
+categories of information, the search displays every contact that
+matches all the categories. For instance, you can combine the two
+criteria just mentioned to find "all advisory group members in
+Venezuela".</p>
+<p>The Advanced search screen is accessible from the navigation menu
+<strong>Search &gt; Advanced Search</strong>. On this screen, search criteria are
+grouped into sections which refer to different types of data that you
+can search on, such as address data, notes and information from
+components such as Contributions or Events. Each group of criteria is
+shown as a blue bar (known as an "accordion" because it expands when you
+click on it). For example, if you want to search for all people in your
+database from 16 to 18 years old, click on the <strong>Demographics</strong> accordion.
+When it opens, you can specify the birth date range you are interested
+in.</p>
+<h4 id="display-settings-for-results">Display Settings For Results</h4>
+<p><img alt="Screen shot of Display Results As" src="../img/the-user-interface/searching/user-interface-display-results-as.png" /></p>
+<p>Advanced Search returns your results as Contact records by default.
+However, you may want to get another record type instead. For example,
+you may want to search on the Membership renewal activity to find
+everyone who renewed their membership last week then display the results
+as Memberships so that you can export name, address and Membership
+expiration date to create and then post out membership cards to those
+contacts. Simply select the record type you want from the <strong>Display Results As</strong> dropdown.</p>
+<h4 id="views-for-display-contacts">Views for Display Contacts</h4>
+<p><img alt="Screen shot of Display Contacts" src="../img/the-user-interface/searching/user-interface-new-contact-view-profile.png" /></p>
+<p>Advanced search allows you to change the columns displayed in your
+search results. The default columns are Name, Street Address, City,
+State, Postal Code, Country, Email and Phone. If you want to display a
+different set of columns (perhaps to include a custom field or remove a
+column you don't need), create a Profile with the Search Views option
+selected. Make sure that the fields in this Profile are set to "Expose
+Publicly and for Listings" visibility, and are marked as Results Columns.
+(For more information about creating Profiles, which are described in
+detail in the Profiles chapter in the Configuration section.)</p>
+<p>For example you may want to include columns for Gender and Date of Birth, while eliminating Country.
+Create a profile that includes birth date, gender and address fields.</p>
+<p><img alt="Screen shot of Search View setting in a profile" src="../img/the-user-interface/searching/user-interface-profile-search-view-setting.png" /></p>
+<p><img alt="Screen shot of Visibility setting in a profile" src="../img/the-user-interface/searching/user-interface-profile-search-view-setting-2.png" /></p>
+<p><img alt="Screen shot of a profile" src="../img/the-user-interface/searching/user-interface-new-contact-view-profile.png" /></p>
+<p>Read more about creating profiles in the <a href="../organising-your-data/profiles.md">Profiles</a> section of the chapter
+on <em>Organising Your Data</em>.</p>
+<p>Combining this feature with the "Batch Update via Profile" action
+provides a powerful method of viewing and updating a specific set of
+fields across a batch of contact records.</p>
+<h3 id="search-settings">Search settings</h3>
+<p>The <strong>Search Operator</strong> determines whether your criteria are combined with AND statements, or combined with OR statements. For example, you may want to find all individuals who are in the Volunteers group AND who have a Volunteer Training activity recorded for them. In this case use the AND operator. If you need to find everyone who is in the Volunteers group OR has a Volunteer Training activity recorded, use the OR operator.</p>
+<p>The <strong>Search in Trash</strong> allows you to search contacts that have been deleted but not deleted permanently. When a contact is deleted, the contact and all related data are moved to trash. Only users with the relevant permission will be able to search in trash and will be able to restore the contact from trash.</p>
+<p><img alt="Screen shot of Search in Trash" src="../img/the-user-interface/searching/user-interface-search-in-trash.png" /></p>
+<h3 id="the-date-range-filter">The Date Range Filter</h3>
+<p><img alt="Screen shot of Date Range Filter" src="../img/the-user-interface/searching/user-interface-date-filter.png" /></p>
+<p>Most component searches include a date range filter. The images below
+show examples of both:</p>
+<ul>
+<li>by using an absolute date range, e.g. "1st Jan 2010" to "31 July
+    2010"</li>
+<li>by using a relative date range, e.g. "Previous week"</li>
+</ul>
+<p>Relative date ranges are especially useful for searches that you would
+like to then save as Smart Groups (automatically populated groups that
+are configured to include contacts that share a certain set of
+characteristics or activities). For more information see the <a href="../organising-your-data/groups-and-tags.md">Groups and
+tags</a> section in the <em>Organising your data</em> chapter.</p>
+<p><img alt="Screen shot of Relative Date Range Filter" src="../img/the-user-interface/searching/user-interface-date-filter-relative.png" /></p>
+<p>For example you may want to use a relative date range search to find:</p>
+<ul>
+<li>Contacts who have contributed in the last 7 days (Relative date
+    range - "From 1 Week ago")</li>
+<li>This (financial) year's registered Event Participants (Relative date
+    range - "This Year")</li>
+<li>Contacts who are a certain age</li>
+</ul>
+<p>Relative dates filters based on the time interval "week" assume that Sunday is the first day of the week.   This is not true in all countries, for example Europe and many countries in Asia/Pacific region consider Monday to be the first day of the week. To set which day is the first day of the week, you need to go to <strong>Administer &gt; Localization &gt; Date Format</strong>.</p>
+<p><img alt="Screen shot of how to change the first day of the week" src="../img/the-user-interface/searching/user-interface-searching-week-begins.png" /></p>
+<h4 id="combining-search-criteria">Combining search criteria</h4>
+<p>Different criteria are combined by "ANDing" them. For example, if you
+select the tag "major donor" and the country "Mexico", the search will
+return major donors from Mexico. The search will not return major
+donors who are <em>not</em> from Mexico, nor those from Mexico who are <em>not</em>
+major donors.</p>
+<p>You can change the default search operator from AND to OR in the Search Settings.</p>
+<p>Within criteria groups that allow you to check boxes for more than one
+value, these options are also combined by "ANDing". For example, you
+can search for contacts whose Preferred Communication Method is both
+Email <em>AND</em> SMS.</p>
+<p>With fields that allow you to select more than one value from a dropdown list,
+the values are always combined with OR. For example, you could find contacts
+that live in Alaska or in Arizona.</p>
+<p><img alt="advanced search address selected" src="../img/the-user-interface/searching/user-interface-advanced-search-address-selected.png" /></p>
+<p>If you expand one of the dropdown sections, and make selections, as shown above,  a cross appears at the right end of the header, indicating that this panel is being used in the search. If you no longer wish to use Address Fields as a part of the search, it is not enough just to close the panel. You must click the cross on the header.</p>
+<h4 id="limitations-of-advanced-search">Limitations of Advanced Search</h4>
+<p>The Advanced Search is an effective way to search for many things in CiviCRM. However, there is an issue with searches where Contacts are the client in more than one Case, and they are engaged in the same Activity Type in each of these Cases. The Advanced Search is currently not able to filter these Activities correctly by Case Type. This issue is expected to be resolved in the near future. </p>
+<h2 id="search-builder">Search Builder</h2>
+<p>Advanced search lets you choose from a wide range of criteria in a
+user-friendly panel, but this has limitations. Search builder allows you
+to define your own search and arrange the criteria according to your
+specific needs.</p>
+<p>Search Builder allows you to choose from a range of operators:</p>
+<table>
+<thead>
+<tr>
+<th>Operator</th>
+<th>Purpose</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>=</td>
+<td>Equals. Matches on the exact value you specify</td>
+<td><strong>"First Name" = "Bob"</strong> will find contacts who's first name is exactly "Bob"</td>
+</tr>
+<tr>
+<td>≠</td>
+<td>Not equals. Matches on everything that is not the specified value.</td>
+<td><strong>"Gender" ≠ "Female"</strong> will find contacts who are not female</td>
+</tr>
+<tr>
+<td>&gt; , ≥</td>
+<td>Greater-than, greater-than-or-equal-to</td>
+<td><strong>"Birth Date" ≥ "Jan 1 2000"</strong> will find contacts born on or after Jan 1 2000</td>
+</tr>
+<tr>
+<td>&lt; , ≤</td>
+<td>Less-than, less-than-or-equal-to</td>
+<td><strong>"Last Name" &lt; "J"</strong> will find contacts whose name starts with a letter that comes before J in the alphabet</td>
+</tr>
+<tr>
+<td>In</td>
+<td>Value is one of those you specify</td>
+<td>"Group" In "Board Members, Staff" will find contacts who are in either of the specified groups</td>
+</tr>
+<tr>
+<td>Like</td>
+<td>Same as the = operator, but supports the % wildcard character</td>
+<td><strong>"Last Name" Like "Gree%"</strong> will find contacts whose last name begins with "Gree" (Green, Greenberg, etc)</td>
+</tr>
+<tr>
+<td>Regex</td>
+<td>Same as the = operator, but supports all regular expression operators. See http://en.wikipedia.org/wiki/Regular_expressions</td>
+<td><strong>"Middle Name" Regex "[a-c]"</strong> will find contacts whose middle initial is A, B or C</td>
+</tr>
+<tr>
+<td>Is Empty, Not Empty</td>
+<td>Empty means the field exists and is equal to the number zero or contains nothing.</td>
+<td><strong>"City" Is Empty</strong> will find all contacts who do have an address but the city was left blank</td>
+</tr>
+<tr>
+<td>Is Null, Not Null</td>
+<td>Null means the field does not exist or contains nothing.</td>
+<td><strong>"City" Is Null</strong> will find all contacts who do not have an address at all</td>
+</tr>
+</tbody>
+</table>
+<p>Search Builder also allows you to combine criteria with multiple AND and
+OR groups. To AND criteria (which means to find results matching all
+criteria specified), click <strong>Another search field</strong> and enter criteria
+under <strong>Include contacts where</strong>. To OR criteria (which means to find
+results matching either one OR the other criterion), enter one
+criterion in <strong>Include contacts where</strong> and the other under <strong>Also
+include contacts where.</strong> The following example will search for females
+born after Jan 1 2000 OR members of the Administrators or Advisory Board
+groups:</p>
+<p><img alt="Search Builder" src="../img/the-user-interface/searching/Search_Builder.png" /></p>
+<p>Your search results will contain each contact's name, plus a column for
+each search criterion you've defined. If you export search results, the
+export file will contain those same columns.</p>
+<p>Just like other searches, you can choose from a list of actions to apply
+to the results of your search. If you export results, you can select
+fields for export. Note that the fields you searched on will get
+exported by default in addition to those you select.</p>
+<p>You can also save your Search Builder search as a Smart Group. For more
+information on Smart Groups, see the <a href="../organising-your-data/groups-and-tags.md">Groups and Tags</a> section.</p>
+<h2 id="full-text-search">Full-text Search</h2>
+<p>You can use this to search for text values all fields of the database.
+This is particularly useful, for example, if you can remember specific
+words that you have used but can't remember where you have put them. For
+example, lets say that you recorded an activity with a contact and added
+specific words to the description but have now forgot the contact's
+name. You can use Full text search to find the contact and activity by
+words that you remember from the description.</p>
+<h2 id="component-searches">Component searches</h2>
+<p>Most CiviCRM components offer a search on the data they maintain, such
+as <strong>Find contributions</strong>, <strong>Find members</strong>, etc. These forms work in a similar
+way to <strong>Advanced Search</strong> but return rows of the main objects associated
+with the components, instead of contacts. <strong>Find Members</strong> returns
+memberships, <strong>Find Participants</strong> shows event registrations, <strong>Find
+Contributions</strong> returns contributions and so on.</p>
+<p>Each component search has its own Action list. See the <em>Component</em>
+chapters for more details.</p>
+<p>Note that you can also use the Advanced Search in conjunction with
+<strong>Display Results As</strong> to search for component objects based on criteria
+available in Advanced earch. For example, you could find all event
+attendances from contacts that are also members.</p>
+<h2 id="custom-searches">Custom searches</h2>
+<p>Custom searches are designed to answer specific questions that can't be
+easily answered using <strong>Advanced Search</strong> or <strong>Search Builder.</strong></p>
+<p>Go to <strong>Search</strong> &gt; <strong>Custom Search</strong> in the navigation menu and look at
+the list of available custom searches.These customized searches have
+been written by members of the CiviCRM community to meet their own
+needs, and then contributed back to the community to share with others
+who need the same or similar custom searches. It's worth spending some
+time exploring these searches as some may be useful to you, and they
+will give you an idea of the sorts of things that are possible. Though
+some of these searches can be done in the Advanced Search (especially in
+later versions), custom searches are also set up to display results
+according to your search and may provide more useful columns in the
+results for your needs. Here's a short description of the custom
+searches available.</p>
+<h3 id="finding-contacts-in-one-group-but-not-in-another">Finding contacts in one group but not in another</h3>
+<p>This is probably the most popular custom search.</p>
+<p>When using Advanced Search, if you select several groups in the Group
+list near the top, it will treat the search as an OR search, and return
+results for contacts who are in any of the groups you select. If you
+want to find contacts who belong to all of the selected groups, you will
+need to use Search Builder.</p>
+<p>There is also a very useful built-in custom search, "Include/Exclude
+Contacts in a Group/Tag", that enables you to find contacts who are in
+one group but not in another, which you can find by going to <strong>Search &gt;
+Custom Searches</strong> in the navigation menu.</p>
+<p><img alt="Include/Exclude Search" src="../img/the-user-interface/searching/IncludeExclude.png" /></p>
+<p>By combining Include and Exclude options, you can find contacts who are
+in one group but remove just the group members who fit another
+criterion. For example, you may want to find all the contacts who are
+Newsletter Subscribers or volunteers, but exclude members of Advisory
+Board, perhaps to create a new mailing list to receive a message
+targeted at the most external circles of your constituents.</p>
+<h3 id="household-name-and-state">Household Name and State</h3>
+<p>Search households in a state or province.</p>
+<p>!!! note 
+    Which states or provinces are available in the search depends on
+    your localization settings. Add additional countries by going to
+    <strong>Administer</strong> &gt; <strong>Configure</strong> &gt; <strong>Global Settings</strong> &gt;
+    <strong>Localization</strong>. Add to the column of "Available States and Provinces",
+    but note this change will also affect profile forms which include
+    country or state/province fields.</p>
+<h3 id="contribution-aggregate">Contribution Aggregate</h3>
+<p>Find aggregate totals of contributions from contacts within a range of
+dates.</p>
+<h3 id="postal-mailing">Postal Mailing</h3>
+<p>Search for contacts in a given group and display results with mailing
+information. Use this search to batch update contact information, send
+an email, export contacts, or other actions.</p>
+<h3 id="proximity-search">Proximity Search</h3>
+<p>Search for contacts located within x miles/kilometres of a specific
+geographical area.</p>
+<ol>
+<li>Go to <strong>Search &gt; Custom Searches &gt; Proximity Search</strong></li>
+<li>Enter the distance in miles or kilometres.</li>
+<li>Enter the country within which you want to search.</li>
+<li>Enter any other parameters you wish to give your search.</li>
+<li>Click <strong>Search</strong>.</li>
+</ol>
+<p>!!! tip
+    You can also incorporate Proximity Searching in a profile which you've 
+    configured for use as a search form.</p>
+<h3 id="event-aggregate">Event Aggregate</h3>
+<p>Search on event-related payments for a given event or event type in a
+given date range. You may also limit results to show credit card
+payments only or payees only. See also event reports for more useful
+event search options.</p>
+<h3 id="price-set-details-for-event-participants">Price Set Details for Event Participants</h3>
+<p>Get detailed information about which participants opted for which
+different paid options related to an event. For example, see who paid
+just the event fee, who paid for the additional workshop and who paid
+for dinner.</p>
+<h3 id="find-contribution-amounts-by-tag">Find Contribution Amounts by Tag</h3>
+<p>Search on any tag for contributions within a range of dates.</p>
+<h3 id="zip-code-range">Zip Code Range</h3>
+<p>Find contacts in a specified zip code or postal code range. This is
+useful for targeted mailings or conducting surveys in a particular
+geographical area.</p>
+<ol>
+<li>
+<p>Go to <strong>Search &gt; Custom Searches &gt; Zip Code Range</strong>.</p>
+</li>
+<li>
+<p>Enter the start and end range of the zip or postal codes.</p>
+</li>
+<li>
+<p>Click <strong>Search</strong>.</p>
+</li>
+</ol>
+<h3 id="date-added-to-civicrm">Date Added to CiviCRM</h3>
+<p>Search for contacts that have been added within a particular time
+period. Including a group displays just those added within the specified
+time frame who are also in that group. Excluding a group removes those
+group members from the results.</p>
+<h3 id="custom-group-multiple-values-listing">Custom Group Multiple Values Listing</h3>
+<p>A search for multi-value custom data.</p>
+<h3 id="contributions-made-in-year-x-and-not-year-y">Contributions made in Year X and not Year Y</h3>
+<p>Search for contributions that have been made in one year but not
+another. This is useful for following up semi-regular donors and
+encouraging them to donate more regularly. See also the LYBUNT and
+SYBUNT reports.</p>
+<p>None of the fields are required; you can choose whether to search a
+specified amount range as well as a time period, and whether you want to
+exclude minimum or maximum amounts.</p>
+<p>It is possible to write your own custom searches, but you'll need to be
+comfortable with MySQL and PHP. See the Developer wiki at
+<a href="http://wiki.civicrm.org/confluence/display/CRMDOC/Develop">http://wiki.civicrm.org/confluence/display/CRMDOC/Develop</a>
+for more information about how to do this. If you create a custom search
+that you think could be useful for others, consider contributing it back
+to the community.</p>
+<h2 id="the-search-action-workflow">The 'search-action' workflow</h2>
+<p>After you retrieve your search results, you can perform a number of
+actions. An Actions box appears above the results. You can select either
+all records or specific records, then carry out an action with the
+selected records. Different actions are covered in more detail in the
+chapter on Everyday Tasks.</p>
+<p><img alt="Screen shot of Action Dropdown" src="../img/the-user-interface/searching/user-interface-searching-actions-dropdown.png" /></p>
+<p>Some of the most commonly used actions are Add Contacts to Group, Export
+Contacts, Map Contacts, and creating and printing Mailing Labels. (To
+use Map Contacts, you will need to configure Mapping and Geocoding. You
+can read more about this in the <em>Installation</em> chapter of the
+<em>Configuration</em> section of this manual).</p>
+<p>For example, to send email to a selected number of contacts, mark the
+contacts you are interested in and then select <strong>Send Email to Contacts</strong> in
+the dropdown list of actions.</p>
+<h2 id="the-contact-summary-pop-up">The contact summary pop-up</h2>
+<p>You can see a pop-up box with detailed information for any contact
+listed in your search results by hovering over the contact icon in the
+left column, as shown below. You can adjust the fields shown in this
+"pop-up view" by modifying the fields included in the "Summary Overlay"
+profile (<strong>Administer</strong> &gt; <strong>Customize Data and Screens</strong> &gt;
+<strong>Profiles</strong>).</p>
+<p><img alt="Screen shot of Contact Summary pop-up" src="../img/the-user-interface/searching/user-interface-searching-summary-overlay.png" /></p>
+<h2 id="the-wildcard">The wildcard (%)</h2>
+<p>Understanding wildcards greatly expands your search options. A wildcard
+represents any character (letter, numeral or punctuation mark). In
+CiviCRM, the wildcard is represented by the % symbol (you may be
+familiar with other symbols such as * from other applications). It is
+most easily understood through examples.</p>
+<p>Suppose that somebody asked you to find a contact with a first name
+similar to "Michael", but possible something different such as
+"Michelle" or "Michał". If you search for "Mich%" you will find all
+these variations, including a contact who is supposed to be named
+"Michael" but whose name was misspelled as "Micheal". Wildcards can be
+used before, after, or even within words. For example, searching on
+'Mich%el' will exclude "Michał" and "Micheal" but still find "Michelle"
+and "Michael".  </p>
+<p>However, using % by itself can produce unexpected results for data where the value in the database is 'empty' (as opposed to NULL. Using a single % will return results for empty values. To avoid these results, eg if you are searching "any record which has any data in this field" using %_%. This will return results only where there is at least a single character, and will ignore all empty (as well as NULL) results.</p>
+<h2 id="case-sensitivity">Case sensitivity</h2>
+<p>Note that when you search for character strings, the search is not
+case-sensitive. For example, if you search for 'brooklyn', the search
+will return strings with capitalised letters if the string exists, e.g.
+'Brooklyn' or 'BROOKLYN'. Entering "mi%el" in lowercase will also find
+contacts with an upper case 'M' in their name.</p>
+<h2 id="default-number-of-rows-to-be-returned">Default number of rows to be returned.</h2>
+<p>In CiviCRM Advanced Searches and in CiviCRM reports the number of rows displayed on the screen has by default been 50 previously.
+As of CiviCRM version 5.39 System Administrators can under <strong>Administer</strong> &gt; <strong>Customize Data and Screens</strong> &gt; <strong>Search Preferences</strong> 
+change the number of rows to be outputted on the screen. You should not set too high a number as the higher the number, the slower the screen will be 
+to load.</p>
+<h2 id="search-kit">Search Kit</h2>
+<p>As of CiviCRM version 5.29 <a href="../searching/searchkit/what-is-searchkit.md">Search Kit</a> is new functionality with lots of exciting possibilities for searching, reporting and potentially much more. The development continues, the functionality will evolve over time and so will the documentation. The section <a href="../searching/searchkit/what-is-searchkit.md">Search Kit</a> covers that current state.</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../../civicrm2/" class="btn btn-neutral float-left" title="SubNav 2-2"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../../civicrm2/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
