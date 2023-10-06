@@ -10,8 +10,10 @@ nav:
       - 'SubSubNav 3-1-1': 'index2.md'
 
 theme:
-  name: readthedocs
+  name: mkdocs
   locale: en
 
 extra_css:
   - style.css
+
+use_directory_urls: true
