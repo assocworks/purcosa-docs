@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Relationships - PURCO SA</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+        <link href="../../style.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Relationships";
+        var mkdocs_page_input_path = "civicrm/relationships.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> PURCO SA
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">Nav 1</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Nav 2</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../">SubNav 2-1</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../civicrm2/">SubNav 2-2</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">CiviCRM</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../contacts/">Contacts</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../groups-and-tags/">Groups and tags</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../smart-groups/">Smart groups</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">Relationships</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#creating-relationships-between-contacts">Creating relationships between contacts</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#relationship-permissions">Relationship permissions</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#connecting-employees-and-employers">Connecting employees and employers</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#other-ways-employees-and-employers-can-be-connected">Other ways employees and employers can be connected</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#adding-contacts-to-organisations">Adding contacts to organisations</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#adding-contacts-to-households">Adding contacts to households</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#creating-new-relationship-types">Creating new relationship types</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#creating-custom-fields-on-relationships">Creating custom fields on relationships</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#disabling-or-deleting-unneeded-relationship-types">Disabling or deleting unneeded relationship types</a>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../searching/">Searching and reporting</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">PURCO SA</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">CiviCRM</li>
+      <li class="breadcrumb-item active">Relationships</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="relationships">Relationships</h1>
+<p>CiviCRM allows you to represent connections between contacts by creating
+relationships. For example, if a mother and son are both in your
+database, it is useful to be able to look at either record and see
+that they are related to each other.</p>
+<p>You can also track relationships between organisations, or between
+individuals and organisations. For example, entering an organisation in
+the Current Employer field of an individual contact's record
+automatically creates an "Employee of" relationship from the individual
+to the organisation, and an "Employer of" relationship from the
+organisation to the individual.</p>
+<h2 id="creating-relationships-between-contacts">Creating relationships between contacts</h2>
+<p><img alt="image" src="../img/5.5_Add_Relationship.png" /></p>
+<ol>
+<li>Navigate to one of the records that you want to relate.</li>
+<li>Click on <strong>Add Relationship</strong> from the <strong>Actions</strong> button on the
+    contact summary, or from the Relationships tab</li>
+<li>Select the Relationship Type. In this case it would be "Sibling
+    of".</li>
+<li>Begin to type the last name of the related person(s). If you
+    discover that a contact you want to connect is not yet in the
+    database, you can create a new contact from this screen.</li>
+<li>Optionally enter further information:<ol>
+<li><strong>Start Date</strong> and <strong>End Date</strong> if the relationship is time limited.</li>
+<li><strong>Description</strong> - short text that shows on the relationship summary screen.</li>
+<li><strong>Notes</strong> - longer text shown when viewing the relationship.</li>
+<li><strong>Permissions</strong> - allows other users of the database to view or
+update the related contact.</li>
+<li><strong>Enabled</strong> - shows the relationship is active.</li>
+</ol>
+</li>
+<li>When you have made the changes you want, click <strong>Save
+    Relationship</strong>.</li>
+</ol>
+<h3 id="relationship-permissions">Relationship permissions</h3>
+<p>If a relationship is created between two contacts User 1 and User 2 and
+the <strong>Permissions</strong> box is set to allow User 1 'View' access to User 2,
+then when User 1 is logged in they can view details about User 2 using
+a <a href="profiles.md">Profile</a> in View mode. If the
+permission is set to 'View and Update' then User 1 can also update
+details about User 2 with a profile in Edit mode.</p>
+<p>This functionality can be extended using the <a href="https://github.com/eileenmcnaughton/nz.co.fuzion.relatedpermissions">Related Permissions
+extension.</a></p>
+<h2 id="connecting-employees-and-employers">Connecting employees and employers</h2>
+<p>A quick way to connect employees (which are stored in CiviCRM as
+individuals) to employers (stored as organisations) is to use the
+Current Employer field within an individual's record. This will set the
+current employer field in the contact record and create a relationship
+between the contacts.</p>
+<ol>
+<li>Navigate to the record of the individual who you want to connect to
+    an organisation.</li>
+<li>Click the <strong>Edit</strong> button</li>
+<li>Begin typing the organisation name into the Current Employer field.
+    As you type, matching names of organisations that already exist as
+    contacts in CiviCRM will appear in a dropdown autocomplete list
+    below the Current Employer field. If the organisation is already a
+    contact in CiviCRM you can select it from the dropdown list by
+    pressing the down arrow key or by clicking on it. If the
+    organisation does not already exist as a CiviCRM contact, simply
+    enter the full organisation name.</li>
+<li>After the organisation's full name is entered in the Current
+    Employer field either press the Enter key or click the Save button.
+    If the organisation is a pre-existing contact, an Employee/Employer
+    relationship will be created between the individual and the
+    organisation. If the organisation does not already exist, a new
+    organisation contact will be created and the relationship will be
+    created between the individual and the organisation. You can click
+    on the Relationships tab to view your newly created relationship
+    Employee of and see any existing relationships.</li>
+</ol>
+<h3 id="other-ways-employees-and-employers-can-be-connected">Other ways employees and employers can be connected</h3>
+<p>Employees and employers can be connected using the Current Employer
+field on CiviCRM Profiles and CiviCRM Contribution Pages.</p>
+<p>When the Current Employer field is shown, the user can enter the name of
+their Employer, it is not presented as a select list to preserve privacy.</p>
+<p>When the form is processed, CiviCRM will check the Current Employer field
+and attempt to match an existing Organisation contact before creating a new
+one, thus reducing <strong>potential duplicates</strong>.</p>
+<p>The <strong>first check</strong> is performed using the <strong>Deduplication Rule, Organisation Unsupervised</strong>.
+If a matching Organisation contact is found, this contact is used and no new contact is created.</p>
+<p>The <strong>second check</strong> is to compare if the Individual contact has an existing Current Employer with the same name as provided on the form. If matching, this contact is used and no new contact is created.</p>
+<p>And lastly, if no match is found then a new Organisation contact is created and the <strong>Employee Of Relationship</strong> created to link the Individual and the new Organisation contact.</p>
+<h2 id="adding-contacts-to-organisations">Adding contacts to organisations</h2>
+<ol>
+<li>Select the desired contacts from your search results as described
+    above.</li>
+<li>Select <strong>Add relationship - to organization from the dropdown</strong> from the Actions menu.</li>
+<li>On the <strong>Add Contacts to Organization</strong> screen, select the <strong>Relationship
+    Type</strong> from the dropdown menu.</li>
+<li>Enter part of the desired organisation name in the <strong>Find Target
+    Organization field</strong>, then click <strong>Search</strong>.</li>
+<li>Organisations that match your search will appear in the <strong>Mark Target
+    Contact(s) for this Relationship</strong> section below the Search and
+    Cancel buttons. If the organisation you're looking for appears in
+    this list, click the radio button next to that organisation and then
+    click the <strong>Add to Organization button</strong> below. If the organisation
+    you're looking for does not appear in this list, try entering
+    something different into the <strong>Find Target Organization</strong> field and
+    clicking <strong>Search</strong> again. If you are still unable to find your desired
+    organisation it may not exist; click <strong>Cancel</strong>, add a new organisation,
+    and try again.</li>
+<li>After you've successfully chosen an organisation and clicked the <strong>Add
+    to Organization</strong> button, you should see a message stating that the
+    number of participants that you selected have been added to the
+    organisation.</li>
+<li>Click <strong>Done</strong> to return to your search results.</li>
+</ol>
+<h2 id="adding-contacts-to-households">Adding contacts to households</h2>
+<ol>
+<li>Select the desired contacts from your search results as described
+    above.</li>
+<li>Select <strong>Add relationship - to household</strong> from the dropdown <strong>Actions</strong> menu.</li>
+<li>Select the <strong>Relationship Type</strong> from the dropdown menu. Note that while
+    CiviCRM will not stop you from adding multiple contacts as <strong>Head of
+    Household</strong> for a single household, this may cause problems later on
+    in any situation where you are expecting <strong>Head of Household</strong> to refer
+    to only one individual per household. Therefore, the <strong>Household
+    Member of</strong> option may be the better choice in most situations.</li>
+<li>Enter part of the name of the household to which you are adding
+    contacts (such as a last name shared by household members) in the
+    <strong>Find Target Household</strong> field, then click <strong>Search</strong>.</li>
+<li>Households that match your search will appear in the <strong>Mark Target
+    Contact(s) for this Relationship</strong> section below the Search and
+    Cancel buttons. If the household you're looking for appears in this
+    list, click the radio button next to that household and then click
+    the <strong>Add to Household</strong> button below. If the household you're looking
+    for does not appear in this list, try entering something different
+    into the <strong>Find Target Household</strong> field and clicking <strong>Search</strong> again. If
+    you are still unable to find your desired household it may not
+    exist; click the <strong>Cancel</strong> button, add a new household, and try again.</li>
+<li>After you've successfully chosen a household and clicked the <strong>Add to
+    Household</strong> button, you should see a message stating that the number
+    of participants that you selected have been added to the household.</li>
+<li>Click <strong>Done</strong> to return to your search results.</li>
+</ol>
+<h2 id="creating-new-relationship-types">Creating new relationship types</h2>
+<p>CiviCRM comes with a set of common relationship types that can be
+    used to indicate relationships between contacts. If you need to
+    track different types of relationships between your contacts, you
+    can create your own custom relationship types.</p>
+<ol>
+<li>In the navigation menu, go to: <strong>Administer &gt; Customize Data and
+    Screens &gt; Relationship Types</strong>.</li>
+<li>Review the list of existing relationship types to ensure that you
+    are not creating a duplicate.</li>
+<li>If the relationship type you need does not already exist, click the
+    <strong>New Relationship Type</strong> button.</li>
+<li>Enter descriptive labels for the relationship type you are creating
+    in the <strong>Relationship Label-A to B</strong> and <strong>Relationship Label-B to A</strong>
+    fields. The <strong>Relationship Label-A to B</strong> field describes the
+    relationship between Contact A and Contact B; the <strong>Relationship
+    Label-B to A</strong> field describes the relationship between Contact B and
+    Contact A.  <ul>
+<li>Some relationships can be described by the same label in both
+directions; in these cases you can enter the Relationship Label once
+in the <strong>Relationship Label-A to B</strong> field. For example, when
+describing the relationship between two domestic partners named
+Sylvia and Audre, you can say that Sylvia is the "Partner of" Audre
+and Audre is the "Partner of" Sylvia. Therefore you would enter the
+"Partner of" label only in <strong>Relationship Label-A to B</strong> field,
+leaving the <strong>Relationship Label-B to A</strong> field blank.</li>
+<li>In other situations one Relationship Label cannot be applied in both
+directions; in these cases you need to enter different Relationship
+Labels in each of the Relationship Label fields. For example, you
+can say that Kiyoshi is the "Grandparent of" Yuki but you cannot say
+that Yuki is the "Grandparent of" Kiyoshi. Therefore you would enter
+the "Grandparent of" label in the <strong>Relationship Label-A to B</strong> field
+and either "Grandchild of" or "Grandparent is" in the <strong>Relationship
+Label-B to A</strong> field.</li>
+</ul>
+</li>
+<li>Use the <strong>Contact Type A</strong> and <strong>Contact Type B</strong> fields to designate which
+    contact types are being linked by your relationship. Remember to
+    check that the contact types you select for Contact A and Contact B
+    make sense when corresponded to your Relationship Labels.</li>
+<li>Optionally enter <strong>Description</strong> for this relationship type. This is
+    especially useful if the intended purpose of this relationship type
+    may not be obvious to other users.</li>
+<li>Leave the <strong>Enabled</strong> box checked unless you intend to create this
+    relationship type but not allow users to utilise it until a future
+    date.</li>
+<li>Click <strong>Save</strong>. You will see a message telling you that the relationship
+    type has been saved and you will see your new Relationship Type in
+    the list below.</li>
+</ol>
+<h2 id="creating-custom-fields-on-relationships">Creating custom fields on relationships</h2>
+<p>CiviCRM provides a number of standard relationship fields, described above. You may decide there is other information you want to store, either on all relationships, or just on given relationship types. Additionally, custom fields can be used as a tool to further distinguish relationships without creating inordinate numbers of types (e.g. you could track which department an employee works in using a custom field, rather than creating a new relationship type for each). You can add custom fields that display on the relationship types of your choosing. See <a href="creating-custom-fields.md">creating custom fields</a> for detailed instructions.</p>
+<h2 id="disabling-or-deleting-unneeded-relationship-types">Disabling or deleting unneeded relationship types</h2>
+<p>If an existing relationship type is no longer useful or relevant for
+your organisation you can either disable or delete it so it is no longer
+presented as an option for new relationships. Disabling rather than
+deleting the relationship type has two significant advantages: you will
+still be able to see existing data on relationships of this type, and
+you can easily enable the relationship type again should you find you
+need it later.</p>
+<ol>
+<li>In the navigation menu, go to: <strong>Administer &gt; Option Lists &gt;
+    Relationship Types</strong>.</li>
+<li>Click the <strong>More</strong> link in the row of the relationship type that you'd
+    like to disable or delete.</li>
+<li>Select either <strong>Disable</strong> or <strong>Delete</strong> from the pop-up menu.</li>
+<li>If you select Disable, a pop-up confirmation bubble will appear. If
+    you select Delete, you will be directed to an additional screen that
+    provides a more serious warning and requests confirmation. Review
+    the information provided in either confirmation message and if you
+    are sure you'd like to complete this action, click the <strong>Delete</strong>
+    button otherwise <strong>Cancel</strong>.</li>
+<li>If you have chosen to disable the relationship type it will appear
+    in red in the Relationship Types list and relationships of this type
+    will still be visible when viewing contacts. If you have chosen to
+    delete the relationship type it will no longer appear in the
+    Relationship Types list or in contact relationships data. In either
+    case users will no longer be able to create new relationships of
+    this type.</li>
+<li>To enable a previously disabled relationship type, follow steps 1
+    and 2 above and select <strong>Enable</strong> from the <strong>more</strong> pop-up menu.</li>
+</ol>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../smart-groups/" class="btn btn-neutral float-left" title="Smart groups"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../searching/" class="btn btn-neutral float-right" title="Searching and reporting">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../smart-groups/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../searching/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

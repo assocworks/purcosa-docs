@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Smart groups - PURCO SA</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+        <link href="../../style.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Smart groups";
+        var mkdocs_page_input_path = "civicrm/smart-groups.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> PURCO SA
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">Nav 1</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Nav 2</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../">SubNav 2-1</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../civicrm2/">SubNav 2-2</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">CiviCRM</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../contacts/">Contacts</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../groups-and-tags/">Groups and tags</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">Smart groups</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#when-might-i-use-a-smart-group">When might I use a smart group?</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#smart-groups-and-profiles-a-membership-directory">Smart groups and profiles: a membership directory</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#smart-groups-as-mailing-lists-an-events-newsletter">Smart groups as mailing lists: an events newsletter</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#creating-smart-groups">Creating smart groups</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#changing-criteria-for-smart-groups">Changing criteria for smart groups</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#adding-and-removing-smart-group-members-manually">Adding and removing smart group members manually</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#smart-group-caching">Smart group caching</a>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../relationships/">Relationships</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../searching/">Searching and reporting</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">PURCO SA</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">CiviCRM</li>
+      <li class="breadcrumb-item active">Smart groups</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="smart-groups">Smart groups</h1>
+<p>Smart groups are 'saved searches'. They are useful for keeping track of
+groups of contacts meeting certain criteria, for example 'all members
+based in Europe'. Creating a smart group is easy: you search based on
+your desired criteria and then choose 'Create smart group'. Once the
+smart group is created, each time you ask to see the contacts in a
+group, CiviCRM will carry out a search and show you contacts that meet
+the criteria you specified.</p>
+<p>Smart groups are a really powerful and useful part of CiviCRM. They
+come in handy in many different situations. Spend some time making sure
+you understand smart groups and how you might be able to use them.</p>
+<h2 id="when-might-i-use-a-smart-group">When might I use a smart group?</h2>
+<p>Smart groups come in handy in many different situations. Here are a
+couple of examples.</p>
+<h3 id="smart-groups-and-profiles-a-membership-directory">Smart groups and profiles: a membership directory</h3>
+<p>A smart group could be used in conjunction with a profile to display a
+directory of members on your website. To do this, you would create a
+smart group that includes members of your organization and create a
+profile that includes the fields that you would want to display in your
+directory. You would then configure the profile to only show contacts
+that were in that smart group. When a contact becomes a member - for
+example, when they fill in your membership form and pay online - they
+will automatically be added to the smart group and therefore be
+published in your members directory.</p>
+<h3 id="smart-groups-as-mailing-lists-an-events-newsletter">Smart groups as mailing lists: an events newsletter</h3>
+<p>Lets assume that anyone who has registered for or attended an event will
+want to receive our events newsletter. We can create a smart group with
+that includes all people who have registered or attended an event, and
+specify that this smart group is a mailing list. It will then be
+available for use in CiviMail and we can use it to send the events
+newsletter. As people register to attend an event - or are marked as
+having attended an event - they will be added automatically to the smart
+group and hence subscribed to the newsletter. Smart groups respect
+people's subscription preferences. If people unsubscribe from the
+newsletter, they will be removed from the smart group.</p>
+<h2 id="creating-smart-groups">Creating smart groups</h2>
+<p>Smart groups can be created from the search results generated by many of
+CiviCRM's search forms. Lets say we wanted to create a smart group of
+all donors who have not yet been sent a thank-you letter to help us
+manage our work-flow for thanking donors. As we send letters, the donors
+receiving them will automatically leave the smart group, allowing us to
+have an always accurate list of people to send letters to.</p>
+<p>We can use the advanced search to create this smart group (you could try
+this on the demo site <a href="http://demo.civicrm.org">-
+http://demo.civicrm.org</a> if you don't have
+contributions in your CiviCRM installation).</p>
+<ol>
+<li>Go to <strong>Search &gt; Find Contacts &gt; Advanced Search</strong>.</li>
+<li>Scroll down to the <strong>Contributions</strong> section.</li>
+<li>Check <strong>Thank-you date not set</strong>? and choose <strong>Donation</strong> from the
+    <strong>financial type</strong> drop-down menu.</li>
+<li>Click <strong>Search</strong> at the bottom of the page.</li>
+<li>Select all records</li>
+<li>From the <strong>Actions</strong> drop-down menu select <strong>Group - create smart group</strong>.</li>
+<li>Give the smart group a name and description and optionally designate it as a mailing list and give if a parent group. Click <strong>Save Smart Group</strong>.</li>
+</ol>
+<p>You can also create a smart group from SearchKit. From any search that returns contacts, just click <strong>+Add</strong> on the left hand side and then select <strong>Smart Group</strong>.</p>
+<p>Your smart group will now appear in all the usual places where you see
+groups.</p>
+<p>Try editing a contact in the smart group so that they no longer
+match the criteria. You'll see that they are removed from the smart
+group.</p>
+<p>If the contact is not removed immediately, it may be that you have smart
+group caching turned on (see <em>Smart group caching</em> below).</p>
+<h2 id="changing-criteria-for-smart-groups">Changing criteria for smart groups</h2>
+<p>You may want to refine the criteria that your smart group uses to select
+contacts. For example, you may want to edit a smart group consisting of
+all <em>current</em> members to include <em>new</em> members as well. You can do this
+from the Manage groups screen.</p>
+<p>Click <strong>Manage Groups</strong>. To edit the search criteria of a particular
+smart group, click <strong>Settings</strong> next to that group.</p>
+<p><img alt="image" src="../img/Groups&amp;tags_updatecriteria_1.png" /></p>
+<p>On the group settings screen, click <strong>Edit Smart Group Criteria</strong> at
+bottom left.</p>
+<p><img alt="image" src="../img/Groups&amp;tags_edit_Smart_Group_criteria.png" /></p>
+<p>This will bring up the a screen similar to the one that you originally
+used to create the smart group with the search results displayed.
+Clicking on the bar at the top of the screen will bring up the criteria
+that you used to define the smart group. You can then update the
+criteria and once you're happy with the results, select all records and
+choose <strong>Update Smart Group</strong> from the Actions list.</p>
+<p><img alt="image" src="../img/Groups&amp;tags_actions_Update.png" /></p>
+<p>Your smart group is now based on the new criteria.</p>
+<h2 id="adding-and-removing-smart-group-members-manually">Adding and removing smart group members manually</h2>
+<p>By default, smart group membership is determined by the criteria outlined in the smart group settings. However, you can override the criteria by manually adding or removing contacts from the group. You can manually add contacts to a smart group using the same workflows you would use to add contacts to a standard group. If you navigate to the <strong>Groups</strong> tab on an individual's contact record, you won't have the option to <strong>Remove</strong> via a button the same way you would for a standard group. However, you can manually remove someone from a smart group by going to <strong>Contacts &gt; Manage Groups</strong>. Select <strong>Contacts</strong> on the right-hand column of the chosen group to view all of the contacts currently within the group. Find and check the box next to the contact you want to remove. Use the <strong>Actions</strong> dropdown and select <strong>Group - remove contacts</strong>. Confirm the removal and the group record will now show up under <strong>Past Groups</strong> for that contact. CiviCRM will override the smart group criteria based on manual adds or removals, even if there is a change in a contact's eligibility for inclusion based on that criteria.</p>
+<p>Once a contact has been removed from a smart group, there will be an option to <strong>Delete</strong> their smart group record under the <strong>Groups</strong> tab on their contact record. If you <strong>Delete</strong> the record, they will again be subject to smart group inclusion based on the set criteria.</p>
+<h2 id="smart-group-caching">Smart group caching</h2>
+<p>For performance reasons, smart groups are often cached, i.e. the contacts that meet the smart group criteria are saved in memory for a certain amount of time.</p>
+<p>This speed things up because CiviCRM doesn't need to run the search each time you want to use the smart group. If your query is simple and involves a small number of contacts, the speed up may not be significant. If it is complex and involves a lot of contacts, it may be very significant and even necessary.</p>
+<p>The down side of caching is that you need to wait up to 5 minutes for the query to be updated. Depending on how you use smart groups this may not be an issue.</p>
+<p>The default expiry time for a smart group in newer versions of CiviCRM is 5 minutes. You can adjust the smart group query cache 'timeout', i.e. the amount of time the cache is considered a valid reflection of the smart group in <strong>Administer &gt; Customize Data and Screens &gt; Search Preferences</strong>.</p>
+<p>When a group is accessed CiviCRM will check to see if the currently cached group is older than is allowed by the timeout. In the event that the timeout has passed CiviCRM will rebuild the group and reset the timeout to <code>now + cache timeout setting</code>. Setting the timeout to <em>0</em> turns off the cache altogether.</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../groups-and-tags/" class="btn btn-neutral float-left" title="Groups and tags"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../relationships/" class="btn btn-neutral float-right" title="Relationships">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../groups-and-tags/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../relationships/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

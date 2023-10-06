@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Contacts - PURCO SA</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+        <link href="../../style.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Contacts";
+        var mkdocs_page_input_path = "civicrm/contacts.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> PURCO SA
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">Nav 1</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Nav 2</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../">SubNav 2-1</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../civicrm2/">SubNav 2-2</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">CiviCRM</span></p>
+              <ul class="current">
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">Contacts</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#a-quick-look-at-contacts">A quick look at contacts</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#contact-actions">Contact actions</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#summary-tab">Summary tab</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#individual-fields">Individual fields</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#addresses">Addresses</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#phone-numbers">Phone numbers</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#email-addresses">Email addresses</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#communication-preferences-and-privacy-options">Communication preferences and privacy options</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#greetings-and-addressee-fields">Greetings and addressee fields</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#relationships-tab">Relationships tab</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#activities-tab">Activities tab</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#mailings-tab">Mailings tab</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#contributions-tab">Contributions tab</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#memberships-tab">Memberships tab</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#events-tab">Events tab</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#groups-tab">Groups tab</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#notes-tab">Notes tab</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#tags-tab">Tags tab</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#change-log-tab">Change Log tab</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#adding-contacts">Adding contacts</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#editing-contacts">Editing contacts</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#deleting-contacts">Deleting contacts</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#contact-subtypes">Contact subtypes</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#customizing-the-view-of-contacts">Customizing the view of contacts</a>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../groups-and-tags/">Groups and tags</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../smart-groups/">Smart groups</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../relationships/">Relationships</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../searching/">Searching and reporting</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">PURCO SA</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">CiviCRM</li>
+      <li class="breadcrumb-item active">Contacts</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="contacts">Contacts</h1>
+<p>This chapter introduces contacts: the basic building block of CiviCRM.
+We look at how to find, view, add, edit and delete contacts. We also
+look at ways to extend and customise contacts, and to change the way
+that contacts appear in the user interface. </p>
+<p>Out of the box, CiviCRM comes with three contact types:</p>
+<ul>
+<li><strong>Individuals</strong> - i.e. people</li>
+<li><strong>Organisations</strong> - for example companies or other non-profit
+    organisations </li>
+<li><strong>Households</strong> - typically families that share a physical location</li>
+</ul>
+<p>Each contact record comes with a set of <strong>core fields</strong>, including:</p>
+<ul>
+<li>names (first and last name, etc. for individuals and organisation
+    name, etc. for organisations) </li>
+<li>greeting and addressee fields for different communication methods </li>
+<li>contact methods, e.g. email addresses, phone numbers, website
+    addresses, etc.</li>
+<li>addresses (i.e. physical locations) </li>
+<li>communication preferences: i.e. the methods that they prefer to be
+    contacted by, and those that they do not want to be contacted by.</li>
+</ul>
+<p>You can define new <strong>contact subtypes</strong> based on the out of the box
+contact types.You can add custom fields that extend all contacts. You
+can also add custom fields that extend particular contact types or sub
+types.</p>
+<p>Think of contacts as the centre of your CiviCRM universe. All of the
+other building blocks of CiviCRM, like relationships, activities, groups
+and contributions connect to contacts in some way.</p>
+<h2 id="a-quick-look-at-contacts">A quick look at contacts</h2>
+<p>Contacts are organised into tabs. The first tab that you see when
+looking at a contact is the <strong>summary tab</strong> with some basic information
+about your contact. Following the summary tab are a series of other
+tabs each showing information about different aspects of the contact.
+Organising the contact into tabs helps manage the large amount of data
+it is possible to collect about contacts over time.</p>
+<p>Tabs get turned on and off depending on what components are enabled and
+what permissions you have. For example, you will only see the
+memberships tab if the CiviMember component is turned on and you have
+permission to see memberships, etc. You can also define extra tabs that
+display any extra custom data that you want to collect about your
+contacts.</p>
+<p>Below we look at the most important parts of the contact screen
+(including most of the contact with pointers to other parts of the book
+where appropriate. </p>
+<h3 id="contact-actions">Contact actions</h3>
+<p>Above the tabs line, you will see a few buttons. The first button is
+the <strong>Actions</strong> button which is a handy shortcut to carrying out actions
+with this contact. For example, you could add a note to this contact, or
+record a new contribution, meeting or other activity.</p>
+<p><img alt="image" src="../img/ActionRibbon.png" /></p>
+<h3 id="summary-tab">Summary tab</h3>
+<p>The summary tab shows overview information about your contact. Here you
+will find names, addresses and contact details as well as details of
+contact methods. </p>
+<p>Some fields on this tab are just for individuals, for example, first
+name, last name, nickname, etc. Other fields are just for
+organisations, for example organisation name.</p>
+<p><img alt="image" src="../img/ContactSummary.png" /></p>
+<h4 id="individual-fields">Individual fields</h4>
+<p>Individuals names are split into the following parts: prefix, first
+name, middle name, last name, suffix and nickname (you don't have to use
+all of them). Prefixes and suffixes are selected from a drop down
+list. If you can't find the value you want, you can add more options to
+the list from the following screen: <strong>Administer CiviCRM</strong> &gt;
+<strong>Customize Data and Screens</strong> &gt; <strong>Dropdown Options</strong> &gt; <strong>Individual
+Prefixes (Ms., Mr...)</strong>. </p>
+<h4 id="addresses">Addresses</h4>
+<p>You can record one or more addresses for a contact. Each address needs
+to be at a different <strong>location type</strong> (e.g. work, home, etc). One of
+the addresses can be marked as primary and will be used for any postal
+mailings that you do. You can explicitly choose which location will be
+primary for a particular person, or let it default to the first one
+entered.</p>
+<p>You can share addresses between contacts. For example, you may need to
+keep information about individual contacts and the organisations where
+they work. When creating or editing the "work" address for an
+individual, check the "Share Address With" box. If their employer
+already exists in your database, you can select them from the quick
+search box that appears. Otherwise, you can create the employer's
+organisation record on the fly by selecting "New Organisation" from the
+"create new contact" drop-down.</p>
+<p>If a person pays you by credit card, the details used for Billing
+Address in credit card payments will be stored in the Billing location
+for the contact.</p>
+<p>If you have a mapping provider enabled you can click on the map icon
+next to an address to see the location of a contact on a map. </p>
+<h4 id="phone-numbers">Phone numbers</h4>
+<p>You can store multiple phone numbers for each contact. Phone numbers
+have locations (e.g. work, home, etc.) and types, e.g. landline, fax,
+mobile. Note that any phone numbers that you add as of type mobile will
+be available for sending SMS. </p>
+<h4 id="email-addresses">Email addresses</h4>
+<p>You can store multiple email addresses for each contact. One of these
+email addresses can be explicitly marked as the address which receives
+all bulk mailings such as e-newsletters and announcements (e.g. these
+are emails your organisation would send using the CiviMail component).
+Any bouncing emails are automatically marked as being on hold when
+sending emails via CiviMail. See the <a href="../email/what-is-civimail.md">Email</a> section for more information.</p>
+<h4 id="communication-preferences-and-privacy-options">Communication preferences and privacy options</h4>
+<p>Communications preferences (i.e. methods of communication that are
+preferred by contacts) and privacy options (e.g. do not contact me via
+email) can be defined. Privacy options are respected when carrying out
+certain functions, e.g. mailing labels are not printed for contacts with
+the 'do not mail' privacy option, and emails are not sent to contacts
+with the 'do not email' privacy option.</p>
+<p>Here is a brief explanation of each of the privacy options in the
+CiviCRM contact record:</p>
+<ul>
+<li><strong>Do not phone</strong> - The end user has elected to not be contacted via
+    telephone.</li>
+<li><strong>Do not email</strong> - The end user has elected to not be contacted via
+    email.</li>
+<li><strong>Do not mail</strong> - The end user has elected to not be contacted via
+    postal delivery (snail mail)</li>
+<li><strong>Do not SMS</strong> - The end user has elected to not be contacted via
+    text messaging service to their mobile device.</li>
+<li><strong>Do no trade</strong> - The user has elected not to share their info with
+    other organizations. (ie. you may not share or sell user's
+    information to other parties) </li>
+<li><strong>NO BULK EMAILS (User Opt Out)</strong> - This is set when a user selects
+    the Opt Out action in a CiviMail Email. </li>
+</ul>
+<h4 id="greetings-and-addressee-fields">Greetings and addressee fields</h4>
+<p>By default greetings and addressee fields are calculated based on the
+contacts name fields. For example the postal greeting for an individual
+called 'Jenny Soper' is 'Dear Jenny'.</p>
+<p>The default greetings can be configured at a global level here:
+<strong>Administer CiviCRM</strong> &gt; <strong>Communications</strong> &gt; <strong>Email Greeting Formats</strong>
+or <strong>Postal Greeting Formats</strong> or <strong>Addressee Formats</strong>.</p>
+<p>Different formats can also be selected for each contact and can also be
+customised on a contact per contact basis. </p>
+<h3 id="relationships-tab">Relationships tab</h3>
+<p>Relationships are connections between contact records in your database.
+Each connection can be named to describe the nature of the connection,
+and a contact may have many relationships to other contacts in the
+database. In the example below you can see a list of Current
+Relationships as well as a list of Inactive relationships.</p>
+<p><img alt="Contact-RelatoinshipTab_1" src="../img/CiviCRM_update-CiviCore-Contact-RelatoinshipTab_1-en.png" /></p>
+<p>You can read more about when it makes sense to use relationships in the
+<em>relationships</em> chapter of the <em>organising your data</em> section. </p>
+<h3 id="activities-tab">Activities tab</h3>
+<p>The Activities tab displays a list of all of your interactions with a
+contact, including all CiviCRM's built-in activities like event
+attendance, contributions, phone calls etc as well as any custom
+activities you may have added. It also allows you to record activities
+with contacts. Clicking on the icons at the top of the screen (Send an
+Email, Meeting, Phone call) will bring up a screen where you can enter
+those details. This tab will also show any custom activities that you've
+defined.</p>
+<p><img alt="Contact_ActivityTab" src="../img/CiviCRM_update-CiviCore-Contact_ActivityTab-en.png" /></p>
+<p>To find out more about activities please refer to the <a href="activities.md">Activities</a> section
+in this chapter.</p>
+<h3 id="mailings-tab">Mailings tab</h3>
+<p>This is only visible if at <strong>Administer &gt; CiviMail &gt; CiviMail Component Settings</strong> you have unselected <strong>Enable CiviMail to create activites on delivery</strong>.  In that case each bulk email is recorded on the mailings tab instead of the activities tab. This improves the speed at which the activies tab loads if your organisation sends bulk emails to large mailing lists. </p>
+<h3 id="contributions-tab">Contributions tab</h3>
+<p>The Contributions tab shows any financial contributions made by a
+contact, as well as a summary of the contribution activity of the
+contact (total amount of contributions over time, total number of
+contributions, and average amount of contributions).</p>
+<p>The Contributions tab also allows you to record offline contributions
+using the Record Contribution button, or record a credit card
+transaction on behalf of the contact (useful if the contribution has
+been made by phone) using the Submit Credit Card Contribution button.
+Both of these buttons lead to forms that allow you to select the
+Financial Type in addition to the normal contribution information
+collected from public contribution pages.</p>
+<p><img alt="Contact_COntribTab" src="../img/CiviCRM_update-CiviCore-Contact_COntribTab-en.png" /></p>
+<p>Read more about Contributions, in the Contributions chapter of this
+book.</p>
+<h3 id="memberships-tab">Memberships tab</h3>
+<p>This tab displays any memberships a contact has. From this tab you are
+able to add memberships and submit credit card payments for memberships
+that require a fee. You can also renew or delete memberships from the
+"more" link on each membership in the contact's existing memberships.</p>
+<p><img alt="Contact_MembershipTabs" src="../img/CiviCRM_update-CiviCore-Contact_MembershipTabs-en.png" /></p>
+<p>Read more about Memberships, in the Membership chapter of this book.</p>
+<h3 id="events-tab">Events tab</h3>
+<p>The Events tab displays events related to this contact, for example
+events the contact has registered for, attended or volunteered at.</p>
+<p>From this page you can register the contact for an event, and use the
+Submit Credit Card Event Registration button if the event requires
+payment. The related payment will then appear on the contact's
+Contributions tab in the first row.</p>
+<p>You can also modify the event information as it relates to the contact
+by clicking the Edit link. For example, you can change the contact's
+event status from "registered" to "attended."</p>
+<p><img alt="Contact_Eventstab" src="../img/CiviCRM_update-CiviCore-Contact_Eventstab-en.png" /></p>
+<p>Read more about Events, in the Events chapter of this book.</p>
+<h3 id="groups-tab">Groups tab</h3>
+<p>The Groups tab shows the groups that the contact belongs to. Groups can
+be used in a variety of ways including mailing lists and permissions
+(<strong>ACL</strong>s).</p>
+<p>You can add and remove the contact from groups, and see a history of
+groups the contact has unsubscribed or been removed from.</p>
+<p>The Status column displays who has added the contact to the group.
+Whether users can add themselves to a group is one of the settings you
+can configure when creating a group. When you set a group's visibility
+to "Public Listings" users can join via <strong>Profile</strong> forms. You may want
+to familiarise yourself with the discussion on using Profiles for
+mailing list sign-ups covered in a later section.</p>
+<p><img alt="Contact_GroupsTab" src="../img/CiviCRM_update-CiviCore-Contact_GroupsTab-en.png" /></p>
+<p>For more on this topic, please refer to the <a href="../groups-and-tags/">Groups and Tags</a> section of
+the book. </p>
+<h3 id="notes-tab">Notes tab</h3>
+<p>The Notes tab is a place where you can record random bits of information
+about a contact. Generally you would use custom fields for information
+you plan to collect about your contacts, but in some cases it may be
+useful to record additional, ad-hoc notes. Since this information is
+unstructured, you should be careful about using the Notes tab, unless
+you know that you or other people using your CiviCRM implementation will
+remember to look at that tab. When creating a Note, both the subject and
+the content are free-text fields (i.e. the subject field does not have
+to be chosen from predefined options).</p>
+<p>You can specify "Author Only" privacy for a note. This means that only
+the person who wrote the note, or someone with "view all notes"
+permission (via your CMS) can view or edit it.</p>
+<p><img alt="Contact_NotesTab" src="../img/CiviCRM_update-CiviCore-Contact_NotesTab-en.png" /></p>
+<h3 id="tags-tab">Tags tab</h3>
+<p>Tags are one way of categorising contacts in your database (other
+methods are Custom Data and Groups). You can configure which tags you
+wish to use for your organisation. You can search on tags and create
+Smart Groups based on them.</p>
+<p>The tags next to Keywords are part of the Keywords Tagset. A Tagset is a
+specific grouping of tags that you can create. Tagsets are
+non-hierarchical, and you can create a new tag in a tagset simply by
+typing a new tag into the field. Existing tags that match what you type
+will also show up as a list from which you can select.</p>
+<p><img alt="Contact_TagTab" src="../img/CiviCRM_update-CiviCore-Contact_TagTab-en.png" title="Contact_TagTab" /></p>
+<p>For more on this topic, please refer to the <a href="../groups-and-tags/">Groups and Tags</a> section of
+the book.</p>
+<h3 id="change-log-tab">Change Log tab</h3>
+<p>This tab gives limited information about changes made to a contact
+record. It shows the change date and who made the change, but not what
+was changed.</p>
+<p><img alt="Contact_ChangeLog" src="../img/CiviCRM_update-CiviCore-Contact_ChangeLog-en.png" title="Contact_ChangeLog" /></p>
+<p>!!! tip
+    Administrators can use the Contact Logging Report to get detailed
+    information on changes to contact records (who, what and when).</p>
+<h2 id="adding-contacts">Adding contacts</h2>
+<p>The simplest way to add a single contact to CiviCRM is to use the
+navigation menu at the top of any non-public page. To create a new
+Individual, go to: Contacts &gt; New Individual:</p>
+<p><img alt="Contact_createIndividual" src="../img/CiviCRM_update-CiviCore-Contact_createIndividual-en.png" title="Contact_createIndividual" /></p>
+<p>Note that the Contacts menu item allows you to create every kind of
+contact and contact sub-type.</p>
+<p>All of the contact creation forms are similarly arranged, with basic
+information (name, email etc) at the top of the form and more specific
+fields below grouped by type or subject in accordions (such as address
+fields, communications preferences and any custom fields that you have
+added for the contact type).</p>
+<p>For all contact types you can use the <strong>Check for Matching Contacts</strong>
+option to help avoid duplicate entries. After entering all of the
+information you have in this section, you can click on <strong>Check for
+Matching Contacts.</strong></p>
+<p><em>For adding an Individual record to the database, first name and last
+name OR email address are required. For adding an Organization or
+Household record to the database, just Organization/Household name is
+required. You can fill out as many of these fields as you like, and
+do not forget, you can always go back and make changes as needed by
+using the edit screen.</em></p>
+<p>Useful things to know when adding contacts:</p>
+<p>Address: You can add multiple addresses to a contact record. This allows
+you to store someone's home and work addresses, as well as a billing
+address if that's different.</p>
+<p>You will see a checkbox here to allow you to share the address of either
+an existing contact, or create a new contact. If you select new contact,
+you will need to select which contact type you wish to create, and a pop
+up box will appear to add the new contact record. When a person uses
+another contact's address, that address can only be edited from the
+"master contact's" record. </p>
+<p>The options available in the countries dropdown will depend on which
+ones you have made available at <strong>Administer &gt; Localization &gt;
+Languages, Currency, Locations</strong> under Available Countries.</p>
+<p>There may be fields here that you do not need. Available address fields
+can be edited at <strong>Administer &gt; Localization &gt; Address settings.</strong> The
+"Address Name" field which can be used to label a particular address
+(for example "Summer Home") is hidden by default, but can be enabled
+from that screen.</p>
+<p>Tags and Groups: Here you can specify which tags and groups to add your
+contact to. Please note that you may only add to existing groups and
+tags with existing tags. You can read more about creating tags and
+groups in the Groups and Tags chapter of this book.</p>
+<p>Once you have filled out the form, you have the choice of three buttons
+to click:</p>
+<ul>
+<li>Save will save the contact record and take you to the contact
+    screen.</li>
+<li>Save and New will save the contact and clear the form so that you
+    can add another.</li>
+<li>Cancel will discard the entered information and return you to your
+    CiviCRM dashboard.</li>
+</ul>
+<h2 id="editing-contacts">Editing contacts</h2>
+<p>Editing information on the summary screen is simple. Hovering in the
+upper right corner of the block that you wish to edit will bring up the
+<strong>Edit Info</strong> link. You can then edit the information directly in the
+summary screen.</p>
+<p>If you need to edit a lot information for one particular contact, an
+alternative is to open the entire contact for editing by clicking on the
+edit button above the tabs.</p>
+<p><img alt="image" src="../img/contact_Screen_-inline_edit.png" /> </p>
+<p>Note that on the rare occasions that two separate admin users edit a
+contact at the same time (specifically that they both open the edit
+screen, then both save the contact), the second admin user will be
+notified of the first admin user's edit and be given the chance to
+manually 'merge' the edits.</p>
+<h2 id="deleting-contacts">Deleting contacts</h2>
+<p>At the top right there is a button to Delete the contact. When a
+contact is deleted, it does not disappear completely - instead it moves
+to the trash, where it can be recovered at a later date (using the
+search in trash feature of <strong>advanced search</strong>). See "searching" under
+the "working with your data" chapter for more information). </p>
+<p>Deleted contacts are moved to the "trash" by default (and can be
+restored later if needed). There are a variety of ways to delete a
+contact:</p>
+<ul>
+<li><strong>Single contact</strong>: open the contact's record and click the 'delete
+    contact' button at the top of the page. Alternatively, run a search
+    for the contact and, from the results list, look toward the end of
+    the contact's row, click 'More' and select 'Delete Contact'.</li>
+<li><strong>Multiple contacts</strong>: run an advanced search, check the boxes of
+    each record you wish to delete (or <em>select all</em> with the checkbox in
+    the header at the top) and in the 'actions' drop-down menu, choose
+    'Delete Contacts' to send the contacts to the trash (if enabled) or
+    'Delete Permanently'. A warning page will be displayed to verify
+    your intention; simply click 'Delete' to continue or 'Cancel' to
+    return to the previous screen.</li>
+</ul>
+<h2 id="contact-subtypes">Contact subtypes</h2>
+<p>In addition to the three default contact types (individuals, households
+and contacts), you can define additional contact types (sometimes
+referred to as contact subtypes) to suit your needs.</p>
+<p>Each contact subtype that you define is based on one of the three core
+contact types. For example, 'Student' would based on the 'Individual'
+contact type, and 'Farm' could be based on the 'Organization' contact
+type, or perhaps 'Household' contact type, depending on your use case.</p>
+<p>Contact types are very useful when you need to collect and display
+different sets of custom data for different types of contacts (e.g. you
+may wish to collect information on the subject area and qualifications
+of all teachers in your database but not be interested in collecting
+these for other individuals.  To do this, you would create a contact
+type called Teacher, based on Individual and then create a custom data
+set that only extends Individuals of the type Teacher (see custom data
+for more information).</p>
+<p>Note that the core contact types are mutually exclusive, i.e. a contact
+cannot be an organisation and an individual. However, contacts can be
+of more than one user-defined contact subtype, i.e. they could be a
+Teacher and a Parent, for example.</p>
+<p>To edit existing contact types and and create new contact types go to
+<strong>Administer &gt; Customize Data and Screens &gt; Contact Types</strong>. Note that
+you cannot delete the inbuilt contact types but you can change their
+names and the images associated with them. </p>
+<p>To add custom fields to specific contact subtypes, see the chapter on
+<a href="creating-custom-fields.md">custom fields</a>.</p>
+<h2 id="customizing-the-view-of-contacts">Customizing the view of contacts</h2>
+<p>After working with the contact editing and summary screens for a while,
+you may realise that there are sections and/or fields that aren't useful
+for your organisation. The good news is that you can easily hide some
+fields and sections. For example, if your organisation doesn't need to
+store demographics information, you can remove it by configuring the
+Site Preferences. Using an account with Administer CiviCRM privileges.</p>
+<ul>
+<li>Go to: <strong>Administer &gt; Customize Data and Screens &gt; Display
+    Preferences</strong>.</li>
+<li>Clear the Demographics box under Editing Contacts.</li>
+<li>Click Save.</li>
+</ul>
+<p>You can also use this screen to rearrange the order that the information
+is displayed in. </p>
+<p>For further details see <a href="../initial-set-up/customizing-the-user-interface.md/#changing-display-preferences">Customizing the user interface</a></p>
+<p>Similarly, if you want to remove (or add) fields in the postal address
+section:</p>
+<ul>
+<li>Go to: <strong>Administer &gt; Localization &gt; Address Settings</strong>.</li>
+<li>Check or uncheck fields under Address Editing.</li>
+<li>Click Save.</li>
+</ul>
+<p>If you think that some of the tabs are not useful and will not be used
+in your deployment, you can disable or enable specific tabs from
+<strong>Administer &gt; Customize Data and Screens &gt; Display Preferences</strong>. If
+you don't see some of the tabs described below, you may need to enable
+them. The visibility of some tabs is dependent on which components are
+enabled in your installation. For example, the Contributions tab will be
+hidden if the CiviContribute component is disable.</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../../civicrm2/" class="btn btn-neutral float-left" title="SubNav 2-2"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../groups-and-tags/" class="btn btn-neutral float-right" title="Groups and tags">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../../civicrm2/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../groups-and-tags/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
