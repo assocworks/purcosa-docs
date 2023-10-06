@@ -1,4 +1,5 @@
 site_name: PURCO SA
+site_url: https://test3.purcosa.co.za/user-guide
 
 nav:
   - 'Nav 1': 'index.md'
@@ -9,8 +10,9 @@ nav:
     - 'Contacts': './civicrm/contacts.md'
     - 'Groups and tags': './civicrm/groups-and-tags.md'
     - 'Smart groups': './civicrm/smart-groups.md'
-    - 'Relationships': './civicrm/relationships.md'
     - 'Searching and reporting': './civicrm/searching.md'
+    - 'Relationships': './civicrm/relationships.md'
+    - 'Events': './civicrm/what-is-civievent.md'
 
 theme:
   name: readthedocs
@@ -19,4 +21,4 @@ theme:
 extra_css:
   - style.css
 
-use_directory_urls: true
+use_directory_urls: false
