@@ -1,11 +1,3 @@
-# Topic 1
+# Welcome
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-
-## Sub Heading
-
-Stuff here
-
-## Another
-
-More stuff
+Welcome to the PURCO SA User Guide

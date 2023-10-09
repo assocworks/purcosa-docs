@@ -1,23 +1,31 @@
-site_name: PURCO SA
+site_name: PURCO SA User Guide
 site_url: https://test3.purcosa.co.za/user-guide/
 
 nav:
-  - 'Nav 1': 'index.md'
-  - 'Nav 2':
-    - 'SubNav 2-1': 'civicrm.md'
-    - 'SubNav 2-2': 'civicrm2.md'
+  - 'Welcome': 'index.md'
+  - 'Tenders':
+    - 'Q&A Management': './tenders/q-and-a-management.md'
+    - 'Adding supporting documents': './tenders/adding-supporting-docs.md'
   - CiviCRM:
     - 'Contacts': './civicrm/contacts.md'
     - 'Groups and tags': './civicrm/groups-and-tags.md'
     - 'Smart groups': './civicrm/smart-groups.md'
     - 'Searching and reporting': './civicrm/searching.md'
     - 'Relationships': './civicrm/relationships.md'
-    - 'Events': './civicrm/what-is-civievent.md'
-    - 'Online event registration': './civicrm/online-event-registration.md'
+    - 'Events':
+      - 'What is CiviEvent': './civicrm/events/what-is-civievent.md'
+      - 'Online event registration': './civicrm/events/online-event-registration.md'
+    - 'Email':
+      - 'What is CiviMail': './civicrm/email/what-is-civimail.md'
+      - 'What you need to know': './civicrm/email/what-you-need-to-know.md'
+      - 'Everyday tasks': './civicrm/email/everyday-task.md'
+      - 'Mass mailings using CiviMail': './civicrm/email/mass-mailings-using-civimail.md'
+      - 'Reports and analysis': './civicrm/email/reports-and-analysis.md'
 
 theme:
-  name: readthedocs
+  name: mkdocs
   locale: en
+  navigation_depth: 2
 
 extra_css:
   - style.css

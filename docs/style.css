@@ -1,9 +1,27 @@
-.wy-side-nav-search {
-    background-color: #b6060a;
+/* for mkdocs theme */
+
+body::before {
+    display: none;
+}
+.navbar.bg-primary {
+    background: linear-gradient(to right, #00008c , #455dae) !important;
+}
+.bs-sidebar .nav > li > a.active, .bs-sidebar .nav > li > a.active:hover, .bs-sidebar .nav > li > a.active:focus {
+    color: #444;
+    border-right: 2px solid #b6060a;
+    margin-right: 5px;
+}
+#toc-collapse {
+    background-color: #fff !important;
+    box-shadow: 2px 5px 8px #0000002b;
+    border: 1px solid #00000017;
+    border-radius: 0;
 }
 
-.navbar.bg-primary {
-    background: #00008c !important;
+/* for readthedocs theme */
+
+.wy-side-nav-search {
+    background-color: #b6060a;
 }
 .wy-side-nav-search input[type=text] {
     border-color: #000;
