@@ -9,7 +9,9 @@ nav:
     - 'Creating mailing groups': './tenders/mailing-groups.md'
   - TenderBoxes:
     - 'Allocating access': './tenderboxes/allocating-access.md'
-    - 'Help a supplier with access': './tenderboxes/supplier-access.md'
+    - 'Helping a supplier with access': './tenderboxes/supplier-access.md'
+    - 'Downloading submitted files': './tenderboxes/downloading-files.md'
+    - 'Publishing and unpublishing': './tenderboxes/publishing-unpublishing.md'
   - CiviCRM:
     - 'Contacts': './civicrm/contacts.md'
     - 'Groups and tags': './civicrm/groups-and-tags.md'

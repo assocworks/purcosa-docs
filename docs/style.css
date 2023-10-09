@@ -9,13 +9,16 @@ body::before {
 .bs-sidebar .nav > li > a.active, .bs-sidebar .nav > li > a.active:hover, .bs-sidebar .nav > li > a.active:focus {
     color: #444;
     border-right: 2px solid #b6060a;
-    margin-right: 5px;
+    /* margin-right: 5px; */
 }
 #toc-collapse {
     background-color: #fff !important;
     box-shadow: 2px 5px 8px #0000002b;
     border: 1px solid #00000017;
     border-radius: 0;
+}
+#toc-collapse > .nav {
+    padding-right: 8px;
 }
 
 /* for readthedocs theme */

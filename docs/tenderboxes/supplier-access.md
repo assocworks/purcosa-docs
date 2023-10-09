@@ -1,4 +1,4 @@
-# Help a supplier access a TenderBox
+# Helping a supplier access a TenderBox
 
 We often receive requests from suppliers who don't know how to reach the tenderbox submission page.
 There is an explanation on the email they get when they buy the tender and the details should be included in the tender documents, but we recognise people don't always read the instructions.
