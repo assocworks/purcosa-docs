@@ -42,9 +42,10 @@ jobs:
 
     - name: Deploy to aw2
       run: |
-        rsync -av --delete ./site/ aegir@41.76.111.162:platforms/d789test/sites/test3.purcosa.co.za/private/files/user-guide/purcosa-docs
-      env:
-        DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
+        echo "${{ secrets.DEPLOY_KEY }}" > deploy_key.pem
+        chmod 600 deploy_key.pem
+        rsync -av --delete -e "ssh -i deploy_key.pem -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null" ./site/ aegir@41.76.111.162:platforms/d789test/sites/test3.purcosa.co.za/private/files/user-guide/purcosa-docs
+        rm -f deploy_key.pem
 
     #- name: Deploy to GitHub Pages
     #  uses: peaceiris/actions-gh-pages@v3
