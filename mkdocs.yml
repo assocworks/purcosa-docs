@@ -2,10 +2,14 @@ site_name: PURCO SA User Guide
 site_url: https://test3.purcosa.co.za/user-guide/
 
 nav:
-  - 'Welcome': 'index.md'
-  - 'Tenders':
+  - Welcome: 'index.md'
+  - Tenders:
     - 'Q&A Management': './tenders/q-and-a-management.md'
     - 'Adding supporting documents': './tenders/adding-supporting-docs.md'
+    - 'Creating mailing groups': './tenders/mailing-groups.md'
+  - TenderBoxes:
+    - 'Allocating access': './tenderboxes/allocating-access.md'
+    - 'Help a supplier with access': './tenderboxes/supplier-access.md'
   - CiviCRM:
     - 'Contacts': './civicrm/contacts.md'
     - 'Groups and tags': './civicrm/groups-and-tags.md'
