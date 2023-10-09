@@ -33,15 +33,22 @@ jobs:
         # Install any other dependencies you have listed in a requirements.txt file
         # pip install -r requirements.txt
 
+    - name: Install rsync and SSH
+      run: sudo apt-get install -y rsync ssh
+
     - name: Build MkDocs Site
       run: |
         mkdocs build
 
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./site  # The directory where MkDocs builds the site to
+    - name: Deploy to aw2
+      run: |
+        rsync -av --delete ./site/ aegir@41.76.111.162:platforms/d789test/sites/test3.purcosa.co.za/private/files/user-guide/purcosa-docs
+
+    #- name: Deploy to GitHub Pages
+    #  uses: peaceiris/actions-gh-pages@v3
+    #  with:
+    #    github_token: ${{ secrets.GITHUB_TOKEN }}
+    #    publish_dir: ./site  # The directory where MkDocs builds the site to
 
     #- name: Deploy to GitHub Pages
     #  run: |
