@@ -13,6 +13,7 @@ nav:
     - 'Searching and reporting': './civicrm/searching.md'
     - 'Relationships': './civicrm/relationships.md'
     - 'Events': './civicrm/what-is-civievent.md'
+    - 'Online event registration': './civicrm/online-event-registration.md'
 
 theme:
   name: readthedocs
