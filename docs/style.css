@@ -1,5 +1,15 @@
+.wy-side-nav-search {
+    background-color: #b6060a;
+}
+
 .navbar.bg-primary {
     background: #00008c !important;
+}
+.wy-side-nav-search input[type=text] {
+    border-color: #000;
+}
+.wy-nav-side {
+    background: #00008c;
 }
 a {
     color: #00008c;
