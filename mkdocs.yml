@@ -4,6 +4,7 @@ site_url: https://test3.purcosa.co.za/user-guide/
 nav:
   - Welcome: 'index.md'
   - Tenders:
+    - 'Creating a Tender': './tenders/creating-a-tender.md'
     - 'Q&A Management': './tenders/q-and-a-management.md'
     - 'Adding supporting documents': './tenders/adding-supporting-docs.md'
     - 'Creating mailing groups': './tenders/mailing-groups.md'
