@@ -100,17 +100,16 @@ The old site category was **IT products and services**
 
     ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2022-10-16/8e010b67-a793-40d7-8708-5b544aff8e69/ascreenshot.jpeg?tl_px=204,0&br_px=1923,961&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=524,135)
 
-This step opens the list of all sent or scheduled mailings.
-Now search for your mailing. You can use Control-F or search by the Mailing Name, Date or who Created / sent it. 
+    This step opens the list of all sent or scheduled mailings.
+    Now search for your mailing. You can use Control-F or search by the Mailing Name, Date or who Created / sent it. 
 
-In this example we will enter a part of Pozisa's name to search for her mailings.
-
+    In this example we will enter a part of Pozisa's name to search for her mailings.
 
 4. Click the "Created or Sent by" field.
 
     ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2022-10-16/46b847dc-3f72-4241-aa7c-1917c7918a52/ascreenshot.jpeg?tl_px=0,0&br_px=1719,961&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=142,237)
 
-
+    
 5. Type a part of the name you are looking for. 
 In this case we enter "pozi"
 
@@ -130,7 +129,7 @@ Find the mailing and click on "Report".
     ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2022-10-16/8fbb5f3a-9a26-451e-aae6-ee9d7c1e5c28/ascreenshot.jpeg?tl_px=920,0&br_px=2640,961&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=931,194)
 
 
-On the next page you will see a list of all the available reports. Choose the one you want to download. In this example we will download the top report.
+    On the next page you will see a list of all the available reports. Choose the one you want to download. In this example we will download the top report.
 
 
 8. Click "Report"
@@ -138,7 +137,7 @@ On the next page you will see a list of all the available reports. Choose the on
     ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2022-10-16/20bd407d-d4b7-4cdb-99c1-ef750e3cabfe/ascreenshot.jpeg?tl_px=366,13&br_px=2086,974&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=524,277)
 
 
-You will now see the mailing list.
+    You will now see the mailing list.
 
 
 9. Click "Actions"
