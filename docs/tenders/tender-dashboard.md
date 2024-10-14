@@ -1,18 +1,19 @@
-# Tender Dashboard
+# The Tender Dashboard
 
 The Tender Dashboard provides an overview of the tender details and provides easy access to details and actions of related entities via the selectable tabs on the right hand side.
 
 ![](../img/tender-dash.png)
 
 The dashboard layout includes:
+
 - **Tender Details:** Summary information about the tender (creator, associated member, categories, creation date, deadlines, and published status) as well as basic action links.
 - **Tabs:** Navigate between key tender-related entities/actions. They appear in this order:
     - **Information Session/s**
     - **Emails**
-    - ****:
-    - ****:
-    - ****:
-    - ****:
+    - **Purchases**
+    - **TenderBox**:
+    - **Awarded Contracts**:
+    - **Exports**:
 
 In the following sections we will discuss each of the available tabs.
 
@@ -37,7 +38,7 @@ This tab provides details about any related information sessions.
 
 ---
 
-## Emails tab
+## Emails Tab
 
 Two types of emails may be listed here:
 
@@ -51,7 +52,7 @@ For each email the name and status is provided as well as links to view the emai
 
 ---
 
-## Purchases
+## Purchases Tab
 
 This tab indicates the number of suppliers who have purchased the tender (or registered in the case of a free tender).
 
@@ -61,7 +62,7 @@ A link is provided which leads to the **Tender Buyers** page, listing details of
 
 ---
 
-## TenderBox
+## TenderBox Tab
 
 This tab shows an overview of the TenderBox:
 
@@ -82,7 +83,7 @@ Examples include:
 
 ---
 
-## Awarded Contracts
+## Awarded Contracts Tab
 
 The number of awarded contracts is provided. If contracts exist two links are available:
 
@@ -95,7 +96,7 @@ For convenience, the **Supplier Contract Contacts Form** link is also provided i
 
 ---
 
-## Exports
+## Exports Tab
 
 The availablity of exports depends on the progress of the Tender process.
 The following links may be available:
