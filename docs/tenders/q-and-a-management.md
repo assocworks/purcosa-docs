@@ -47,7 +47,8 @@ Here are some of the reasons for the new system:
 ![screenshot](../img/tender-qa-2.png)
 
 3. Buyers can post questions or reply to other posts. Their posts will not be visible to anyone until approved by the author or system admin. When they post they get this popup message:
-![screenshot](../img/tender-qa-3.png)
+
+    ![screenshot](../img/tender-qa-3.png)
 
 4. The system will automatically send you an email Alert that a question has been posted, with a link to the tender page and a copy of the question.
 ![screenshot](../img/tender-qa-4.png)

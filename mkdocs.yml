@@ -5,9 +5,10 @@ nav:
   - Welcome: 'index.md'
   - Tenders:
     - 'Creating a Tender': './tenders/creating-a-tender.md'
-    - 'Q&A Management': './tenders/q-and-a-management.md'
     - 'Adding supporting documents': './tenders/adding-supporting-docs.md'
-    - 'Creating mailing groups': './tenders/mailing-groups.md'
+    - 'Tender Invitation Mailings': './tenders/tender-invitation-mailings.md'
+    - 'Information Sessions': './tenders/info-sessions.md'
+    - 'Q&A Management': './tenders/q-and-a-management.md'
   - TenderBoxes:
     - 'Allocating access': './tenderboxes/allocating-access.md'
     - 'Helping a supplier with access': './tenderboxes/supplier-access.md'
