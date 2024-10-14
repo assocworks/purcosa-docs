@@ -110,19 +110,15 @@ The old site category was **IT products and services**
     ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2022-10-16/46b847dc-3f72-4241-aa7c-1917c7918a52/ascreenshot.jpeg?tl_px=0,0&br_px=1719,961&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=142,237)
 
     
-5. Type a part of the name you are looking for. 
-In this case we enter "pozi"
-
-
+5. Type a part of the name you are looking for. In this case we enter "pozi"
+    
 6. Click "SEARCH"
 
     ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2022-10-16/e85c901b-da7c-42b7-b8f7-c4d1fc26a6f6/ascreenshot.jpeg?tl_px=0,241&br_px=1719,1202&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=137,277)
 
+    This returns a list of Pozisa's mailings.
 
-This returns a list of Pozisa's mailings.
-
-Find the mailing and click on "Report".
-
+    Find the mailing and click on "Report".
 
 7. Click "Report"
 
