@@ -15,6 +15,9 @@ nav:
     - 'Helping a supplier with access': './tenderboxes/supplier-access.md'
     - 'Downloading submitted files': './tenderboxes/downloading-files.md'
     - 'Publishing and unpublishing': './tenderboxes/publishing-unpublishing.md'
+  - 'Contracts':
+    - 'Viewing & Exporting Contracts': './contracts/viewing-contracts.md'
+    - 'Contract Document Management': './contracts/managing-contract-documents.md'
   - CiviCRM:
     - 'Contacts': './civicrm/contacts.md'
     - 'Groups and tags': './civicrm/groups-and-tags.md'
