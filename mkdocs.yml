@@ -5,8 +5,7 @@ nav:
   - Welcome: 'index.md'
   - Tenders:
     - 'Creating a Tender': './tenders/creating-a-tender.md'
-    - 'Adding supporting documents': './tenders/adding-supporting-docs.md'
-    - 'Tender Invitation Mailings': './tenders/tender-invitation-mailings.md'
+    - 'Invitation Mailings': './tenders/tender-invitation-mailings.md'
     - 'Information Sessions': './tenders/info-sessions.md'
     - 'Q&A Management': './tenders/q-and-a-management.md'
     - 'The Tender Dashboard': './tenders/tender-dashboard.md'
