@@ -23,9 +23,7 @@
 
         ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-10-14/0d6cd479-5ec4-404d-84f1-c4c06b135ede/ascreenshot.jpeg?tl_px=402,149&br_px=2122,1110&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=966,277)
 
-
-    ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-10-14/c402aaa1-2407-4bf2-a6b6-5bec4dc8e332/ascreenshot.jpeg?tl_px=402,151&br_px=2122,1112&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=906,276)
-
+    
 4. Drag and drop the relevant files into the box provided, or click "Browse" to select files.
 
     ![](../img/contract-docs-upload.png)
@@ -61,8 +59,10 @@
     
     ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-10-14/0d6cd479-5ec4-404d-84f1-c4c06b135ede/ascreenshot.jpeg?tl_px=402,149&br_px=2122,1110&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=966,277)
 
-3. Use the corresponding 'Remove' button in order to remove a document from the list.
+3. Use the corresponding "Remove" button in order to remove a document from the list.
 
     ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-10-14/debe311c-7b4f-4209-9e62-fc33088fc390/ascreenshot.jpeg?tl_px=402,349&br_px=2122,1310&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=550,277)
+
+4. Click **Save** after you are done making changes.
 
 ---

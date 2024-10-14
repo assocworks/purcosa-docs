@@ -14,15 +14,15 @@ Links are provided at the top of the page for quick exports of various types.
 
 ## Filtering the Contract List
 
-To list only contracts matching certain criteria, use one or more of the available filters and click "Apply".
+To list only contracts matching certain criteria, use one or more of the available filters and click **Apply**.
 
 ![](../img/contracts-filters.png)
 
-**NOTE:** Filters requiring text input will match contracts that contain the provided text for the specified field, i.e. You may provide part of the Supplier name (for example) without needing to type the complete name.
+**NOTE:** Filters requiring text input will match contracts that contain the provided text for the specified field, i.e. you may provide only part of the Supplier name (for example) without needing to type the complete name.
 
 ## Filtered Contract Exports
 
-Once you have filtered the list of contracts appropriately, click the **XLS** to export a list of only the filtered list of contracts.
+Once you have filtered the list of contracts appropriately, click the **XLS** to download an export of only the filtered list of contracts.
 
 ![](../img/contracts-xls-icon.png)
 
