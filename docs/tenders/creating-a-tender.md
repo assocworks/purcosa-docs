@@ -26,14 +26,14 @@
 
    This will take you to the next step where you can begin filling in the detailed information about the tender.
 
+---
+
 ## Tender Title and Description
 
 ### Tender Title 
 
 Enter a brief and concise title for the tender, such as "3-year contract for supply of audiovisual equipment."  
 *Note*: Keep this title short as it will be used in emails and notifications. If it's too long, it will be truncated.
-
-![Tender Title Field](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-10-11/f89028c2-75ec-4813-bb38-3df98c048f15/ascreenshot.jpeg?tl_px=0,55&br_px=1719,1016&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/b61208_standard.png&wat_pad=89,276)
 
 ### Tender Description
 
@@ -47,6 +47,7 @@ Provide a detailed description of the tender, including all relevant information
 
 Use this field to clearly describe the requirements and scope of the tender, ensuring that suppliers have all necessary details before making a submission.
 
+---
 
 ## Tender information
 
@@ -172,15 +173,13 @@ Selected by default, this allows the creation of a **TenderBox**, to be used by 
 
 If necessary, make adjustments to the delivery requirements text that appears in the 'Delivery' tab that suppliers see when viewing a tender.
 
-  ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-10-11/739c6a5a-9807-47bd-ad02-8dc44c083ed6/ascreenshot.jpeg?tl_px=0,0&br_px=1719,961&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/b61208_standard.png&wat_pad=194,253)
-
 ---
 
 ## Send documents to
 
 If appropriate, select additional options for bid delivery.
 
-You can also list relevant contact details here for managing any queries related to the tender. ???
+Link to help page about adding possible values here ???
 
   ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-10-11/9eae4d5e-a25a-4fdc-b7ba-c9040601b953/ascreenshot.jpeg?tl_px=0,55&br_px=1719,1016&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/b61208_standard.png&wat_pad=216,276)
 
@@ -212,13 +211,14 @@ Provide details of the information session:
 
     1. Click "Add New Location":
     
-    ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-10-11/76224c84-f141-45fb-aefd-73de0ae7d6db/ascreenshot.jpeg?tl_px=0,303&br_px=1719,1264&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/b61208_standard.png&wat_pad=447,277)
+        ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-10-11/76224c84-f141-45fb-aefd-73de0ae7d6db/ascreenshot.jpeg?tl_px=0,303&br_px=1719,1264&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/b61208_standard.png&wat_pad=447,277)
 
     2. Supply the address details for the new location option:
 
-    ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-10-11/9b829e0a-3fcb-401a-8eb9-f1708aa50466/ascreenshot.jpeg?tl_px=0,0&br_px=1719,961&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/b61208_standard.png&wat_pad=396,232)
+        ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-10-11/9b829e0a-3fcb-401a-8eb9-f1708aa50466/ascreenshot.jpeg?tl_px=0,0&br_px=1719,961&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/b61208_standard.png&wat_pad=396,232)
 
     3. If necessary click "Refresh" after adding the new option in order to make it available.
+
 
 - **Platform for Virtual Meeting**: If this session is a Virtual or Simultaneous Hybrid event, indicate whether it will be hosted on Microsoft Teams or Zoom. Paste the meeting link (as a full URL beginning with 'https://') in the **Virtual Meeting URL** input box.
 
@@ -273,6 +273,10 @@ Input the date of the tender advertisement.
 ### Adverts and public supporting documents
 
 Upload any supporting documentation or advertisements related to the tender. Make sure these are not the actual tender documents, but rather materials that should be listed and downloadable on the public tender page.
+
+The image below demonstrates where the links to these documents will appear when a supplier views the tender:
+
+![](../img/tender-adding-docs-1.png)
 
 ---
 
@@ -335,7 +339,9 @@ Click the 'Save' button.
 
 Upon successfully saving the new tender:
 
-- A draft tender invitation email will be created. See [Creating a tender mailing group](./mailing-groups.md).
-- Details provided for Information Sessions will be used to create Info Session events within the CRM system, allowing suppliers to register to attend these events.
+- A draft tender invitation email will be created. See [Tender Invitation Mailings](./tender-invitation-mailings.md) for more.
+- Details provided for Information Sessions will be used to create Info Session events within the CRM system, allowing suppliers to register to attend these events. See [Information Sessions](./info-sessions.md) for more.
 
 Make sure all relevant fields are filled out and that any required supporting documents are uploaded before proceeding to publish the tender.
+
+---
