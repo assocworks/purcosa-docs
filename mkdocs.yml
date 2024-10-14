@@ -1,4 +1,4 @@
-site_name: PURCO SA User Guide
+site_name: PURCO SA Staff Guide
 site_url: https://test3.purcosa.co.za/user-guide/
 
 nav:
@@ -9,6 +9,7 @@ nav:
     - 'Tender Invitation Mailings': './tenders/tender-invitation-mailings.md'
     - 'Information Sessions': './tenders/info-sessions.md'
     - 'Q&A Management': './tenders/q-and-a-management.md'
+    - 'The Tender Dashboard': './tenders/tender-dashboard.md'
   - TenderBoxes:
     - 'Allocating access': './tenderboxes/allocating-access.md'
     - 'Helping a supplier with access': './tenderboxes/supplier-access.md'

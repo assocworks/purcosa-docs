@@ -26,6 +26,7 @@ The above example also has the address reflected in the info session block. Whil
 ## Why Should Suppliers Register?
 
 We encourage suppliers to register for sessions for several reasons:
+
 - **Future Reference**: Adds attendees to the database for future sessions (e.g., Ponder or Conference).
 - **Attendance Tracking**: Provides insights into the expected session attendance.
 - **Attendance Registers**: Allows pre-printing of Attendance Registers, making on-site management easier.
@@ -34,14 +35,20 @@ We encourage suppliers to register for sessions for several reasons:
 
 ---
 
-## Viewing / Downloading the Registration List
+## Viewing the Registration List
 
 Navigate to the **Admin** section on the site, hover over **Tenders** and select **Info session registrations** from the dropdown.
 
 ![](../img/info-session-3.png)
 ![](../img/info-session-4.png)
 
+The Registration List is downloadable but is not to be used as an Attendance Register, see below.
+
 ---
+
+## Downloading the Attendance Register
+
+To download the official printable Attendance Register that should be used at the event, a link is provided in the Information Session tab of the Tender Dashboard. See [Tender Dashboard - Information Session Tab](./tender-dashboard/#information-session-tab).
 
 ## Updating Who Attended
 
