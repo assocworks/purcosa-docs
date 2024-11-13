@@ -48,7 +48,7 @@
 
 
 4. By default "Include Price and B-BEE evaluation for this component" is selected. Disable this if Price and B-BEE evaluation is not applicable for this Component.
-    
+
     ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-13/821eb1d5-fd6f-451e-8639-274854bae412/ascreenshot.jpeg?tl_px=0,178&br_px=1376,947&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=166,277)
 
     When enabled the configuration options discussed below are provided.
@@ -136,6 +136,7 @@ Here you can provide names and descriptions for additional price fields to be in
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-13/8bfebea0-8a5f-4ae8-a684-ba061f594264/ascreenshot.jpeg?tl_px=0,405&br_px=1376,1174&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=174,277)
 
 Two access lists can be configured:
+
 - View & Assess: Users included in this list will be able to view submitted data and files as well as assess and score for this component.
 - View: Users included in this list will be able to view submitted data and files for this component, but will not be able to assess or score.
 
