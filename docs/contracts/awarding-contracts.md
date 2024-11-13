@@ -7,37 +7,28 @@ The **Bid Assessment** page can be accessed in various ways:
 
 ### Via the Tender Dashboard
 
-1. [Tender Dashboard](../tenders/tender-dashboard.md) links are provided in most tender lists accessible to staff members.
-    In the **ADMIN** menu, select **List all Tenders** from the **Tenders** sub-menu.
-
-    ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-10-15/5a2255b9-dd73-40e3-8d9d-81fdebc45573/ascreenshot.jpeg?tl_px=1730,79&br_px=3450,1040&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=524,277)
+1. Navigate to the Tender Dashboard for the relevant tender (see [Accessing a Tender's Dashboard](../tenders/tender-dashboard.md/#accessing-a-tenders-dashboard)).
 
 
-2. To find a specific tender easily, enter all or part of the tender number or title in the **Search** box.
-
-    ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-10-15/326b58cc-5e74-4dc7-bec9-a21dc7bab608/ascreenshot.jpeg?tl_px=504,171&br_px=2224,1132&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=524,277)
-
-
-3. Click **Apply**.
-
-    ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-10-15/a6a0d2a9-814b-4e30-b631-ccccffa4dd95/ascreenshot.jpeg?tl_px=1816,283&br_px=3536,1244&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=524,276)
-
-
-4. Click the "Dash" link of the desired tender in the column furthest to the right.
-
-    ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-10-15/e13066b8-0839-4198-81d6-341eb63ed488/ascreenshot.jpeg?tl_px=2336,661&br_px=4056,1622&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=524,276)
-
-
-5. In the Tenderbox Dashboard, select the TenderBox tab.
+2. In the Tenderbox Dashboard, select the TenderBox tab.
 
     ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-10-15/93cf89f8-36c9-497c-b188-aff686501798/ascreenshot.jpeg?tl_px=1672,339&br_px=3392,1300&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=524,277)
 
 
-6. Click "Assess bids"
+3. Click "Assess bids"
 
     ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-10-15/2f178b73-df1c-480b-a552-83fd3c7a63a7/ascreenshot.jpeg?tl_px=1768,929&br_px=3488,1890&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=523,276)
 
-Continue with the steps outlined in the **How to Award Contracts** section of this article.
+
+4. In the Tenderbox Dashboard, select the TenderBox tab.
+
+    ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-10-15/93cf89f8-36c9-497c-b188-aff686501798/ascreenshot.jpeg?tl_px=1672,339&br_px=3392,1300&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=524,277)
+
+
+5. Click "Assess bids"
+
+    ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-10-15/2f178b73-df1c-480b-a552-83fd3c7a63a7/ascreenshot.jpeg?tl_px=1768,929&br_px=3488,1890&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=523,276)
+
 
 ### Via the BidSubmissions list
 
