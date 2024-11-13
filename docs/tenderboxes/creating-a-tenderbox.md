@@ -39,7 +39,7 @@
 
 2. Enter a name for the Component.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-13/8b93de6f-c02a-4782-80f1-925baa25a49c/ascreenshot.jpeg?tl_px=0,98&br_px=1376,867&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=231,277)
+    ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-13/8b93de6f-c02a-4782-80f1-925baa25a49c/ascreenshot.jpeg?tl_px=0,98&br_px=1376,867&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=231,277)
 
 
 3. Optionally add a short description for the Component.
@@ -48,7 +48,7 @@
 
 
 4. By default "Include Price and B-BEE evaluation for this component" is selected. Disable this if Price and B-BEE evaluation is not applicable for this Component.
-
+    
     ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-13/821eb1d5-fd6f-451e-8639-274854bae412/ascreenshot.jpeg?tl_px=0,178&br_px=1376,947&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=166,277)
 
     When enabled the configuration options discussed below are provided.
@@ -57,21 +57,21 @@
 
 By default "Based on lowest price" is selected as the formula to be used. When applicable click the "Based on highest offer (Sale and letting of assets)" option in order to use the formula that favours higher offers rather than lower prices.
 
-    ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-13/de4132a3-807e-4a5e-a7e4-2951ccfffb76/ascreenshot.jpeg?tl_px=0,296&br_px=1376,1065&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=166,277)
+![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-13/de4132a3-807e-4a5e-a7e4-2951ccfffb76/ascreenshot.jpeg?tl_px=0,296&br_px=1376,1065&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=166,277)
 
 
 ### Preference Point System
 
 By default the 80:20 system is selected, this means that of a final score out of 100 points, 20 of those points will be determined by the bidder's B-BEE scorecard. Selecting 90:10 will mean that 10 points will be assigned based on the B-BEE scorecard. The last option excludes B-BEE points, leaving 100 points for the "price element" which in all cases can be further customised in a later step.
 
-    ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-13/a6c09869-841b-4f7f-a08e-54ba6c0ca53a/ascreenshot.jpeg?tl_px=0,419&br_px=1376,1188&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=166,277)
+![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-13/a6c09869-841b-4f7f-a08e-54ba6c0ca53a/ascreenshot.jpeg?tl_px=0,419&br_px=1376,1188&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=166,277)
 
 
 ### Functionality Pass Type
 
 By default "Pass each phase" is selected. This means that when multiple functionality phases are included for this component, the bidder should pass each one in order to qualify for the following one. Alternatively, a pass can be determined based on the bidder's average score (%) across all functionality phases. In this case select "Minimum combines score" and provide the value for the passing percentage.
 
-    ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-13/4ff13627-3dae-445f-884e-4c15f536c583/ascreenshot.jpeg?tl_px=0,429&br_px=1376,1198&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=522,277)
+![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-13/4ff13627-3dae-445f-884e-4c15f536c583/ascreenshot.jpeg?tl_px=0,429&br_px=1376,1198&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=522,277)
 
 ### Customised Scoring Elements
 
@@ -104,7 +104,7 @@ By default, 80, 90, or 100 (depending on the selected **Preference Point System*
 
 Additional points can be configured if necessary. These points are **in addition** to the 100 total points. Add an additional points element by entering a name for it and assigning a value.
 
-    ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-13/eb5753c2-5ee9-470e-886d-fbce0c321feb/ascreenshot.jpeg?tl_px=745,531&br_px=2122,1300&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=813,277)
+![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-13/eb5753c2-5ee9-470e-886d-fbce0c321feb/ascreenshot.jpeg?tl_px=745,531&br_px=2122,1300&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=813,277)
 
 As usual, click "Add another" to add more additional points elements.
 
@@ -118,11 +118,11 @@ By default the total price field is set as 'required' (indicated by the red aste
 
 The TenderBox can be configured to include file upload fields for more detailed pricing schedules. Enabling this will ensure the inclusion of two upload fields: One accepting a .xlsx (excel spreadsheet) file and the other accepting a PDF document.
 
-    ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-13/66f4a005-c6c5-40f2-93ff-b2a42ed3d8ae/ascreenshot.jpeg?tl_px=0,315&br_px=1376,1084&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=172,277)
+![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-13/66f4a005-c6c5-40f2-93ff-b2a42ed3d8ae/ascreenshot.jpeg?tl_px=0,315&br_px=1376,1084&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=172,277)
 
 You are able to set these upload fields as required / optional, as well as specify a label and description to be used.
 
-    ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-13/2d3b696a-1a56-4c0a-9fde-88f1754b635b/ascreenshot.jpeg?tl_px=93,338&br_px=1470,1107&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=524,277)
+![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-13/2d3b696a-1a56-4c0a-9fde-88f1754b635b/ascreenshot.jpeg?tl_px=93,338&br_px=1470,1107&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=524,277)
 
 
 ### Additional Price Fields
@@ -141,7 +141,7 @@ Two access lists can be configured:
 
 Begin typing the username of the user who you wish to add to the relevant access list and select them from the dropdown:
 
-    ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-13/dc7fc95d-8136-4622-a34e-8b566169a02f/ascreenshot.jpeg?tl_px=0,455&br_px=1376,1224&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=217,277)
+![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-13/dc7fc95d-8136-4622-a34e-8b566169a02f/ascreenshot.jpeg?tl_px=0,455&br_px=1376,1224&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=217,277)
 
 Use the "Add another" buttons in order to add additional users to each list.
 
