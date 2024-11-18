@@ -137,19 +137,249 @@ Here you can provide names and descriptions for additional price fields to be in
 
 Two access lists can be configured:
 
-- View & Assess: Users included in this list will be able to view submitted data and files as well as assess and score for this component.
-- View: Users included in this list will be able to view submitted data and files for this component, but will not be able to assess or score.
+- View & Assess: bidders included in this list will be able to view submitted data and files as well as assess and score for this component.
+- View: bidders included in this list will be able to view submitted data and files for this component, but will not be able to assess or score.
 
 Begin typing the username of the user who you wish to add to the relevant access list and select them from the dropdown:
 
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-13/dc7fc95d-8136-4622-a34e-8b566169a02f/ascreenshot.jpeg?tl_px=0,455&br_px=1376,1224&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=217,277)
 
-Use the "Add another" buttons in order to add additional users to each list.
+Use the "Add another" buttons in order to add additional bidders to each list.
 
 ### Adding Additional Components
 
 To add another Component to this TenderBox, click the red "Add another component" button available at the bottom of the Components form:
 
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-13/7111064b-fdd6-4e67-a664-acafb78c5dde/ascreenshot.jpeg?tl_px=0,733&br_px=1376,1502&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=281,277)
+
+---
+
+## Adding Mandatory Requirements
+
+Select the **Mandatory** tab to set up the Mandatory Requirements for the TenderBox.
+
+![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-18/aea7418b-6483-46fe-a5cb-5779252e0ffd/ascreenshot.jpeg?tl_px=102,188&br_px=1478,957&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=187,203)
+
+### Default Mandatory Requirements
+
+![](../img/tenderbox-creating-default-mandatory.png)
+
+Select which of the Default Mandatory Requirements presented should be included in this TenderBox. The requirements selected here will be included in the form provided for bidders regardless of which component/s are selected.
+It is important to make use of these rather than to create custom Mandatory Requirement Sets to serve the same purpose. The "B-BBEE Status" requirement here for example, will ensure that B-BBEE information captured from the bidder is added to their organisation record in the CRM system, and even more importantly, usable by the scoring system when a component is configured to consider B-BBEE Level.
+
+### Custom Mandatory Requirements
+
+We will now follow the process of adding custom Mandatory Requirements to this TenderBox.
+As with Functionality Requirements, each requirement can be configured to include multiple different form fields (a file upload field, a text field, checkboxes, etc.)
+Each requirement "set" as a whole (not the included fields individually) can be assigned to multiple different components, and will be validated as a whole during the assessment process.
+
+1. Click the grey input box of the first Mandatory Requirement Set to activate it in the form.
+
+    ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-18/46b6e51c-ddf2-47cc-8893-1eb83edf63e0/ascreenshot.jpeg?tl_px=0,280&br_px=1376,1049&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=175,276)
+
+2. Enter a name for this requirement.
+
+3. On the right hand side of the screen, configure the fields to be included for this requirement. See [Field Types & Options](./creating-a-tenderbox.md/#field-types--options) for more information.
+
+    1. Select the field type for this field and configure any additional settings the field type provides.
+
+        ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-18/baa3e078-fe7c-4a76-8240-b9f609603c49/ascreenshot.jpeg?tl_px=839,200&br_px=1986,841&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=274,107)
+
+    2. Enter a label for the field.
+    3. Fields are set as "required" by default, toggle this off by clicking the red asterisk if the field should be optional.
+    4. Click the "Add another field" button to add another field, repeat the steps as necessary.
+
+        ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-18/451a362e-395c-4a47-a9c3-fc70a649778b/ascreenshot.jpeg?tl_px=862,610&br_px=1722,1090&force_format=jpeg&q=100&width=860&wat_scale=76&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=133,90)
+
+4. Optionally enter **Description / help text** for this requirement in the input provided.
+
+5. In the grey **Components** box, a checkbox is provided next to the name that has been set for each component. Deselect the components that should **not** include this requirement.
+
+    ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-18/5c611a04-d948-4f76-b561-6b891822cb3d/ascreenshot.jpeg?tl_px=845,639&br_px=1610,1066&force_format=jpeg&q=100&width=764&wat_scale=68&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=69,309)
+
+6. Click the "Add another Requirement" button and repeat the steps the above steps as necessary for each Mandatory Requirement.
+
+    ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-18/7820e13f-c0ee-4eb8-9713-3d6034595bef/ascreenshot.jpeg?tl_px=153,493&br_px=1300,1134&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=220,493)
+
+---
+
+## Adding Phases & Functionality Requirements
+
+Select the "Phases and Functionality Requirements" tab to configure one or more phases and set up the Functionality Requirements for each of these.
+
+![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-18/434fed72-908c-4d10-af6a-0eed144992dd/ascreenshot.jpeg?tl_px=110,141&br_px=1486,910&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=432,193)
+
+- **Phase name**
+    Provide a name for the phase.
+
+    ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-18/ac55ca21-1774-4d8c-90ed-402c8352386a/ascreenshot.jpeg?tl_px=134,115&br_px=1510,884&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=57,145)
+
+- **Functionality passing score**
+    Set the value of the minimum percentage required in order for a bidder to pass this phase.
+
+- **Contribution to combined functionality passing score**
+    Set this when requirements defined in this Phase are to be assigned to components which are configured to use a combined pass. The number provided represents the contribution of this Phase towards the combined total Functionality score. The sum of the contributions of Phases involved in a component configured with a combined pass should add up to 100.
+
+    ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-18/d074e7b2-8998-42e9-98b5-596f504d8fb2/user_cropped_screenshot.jpeg?tl_px=135,217&br_px=1282,858&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=706,275)
+
+- **Contribution to customised price functionality score**
+    When requirements defined in this Phase are to be assigned to components which are configured to include a Functionality scoring element, the value provided here determines the contribution of this Phase's score towards the total Functionality score that is then used to determine points awarded for the Functionality element of the total score. The sum of the contributions of Phases involved in a component configured with a Functionality scoring element should add up to 100.
+
+    ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-18/156c1f2f-fd74-45ca-94fa-2c8fbbfc8bfd/ascreenshot.jpeg?tl_px=970,212&br_px=2116,853&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=675,154)
+
+- **Internal use only**
+    Check this checkbox for Phases that are purely internal, this means that the Phase and all requirements and fields that are part of it will be excluded from the TenderBox form that bidders will use. After the submission deadline, staff with "View & Assess" access to submissions will have this Phase and its requirements and fields available during the assessment of bids.
+
+    ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-18/cfc03033-8f66-47d7-bf1f-0bfb3c81321a/ascreenshot.jpeg?tl_px=113,209&br_px=1260,850&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=79,423)
+
+### Customer Reference Sets
+
+Each Customer Reference Set can be configured to accept any number of customer references.
+According to the requirements for the Tender, multiple sets may be preferable based on:
+
+- Different types/categories of customer references required
+- Component assignment (each set can be assigned to different components)
+- Scoring & validation (scoring and validation happens on a per set basis, individual customer references within a set cannot be marked as valid/invalid separately)
+
+Follow these steps to set up Customer Reference Sets:
+
+1. Click the grey Custom Reference Set input box to activate it in the form.
+
+    ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-18/52cb3cd2-7218-4208-9fbc-c65d61944822/ascreenshot.jpeg?tl_px=122,425&br_px=1498,1194&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=119,236)
+
+2. Enter a name for the set in this input box.
+
+3. On the right hand side, multiple customer references can be added to this set.
+
+    1. Enter a label for this customer reference.
+
+        ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-18/4e32d9b8-43ac-4684-895c-c91d788287bf/ascreenshot.jpeg?tl_px=993,250&br_px=1976,800&force_format=jpeg&q=100&width=983&wat_scale=87&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=169,24)
+
+    2. Individual customer references are set as "required" by default, toggle this off by clicking the red asterisk to make this customer reference optional.
+    3. Click the "add another customer reference" button and repeat the steps for each customer reference required.
+
+        ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-18/5214f87f-29af-4408-990d-2ec8130161cc/ascreenshot.jpeg?tl_px=993,262&br_px=1976,812&force_format=jpeg&q=100&width=983&wat_scale=87&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=194,114)
+
+
+4. By default, the inclusion of both a file upload field and information fields is enabled. Toggle these checkboxes as desired.
+
+    - **Include upload field for the customer reference letter**
+        A file upload field will be provided for each customer reference in this set.
+
+        ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-18/ab447a07-f82a-4e07-a0a4-b9e85510bed1/ascreenshot.jpeg?tl_px=875,147&br_px=2022,788&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=139,187)
+
+    - **Include text fields for name, company, job title, contact and contract details**
+        Numerous fields will be included for the capturing of details for each reference in this set.
+
+        ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-18/d128d181-53e8-440c-b7f5-e6aec56ba2a9/ascreenshot.jpeg?tl_px=873,151&br_px=2020,792&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=146,220)
+        
+5. Configure the score for this set (see [Fieldset Scoring Configuration](./creating-a-tenderbox.md/#fieldset-scoring-configuration) for more information).
+
+6. In the grey **Components** box, a checkbox is provided next to the name that has been set for each component. Deselect the components that should **not** include this Customer Reference Set.
+
+    ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-18/e983c539-d2f7-4b01-9db0-6044018b66a5/ascreenshot.jpeg?tl_px=1004,494&br_px=1693,879&force_format=jpeg&q=100&width=688&wat_scale=61&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=311,139)
+
+7. Click the "Add another reference set" button and repeat the above steps to configure additional Customer Reference Sets if needed.
+
+    ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-18/871b7521-14e4-4d2d-873b-8295456273bd/ascreenshot.jpeg?tl_px=120,772&br_px=1496,1541&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=187,190)
+    
+---
+
+## Reviewing the Scoring Summary
+
+Select the "Scoring Summary" tab to see an overview of the current TenderBox configuration as you build it.
+
+![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-18/1a6f5216-514e-47bb-af58-faf1b57aa25e/ascreenshot.jpeg?tl_px=125,227&br_px=1272,868&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=844,247)
+
+---
+
+## Generating the TenderBox
+
+It is important to note that nothing in the TenderBox Creation form is saved until such point as the "Save" button is clicked.
+
+![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-18/1a6f5216-514e-47bb-af58-faf1b57aa25e/ascreenshot.jpeg?tl_px=125,227&br_px=1272,868&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=844,247)
+
+Upon saving, the TenderBox itself is generated based on the provided configuration. You will be redirected to the TenderBox form itself in order to verify the final result.
+
+---
+
+## Field Types & Options
+
+![](../img/tenderbox-creating-field-types.png)
+
+When adding a field to a Mandatory or Functionality Requirement set, multiple field types are available to select from. These are listed below:
+
+- **Checkbox**  
+  A single checkbox that allows bidders to confirm a yes or no statement.
+
+- **Checkbox list**  
+  A group of checkboxes allowing bidders to select multiple options from a list.
+
+    - When selected, an additional input is provided in order to specify the various options in a comma-separated list.
+
+        ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-18/1179075d-2bd7-482b-960b-d984c130d118/ascreenshot.jpeg?tl_px=844,207&br_px=1991,848&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=261,109)
+
+- **Date**  
+  A field for selecting a date.
+
+- **Email**  
+  A field specifically for entering a valid email address.
+
+- **File Upload**  
+  A field that allows bidders to upload a file.
+
+    - When selected, checkboxes are provided in order to specify which file types should be accepted.
+
+        ![](../img/tenderbox-creating-file-types.png)
+
+- **Number**  
+  A field for entering numeric values only.
+
+- **Select List/Radio**  
+  A dropdown or a list of radio buttons that lets bidders choose one option from a predefined set.
+
+    - When selected, an additional input is provided in order to specify the various options in a comma-separated list.
+
+        ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-18/faf51caa-034a-4b4f-b9c8-4f4cd7777db2/ascreenshot.jpeg?tl_px=849,207&br_px=1996,848&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=230,115)
+
+- **Text Field**  
+  A single-line field for entering plain text.
+
+- **Textarea**  
+  A multi-line field for entering longer text content.
+
+  - When selected, an additional input is provided to specify placeholder text (text that displays within the text area before the bidder enters anything).
+    
+    ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-18/1f745e8a-b33c-4c03-ba16-181c3e9619cf/ascreenshot.jpeg?tl_px=839,215&br_px=1986,856&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=240,107)
+
+- **Web URL**  
+  A field for entering a valid website URL.
+
+- **Webform Markup**  
+  A field type that can be used to add additional text or content to the requirement set
+
+    - When selected, an additional input is provided for supplying the content to be included.
+
+        ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-18/03a2d921-c78f-46be-bdfd-5e29ce044bf2/ascreenshot.jpeg?tl_px=852,195&br_px=1999,836&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=226,125)
+
+In addition to specifying the field type for each field, a name must be entered for the field.
+As is the case elsewhere in the TenderBox Creator form, a red asterisk indicates that this field will be "required" - the bidder will need to fill the field in order to be able to make a final submission. Click on the button containing the red asterisk in order to toggle it off, meaning that the field will be optional.
+
+---
+
+## Fieldset Scoring Configuration
+
+For Customer Reference and Functionality Requirement Sets, two options are provided for allocating points.
+
+- **Fixed Score**
+    A fixed score configuration awards the specified number of points to all bidders for that particular set, provided that the data submitted for it has been marked as "Valid" by an assessor. When "Invalid", 0 points are awarded for the set.
+
+    ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-18/4e131cfe-9870-4ccf-8c4e-b91f361d71a8/ascreenshot.jpeg?tl_px=951,482&br_px=1640,867&force_format=jpeg&q=100&width=688&wat_scale=61&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=255,133)
+
+- **Range Score**
+    When using a range score configuration, a minimum (usually 0) and maximum value must be specified.
+    During the assessment phase, staff with the necessary permissions will be presented with an input allowing them to manually specify any value within this range, scoring this set appropriately according to each bidder's submitted data.
+    
+    ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-18/0d18c6b9-20be-418c-8341-7e66d7c15745/ascreenshot.jpeg?tl_px=936,465&br_px=1701,892&force_format=jpeg&q=100&width=764&wat_scale=68&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=356,190)
 
 ---
