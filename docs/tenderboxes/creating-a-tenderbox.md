@@ -139,7 +139,7 @@
 
     - View & Assess: bidders included in this list will be able to view submitted data and files as well as assess and score for this component.
     - View: bidders included in this list will be able to view submitted data and files for this component, but will not be able to assess or score.
-    
+
     Begin typing the username of the user who you wish to add to the relevant access list and select them from the dropdown:
 
     ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-13/dc7fc95d-8136-4622-a34e-8b566169a02f/ascreenshot.jpeg?tl_px=0,455&br_px=1376,1224&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=217,277)
@@ -209,25 +209,25 @@ Select the "Phases and Functionality Requirements" tab to configure one or more 
 
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-18/434fed72-908c-4d10-af6a-0eed144992dd/ascreenshot.jpeg?tl_px=110,141&br_px=1486,910&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=432,193)
 
-- **Phase name**
+- **Phase name:**
     Provide a name for the phase.
 
     ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-18/ac55ca21-1774-4d8c-90ed-402c8352386a/ascreenshot.jpeg?tl_px=134,115&br_px=1510,884&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=57,145)
 
-- **Functionality passing score**
+- **Functionality passing score:**
     Set the value of the minimum percentage required in order for a bidder to pass this phase.
 
-- **Contribution to combined functionality passing score**
+- **Contribution to combined functionality passing score:**
     Set this when requirements defined in this Phase are to be assigned to components which are configured to use a combined pass. The number provided represents the contribution of this Phase towards the combined total Functionality score. The sum of the contributions of Phases involved in a component configured with a combined pass should add up to 100.
 
     ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-18/d074e7b2-8998-42e9-98b5-596f504d8fb2/user_cropped_screenshot.jpeg?tl_px=135,217&br_px=1282,858&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=706,275)
 
-- **Contribution to customised price functionality score**
+- **Contribution to customised price functionality score:**
     When requirements defined in this Phase are to be assigned to components which are configured to include a Functionality scoring element, the value provided here determines the contribution of this Phase's score towards the total Functionality score that is then used to determine points awarded for the Functionality element of the total score. The sum of the contributions of Phases involved in a component configured with a Functionality scoring element should add up to 100.
 
     ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-18/156c1f2f-fd74-45ca-94fa-2c8fbbfc8bfd/ascreenshot.jpeg?tl_px=970,212&br_px=2116,853&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=675,154)
 
-- **Internal use only**
+- **Internal use only:**
     Check this checkbox for Phases that are purely internal, this means that the Phase and all requirements and fields that are part of it will be excluded from the TenderBox form that bidders will use. After the submission deadline, staff with "View & Assess" access to submissions will have this Phase and its requirements and fields available during the assessment of bids.
 
     ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-18/cfc03033-8f66-47d7-bf1f-0bfb3c81321a/ascreenshot.jpeg?tl_px=113,209&br_px=1260,850&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=79,423)
@@ -264,11 +264,13 @@ Follow these steps to set up Customer Reference Sets:
 4. By default, the inclusion of both a file upload field and information fields is enabled. Toggle these checkboxes as desired.
 
     - **Include upload field for the customer reference letter**
+
         A file upload field will be provided for each customer reference in this set.
 
         ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-18/ab447a07-f82a-4e07-a0a4-b9e85510bed1/ascreenshot.jpeg?tl_px=875,147&br_px=2022,788&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=139,187)
 
     - **Include text fields for name, company, job title, contact and contract details**
+    
         Numerous fields will be included for the capturing of details for each reference in this set.
 
         ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-18/d128d181-53e8-440c-b7f5-e6aec56ba2a9/ascreenshot.jpeg?tl_px=873,151&br_px=2020,792&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=146,220)
@@ -383,12 +385,12 @@ As is the case elsewhere in the TenderBox Creator form, a red asterisk indicates
 
 For Customer Reference and Functionality Requirement Sets, two options are provided for allocating points.
 
-- **Fixed Score**
+- **Fixed Score:**
     A fixed score configuration awards the specified number of points to all bidders for that particular set, provided that the data submitted for it has been marked as "Valid" by an assessor. When "Invalid", 0 points are awarded for the set.
 
     ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-18/4e131cfe-9870-4ccf-8c4e-b91f361d71a8/ascreenshot.jpeg?tl_px=951,482&br_px=1640,867&force_format=jpeg&q=100&width=688&wat_scale=61&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=255,133)
 
-- **Range Score**
+- **Range Score:**
     When using a range score configuration, a minimum (usually 0) and maximum value must be specified.
     During the assessment phase, staff with the necessary permissions will be presented with an input allowing them to manually specify any value within this range, scoring this set appropriately according to each bidder's submitted data.
     
