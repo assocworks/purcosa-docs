@@ -13,6 +13,7 @@ $(document).ready(function() {
             $(item).children("a").append($(toggleSpan));
             $(item).prepend(toggleBoxO);
             $(item).click(function() {
+                console.log('clicked');
                 toggleBoxO.click();
             });
         }
