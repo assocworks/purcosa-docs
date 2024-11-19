@@ -5,6 +5,11 @@ $(document).ready(function() {
     const toggleSpan = "<span class='md-nav__icon md-icon'></span>";
     const toggleBox = "<input class='md-nav__toggle md-toggle' type='checkbox'>";
 
+    $(document).on('click', '.md-nav__item--nested', function() {
+        console.log('clicked');
+        $(this).children('input').click();
+    });
+
     function recursiveParentMod(i, item) {
         if ($(item).children('nav').length) {
             $(item).addClass("md-nav__item--nested");
@@ -12,10 +17,10 @@ $(document).ready(function() {
             const toggleBoxO = $(toggleBox);
             $(item).children("a").append($(toggleSpan));
             $(item).prepend(toggleBoxO);
-            $(item).click(function() {
-                console.log('clicked');
-                toggleBoxO.click();
-            });
+            // $(item).off('click').on('click', function() {
+            //     console.log('clicked');
+            //     toggleBoxO.click();
+            // });
         }
     }
 
