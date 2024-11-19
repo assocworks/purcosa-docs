@@ -5,8 +5,9 @@ $(document).ready(function() {
     const toggleSpan = "<span class='md-nav__icon md-icon'></span>";
     const toggleBox = "<input class='md-nav__toggle-X md-toggle-X' type='checkbox'>";
 
-    $(document).on('click', '.md-nav__item--nested', function() {
+    $(document).on('click', '.md-nav__item--nested', function(e) {
         console.log('clicked');
+        e.stopPropagation();
         $(this).children('input').click();
     });
 
