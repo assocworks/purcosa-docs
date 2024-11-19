@@ -36,7 +36,7 @@ nav:
       - 'Reports and analysis': './civicrm/email/reports-and-analysis.md'
 
 theme:
-  name: mkdocs
+  name: material
   locale: en
   navigation_depth: 2
 
