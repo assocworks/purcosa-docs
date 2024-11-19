@@ -35,3 +35,21 @@ body::before {
 a {
     color: #00008c;
 }
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 1.4rem;
+}
+h1 {
+    font-size: 36px;
+}
+h2 {
+    font-size: 28px;
+}
+hr {
+    margin: 2rem 0;
+}
+.col-md-9 img {
+    padding: 0;
+    box-shadow: 3px 3px 12px 2px #3a3a71c7;
+    border-radius: 10px;
+}
