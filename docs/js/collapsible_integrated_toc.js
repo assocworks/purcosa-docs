@@ -6,9 +6,11 @@ $(document).ready(function() {
     const toggleBox = "<input class='md-nav__toggle-X md-toggle-X' type='checkbox'>";
 
     $(document).on('click', '.md-nav__item--nested', function(e) {
-        console.log('clicked');
-        e.stopPropagation();
-        $(this).children('input').click();
+        if (e.target === this) {
+            console.log("clicked");
+            e.stopPropagation();
+            $(this).children("input").click();
+        }
     });
 
     function recursiveParentMod(i, item) {
