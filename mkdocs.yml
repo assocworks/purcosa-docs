@@ -48,12 +48,12 @@ theme:
     # - navigation.instant
     # - navigation.instant.prefetch
     # - navigation.instant.preview
-    # - navigation.tabs
-    # - navigation.tabs.sticky
+    - navigation.tabs
+    - navigation.tabs.sticky
     ## - navigation.sections
     - navigation.path
     - navigation.top
-    # - toc.integrate
+    - toc.integrate
     - toc.follow
     - search.suggest
     - search.highlight
