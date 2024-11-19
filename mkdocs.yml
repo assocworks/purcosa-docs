@@ -45,15 +45,15 @@ theme:
   logo: img/PURCOSAlogoreversed.png
   favicon: img/favicon.png
   features:
-    - navigation.instant
-    - navigation.instant.prefetch
-    - navigation.instant.preview
-    - navigation.tabs
-    - navigation.tabs.sticky
-    # - navigation.sections
+    # - navigation.instant
+    # - navigation.instant.prefetch
+    # - navigation.instant.preview
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+    ## - navigation.sections
     - navigation.path
     - navigation.top
-    - toc.integrate
+    # - toc.integrate
     - toc.follow
     - search.suggest
     - search.highlight
@@ -62,5 +62,9 @@ theme:
 
 extra_css:
   - style.css
+
+extra_js:
+  - js/jquery-3.7.1.min.js
+  - js/collapsible_integrated_toc.js
 
 use_directory_urls: false
