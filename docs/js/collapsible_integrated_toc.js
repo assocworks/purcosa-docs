@@ -6,7 +6,7 @@ $(document).ready(function() {
     const toggleBox = "<input class='md-nav__toggle-X md-toggle-X' type='checkbox'>";
 
     $(document).on('click', '.md-nav__item--nested', function(e) {
-        if ($(e.target).closest(".md-nav__item--nested").is(this)) {
+        if ($(e.target).closest(".md-nav__item--nested").is(this) && !$(e.target).is('input')) {
           console.log("clicked");
           e.stopPropagation();
           $(this).children("input").click();
