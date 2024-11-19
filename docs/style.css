@@ -72,3 +72,22 @@ hr {
     font-weight: bold;
     /* color: var(--md-accent-fg-color); */
 }
+
+.md-nav__icon:after {
+    background-color: currentcolor;
+    border-radius: 100%;
+    content: "";
+    display: inline-block;
+    height: 100%;
+    -webkit-mask-image: var(--md-nav-icon--next);
+    mask-image: var(--md-nav-icon--next);
+    -webkit-mask-position: center;
+    mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    transition: transform .25s;
+    vertical-align: -.1rem;
+    width: 100%;
+}
