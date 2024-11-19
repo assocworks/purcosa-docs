@@ -39,6 +39,9 @@ theme:
   name: material
   locale: en
   navigation_depth: 2
+  palette:
+    primary: custom
+    accent: custom
 
 extra_css:
   - style.css
