@@ -53,7 +53,7 @@ theme:
     - navigation.sections
     - navigation.path
     - navigation.top
-    - toc.integrate
+    # - toc.integrate
     - toc.follow
     - search.suggest
     - search.highlight

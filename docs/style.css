@@ -31,7 +31,7 @@ body::before {
 
 /* for readthedocs theme */
 
-.wy-side-nav-search {
+/* .wy-side-nav-search {
     background-color: #b6060a;
 }
 .wy-side-nav-search input[type=text] {
@@ -42,9 +42,9 @@ body::before {
 }
 a {
     color: #00008c;
-}
+} */
 
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+/* .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
     margin-bottom: 1.4rem;
 }
 h1 {
@@ -55,7 +55,10 @@ h2 {
 }
 hr {
     margin: 2rem 0;
-}
+} */
+
+/* for mkdocs-material theme */
+
 .md-typeset img {
     padding: 0;
     box-shadow: 3px 3px 12px 2px #3a3a71c7;
@@ -64,4 +67,7 @@ hr {
 }
 .md-header__button.md-logo {
     padding: 0;
+}
+.md-tabs__item--active .md-tabs__link {
+    color: var(--md-accent-fg-color);
 }
