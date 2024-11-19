@@ -57,6 +57,8 @@ theme:
     - toc.follow
     - search.suggest
     - search.highlight
+  toc:
+    collapse: true
 
 extra_css:
   - style.css
