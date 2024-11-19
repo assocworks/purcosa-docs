@@ -3,7 +3,7 @@ $(document).ready(function() {
     console.log('worked');
 
     const toggleSpan = "<span class='md-nav__icon md-icon'></span>";
-    const toggleBox = "<input class='md-nav__toggle-X md-toggle-X' type='checkbox'>";
+    const toggleBox = "<input class='md-nav__toggle md-toggle' type='checkbox'>";
 
     $(document).on('click', '.md-nav__item--nested', function(e) {
         if ($(e.target).closest(".md-nav__item--nested").is(this) && !$(e.target).is('input')) {
