@@ -47,7 +47,7 @@
     ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-13/5d95cb0a-dc9f-43f3-9fb8-a5e92167eb41/ascreenshot.jpeg?tl_px=82,103&br_px=1459,872&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=524,277)
 
 
-4. By default "Include Price and B-BEE evaluation for this component" is selected. Disable this if Price and B-BEE evaluation is not applicable for this Component.
+4. Configure Price and B-BEE evaluation. By default "Include Price and B-BEE evaluation for this component" is selected. Disable this if Price and B-BEE evaluation is not applicable for this Component.
 
     ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-13/821eb1d5-fd6f-451e-8639-274854bae412/ascreenshot.jpeg?tl_px=0,178&br_px=1376,947&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=166,277)
 
@@ -100,57 +100,57 @@
         ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-13/f49e2479-d8b2-44de-9d3c-68bcb3c927d2/ascreenshot.jpeg?tl_px=475,330&br_px=1852,1099&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=523,277)
 
 
-### Additional Points
+    ### Additional Points
 
-Additional points can be configured if necessary. These points are **in addition** to the 100 total points. Add an additional points element by entering a name for it and assigning a value.
+    Additional points can be configured if necessary. These points are **in addition** to the 100 total points. Add an additional points element by entering a name for it and assigning a value.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-13/eb5753c2-5ee9-470e-886d-fbce0c321feb/ascreenshot.jpeg?tl_px=745,531&br_px=2122,1300&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=813,277)
+    ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-13/eb5753c2-5ee9-470e-886d-fbce0c321feb/ascreenshot.jpeg?tl_px=745,531&br_px=2122,1300&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=813,277)
 
-As usual, click "Add another" to add more additional points elements.
+    As usual, click "Add another" to add more additional points elements.
 
-### Price Fields
+    ### Price Fields
 
-![](../img/tenderbox-creating-price-fields.png)
+    ![](../img/tenderbox-creating-price-fields.png)
 
-By default the total price field is set as 'required' (indicated by the red asterisk), meaning the bidder will not be able to make a final submission without providing a total price. The label and description for the total price field can be adjusted here if necessary.
+    By default the total price field is set as 'required' (indicated by the red asterisk), meaning the bidder will not be able to make a final submission without providing a total price. The label and description for the total price field can be adjusted here if necessary.
 
-### Price File Upload Field
+    ### Price File Upload Field
 
-The TenderBox can be configured to include file upload fields for more detailed pricing schedules. Enabling this will ensure the inclusion of two upload fields: One accepting a .xlsx (excel spreadsheet) file and the other accepting a PDF document.
+    The TenderBox can be configured to include file upload fields for more detailed pricing schedules. Enabling this will ensure the inclusion of two upload fields: One accepting a .xlsx (excel spreadsheet) file and the other accepting a PDF document.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-13/66f4a005-c6c5-40f2-93ff-b2a42ed3d8ae/ascreenshot.jpeg?tl_px=0,315&br_px=1376,1084&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=172,277)
+    ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-13/66f4a005-c6c5-40f2-93ff-b2a42ed3d8ae/ascreenshot.jpeg?tl_px=0,315&br_px=1376,1084&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=172,277)
 
-You are able to set these upload fields as required / optional, as well as specify a label and description to be used.
+    You are able to set these upload fields as required / optional, as well as specify a label and description to be used.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-13/2d3b696a-1a56-4c0a-9fde-88f1754b635b/ascreenshot.jpeg?tl_px=93,338&br_px=1470,1107&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=524,277)
+    ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-13/2d3b696a-1a56-4c0a-9fde-88f1754b635b/ascreenshot.jpeg?tl_px=93,338&br_px=1470,1107&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=524,277)
 
 
-### Additional Price Fields
+    ### Additional Price Fields
 
-![](../img/tenderbox-creating-price-fields-additional.png)
+    ![](../img/tenderbox-creating-price-fields-additional.png)
 
-Here you can provide names and descriptions for additional price fields to be included in the TenderBox, as well as set whether each one is required or optional. Note that values provided by bidders for these fields are not used in any way by the scoring system.
+    Here you can provide names and descriptions for additional price fields to be included in the TenderBox, as well as set whether each one is required or optional. Note that values provided by bidders for these fields are not used in any way by the scoring system.
 
-### Allocate Access
+5. Allocate access to relevant users.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-13/8bfebea0-8a5f-4ae8-a684-ba061f594264/ascreenshot.jpeg?tl_px=0,405&br_px=1376,1174&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=174,277)
+    ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-13/8bfebea0-8a5f-4ae8-a684-ba061f594264/ascreenshot.jpeg?tl_px=0,405&br_px=1376,1174&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=174,277)
 
-Two access lists can be configured:
+    Two access lists can be configured:
 
-- View & Assess: bidders included in this list will be able to view submitted data and files as well as assess and score for this component.
-- View: bidders included in this list will be able to view submitted data and files for this component, but will not be able to assess or score.
+    - View & Assess: bidders included in this list will be able to view submitted data and files as well as assess and score for this component.
+    - View: bidders included in this list will be able to view submitted data and files for this component, but will not be able to assess or score.
 
-Begin typing the username of the user who you wish to add to the relevant access list and select them from the dropdown:
+    Begin typing the username of the user who you wish to add to the relevant access list and select them from the dropdown:
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-13/dc7fc95d-8136-4622-a34e-8b566169a02f/ascreenshot.jpeg?tl_px=0,455&br_px=1376,1224&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=217,277)
+    ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-13/dc7fc95d-8136-4622-a34e-8b566169a02f/ascreenshot.jpeg?tl_px=0,455&br_px=1376,1224&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=217,277)
 
-Use the "Add another" buttons in order to add additional bidders to each list.
+    Use the "Add another" buttons in order to add additional bidders to each list.
 
-### Adding Additional Components
+6. Add additional Components as needed and repeat the above steps.
 
-To add another Component to this TenderBox, click the red "Add another component" button available at the bottom of the Components form:
+    To add another Component to this TenderBox, click the red "Add another component" button available at the bottom of the Components form:
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-13/7111064b-fdd6-4e67-a664-acafb78c5dde/ascreenshot.jpeg?tl_px=0,733&br_px=1376,1502&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=281,277)
+    ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-13/7111064b-fdd6-4e67-a664-acafb78c5dde/ascreenshot.jpeg?tl_px=0,733&br_px=1376,1502&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=281,277)
 
 ---
 
