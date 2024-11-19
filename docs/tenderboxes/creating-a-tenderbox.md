@@ -309,9 +309,7 @@ By referring to the Scoring Summary one can easily verify multiple aspects of th
 
 ## Generating the TenderBox
 
-It is important to note that nothing in the TenderBox Creation form is saved until such point as the "Save" button is clicked.
-
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-18/1a6f5216-514e-47bb-af58-faf1b57aa25e/ascreenshot.jpeg?tl_px=125,227&br_px=1272,868&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=844,247)
+It is important to note that nothing in the TenderBox Creation form is saved until such point as the "Save" button at the bottom of the page is clicked.
 
 Upon saving, the TenderBox itself is generated based on the provided configuration. You will be redirected to the TenderBox form itself in order to verify the final result.
 
