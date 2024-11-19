@@ -42,6 +42,8 @@ theme:
   palette:
     primary: custom
     accent: custom
+  logo: img/PURCOSAlogoreversed.png
+  favicon:
 
 extra_css:
   - style.css
