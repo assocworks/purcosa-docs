@@ -10,7 +10,11 @@ $(document).ready(function() {
           console.log("clicked");
           e.stopPropagation();
           $(this).children("input").click();
-          if ($(this).hasClass('md-nav__link--active') && $(this).parent().children('nav').hasClass('md-nav--secondary')) {
+          if (
+            $(this).hasClass("md-nav__item--active") &&
+            $(this).children("nav").hasClass("md-nav--secondary")
+          ) {
+            e.stopImmediatePropagation();
             e.preventDefault();
           }
         }
