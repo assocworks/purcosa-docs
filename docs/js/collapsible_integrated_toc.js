@@ -21,7 +21,7 @@ $(document).ready(function() {
             $(item).addClass("md-nav__item--nested");
             $(item).children('nav').children('ul').children('li').each(recursiveParentMod);
             $(item).children("a").append($(toggleSpan));
-            if ($(item).children('input').length) {
+            if (!$(item).children('input').length) {
                 const toggleBoxO = $(toggleBox);
                 $(item).prepend(toggleBoxO);
             }
