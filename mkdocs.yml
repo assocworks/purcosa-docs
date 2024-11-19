@@ -43,7 +43,20 @@ theme:
     primary: custom
     accent: custom
   logo: img/PURCOSAlogoreversed.png
-  favicon:
+  favicon: img/favicon.png
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.preview
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.path
+    - navigation.top
+    - toc.integrate
+    - toc.follow
+    - search.suggest
+    - search.highlight
 
 extra_css:
   - style.css
