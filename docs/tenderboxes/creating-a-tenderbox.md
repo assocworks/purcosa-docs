@@ -30,7 +30,7 @@
 
 ---
 
-## Adding Components
+## Configuring Components
 
 1. By default Components are **not** 'required', a Component should only be set as required when it is compulsory for all bidders and not a Component that should be optionally selectable. To require a Component, click the button with the asterisk icon, a red asterisk indicates that it is set as required.
 
@@ -53,51 +53,51 @@
 
     When enabled the configuration options discussed below are provided.
 
-### Pricing Formula
+    ### Pricing Formula
 
-By default "Based on lowest price" is selected as the formula to be used. When applicable click the "Based on highest offer (Sale and letting of assets)" option in order to use the formula that favours higher offers rather than lower prices.
+    By default "Based on lowest price" is selected as the formula to be used. When applicable click the "Based on highest offer (Sale and letting of assets)" option in order to use the formula that favours higher offers rather than lower prices.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-13/de4132a3-807e-4a5e-a7e4-2951ccfffb76/ascreenshot.jpeg?tl_px=0,296&br_px=1376,1065&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=166,277)
-
-
-### Preference Point System
-
-By default the 80:20 system is selected, this means that of a final score out of 100 points, 20 of those points will be determined by the bidder's B-BEE scorecard. Selecting 90:10 will mean that 10 points will be assigned based on the B-BEE scorecard. The last option excludes B-BEE points, leaving 100 points for the "price element" which in all cases can be further customised in a later step.
-
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-13/a6c09869-841b-4f7f-a08e-54ba6c0ca53a/ascreenshot.jpeg?tl_px=0,419&br_px=1376,1188&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=166,277)
+    ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-13/de4132a3-807e-4a5e-a7e4-2951ccfffb76/ascreenshot.jpeg?tl_px=0,296&br_px=1376,1065&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=166,277)
 
 
-### Functionality Pass Type
+    ### Preference Point System
 
-By default "Pass each phase" is selected. This means that when multiple functionality phases are included for this component, the bidder should pass each one in order to qualify for the following one. Alternatively, a pass can be determined based on the bidder's average score (%) across all functionality phases. In this case select "Minimum combines score" and provide the value for the passing percentage.
+    By default the 80:20 system is selected, this means that of a final score out of 100 points, 20 of those points will be determined by the bidder's B-BEE scorecard. Selecting 90:10 will mean that 10 points will be assigned based on the B-BEE scorecard. The last option excludes B-BEE points, leaving 100 points for the "price element" which in all cases can be further customised in a later step.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-13/4ff13627-3dae-445f-884e-4c15f536c583/ascreenshot.jpeg?tl_px=0,429&br_px=1376,1198&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=522,277)
+    ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-13/a6c09869-841b-4f7f-a08e-54ba6c0ca53a/ascreenshot.jpeg?tl_px=0,419&br_px=1376,1188&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=166,277)
 
-### Customised Scoring Elements
 
-By default, 80, 90, or 100 (depending on the selected **Preference Point System**) of the final 100 points will be determined by the bidder's pricing score (the result of applying the selected **Pricing Formula** to that bidder's price / offer). This element can be further customised however.
+    ### Functionality Pass Type
 
-- Adding a functionality element:
-    By setting a number for the value of the functionality element, the specified number of points will be allocated to the bidder's functionality score. (If the value for the functionality element is 10 and the bidder scored 70% for functionality, they would then be awarded 7 of the 10 points.)
-        
-    ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-13/8835fe89-9999-4c94-8de8-1056bd9e017d/ascreenshot.jpeg?tl_px=745,197&br_px=2122,966&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=895,277)
+    By default "Pass each phase" is selected. This means that when multiple functionality phases are included for this component, the bidder should pass each one in order to qualify for the following one. Alternatively, a pass can be determined based on the bidder's average score (%) across all functionality phases. In this case select "Minimum combines score" and provide the value for the passing percentage.
 
-    You will notice that the points that remain for the price element are automatically updated based on the value provided.
+    ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-13/4ff13627-3dae-445f-884e-4c15f536c583/ascreenshot.jpeg?tl_px=0,429&br_px=1376,1198&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=522,277)
 
-    ![](../img/tenderbox-creating-price-element.png)
+    ### Customised Scoring Elements
 
-- Adding a custom element:
-    A custom element can be added by entering a name and assigning a value for it. When assessing submissions for this TenderBox, a field will be provided for the manual capture of the bidder's score for this custom element.
+    By default, 80, 90, or 100 (depending on the selected **Preference Point System**) of the final 100 points will be determined by the bidder's pricing score (the result of applying the selected **Pricing Formula** to that bidder's price / offer). This element can be further customised however.
 
-    ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-13/c5abad20-499e-42f0-8037-54562237a3af/ascreenshot.jpeg?tl_px=745,266&br_px=2122,1035&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=811,277)
+    - **Adding a functionality element:**
+        By setting a number for the value of the functionality element, the specified number of points will be allocated to the bidder's functionality score. (If the value for the functionality element is 10 and the bidder scored 70% for functionality, they would then be awarded 7 of the 10 points.)
+            
+        ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-13/8835fe89-9999-4c94-8de8-1056bd9e017d/ascreenshot.jpeg?tl_px=745,197&br_px=2122,966&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=895,277)
 
-    As with the functionality element, you will notice the price element value automatically adjusts:
+        You will notice that the points that remain for the price element are automatically updated based on the value provided.
 
-    ![](../img/tenderbox-creating-price-element-custom.png)
+        ![](../img/tenderbox-creating-price-element.png)
 
-    Click the "Add more" button if you need to add more custom elements.
+    - **Adding a custom element:**
+        A custom element can be added by entering a name and assigning a value for it. When assessing submissions for this TenderBox, a field will be provided for the manual capture of the bidder's score for this custom element.
 
-    ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-13/f49e2479-d8b2-44de-9d3c-68bcb3c927d2/ascreenshot.jpeg?tl_px=475,330&br_px=1852,1099&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=523,277)
+        ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-13/c5abad20-499e-42f0-8037-54562237a3af/ascreenshot.jpeg?tl_px=745,266&br_px=2122,1035&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=811,277)
+
+        As with the functionality element, you will notice the price element value automatically adjusts:
+
+        ![](../img/tenderbox-creating-price-element-custom.png)
+
+        Click the "Add more" button if you need to add more custom elements.
+
+        ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-13/f49e2479-d8b2-44de-9d3c-68bcb3c927d2/ascreenshot.jpeg?tl_px=475,330&br_px=1852,1099&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=523,277)
 
 
 ### Additional Points
@@ -154,7 +154,7 @@ To add another Component to this TenderBox, click the red "Add another component
 
 ---
 
-## Adding Mandatory Requirements
+## Configuring Mandatory Requirements
 
 Select the **Mandatory** tab to set up the Mandatory Requirements for the TenderBox.
 
@@ -203,7 +203,7 @@ Each requirement "set" as a whole (not the included fields individually) can be 
 
 ---
 
-## Adding Phases & Functionality Requirements
+## Configuring Phases & Functionality Requirements
 
 Select the "Phases and Functionality Requirements" tab to configure one or more phases and set up the Functionality Requirements for each of these.
 
