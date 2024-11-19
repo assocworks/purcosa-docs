@@ -10,6 +10,9 @@ $(document).ready(function() {
           console.log("clicked");
           e.stopPropagation();
           $(this).children("input").click();
+          if ($(this).hasClass('md-nav__link--active') && $(this).parent().children('nav').hasClass('md-nav--secondary')) {
+            e.preventDefault();
+          }
         }
     });
 
@@ -17,9 +20,11 @@ $(document).ready(function() {
         if ($(item).children('nav').length) {
             $(item).addClass("md-nav__item--nested");
             $(item).children('nav').children('ul').children('li').each(recursiveParentMod);
-            const toggleBoxO = $(toggleBox);
             $(item).children("a").append($(toggleSpan));
-            $(item).prepend(toggleBoxO);
+            if ($(item).children('input').length) {
+                const toggleBoxO = $(toggleBox);
+                $(item).prepend(toggleBoxO);
+            }
             // $(item).off('click').on('click', function() {
             //     console.log('clicked');
             //     toggleBoxO.click();
