@@ -30,7 +30,7 @@
 
 ---
 
-## Setting up Components
+## Adding Components
 
 1. By default Components are **not** 'required', a Component should only be set as required when it is compulsory for all bidders and not a Component that should be optionally selectable. To require a Component, click the button with the asterisk icon, a red asterisk indicates that it is set as required.
 
@@ -287,9 +287,21 @@ Follow these steps to set up Customer Reference Sets:
 
 ## Reviewing the Scoring Summary
 
-Select the "Scoring Summary" tab to see an overview of the current TenderBox configuration as you build it.
+Switch over to the "Scoring Summary" tab to see an overview of the TenderBox's scoring configuration as you build it.
 
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-18/1a6f5216-514e-47bb-af58-faf1b57aa25e/ascreenshot.jpeg?tl_px=125,227&br_px=1272,868&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=844,247)
+
+At the top of the Scoring Summary the names of the Components are listed alongside their Component numbers.
+Below that, a table is displayed which includes a row for every Functionality Requirement Set, sectioned according to the Phase they belong to. On the right hand side a column is provided for each Component.
+
+![](../img/tenderbox-creating-scoring-summary.png)
+
+In this screenshot the first Phase (named "Functionality") and second Phase (named "Electrical") of this TenderBox are shown.
+A tick in a Component column indicates that the requirement is included for that Component.
+Here we can see that the third requirement of the first Phase ("Affiliation to Relevant Industry Association") is included for only the first 3 Components. The second Phase ("Electrical") has been set up specifically for Component 2 which shares the same name, we can see these requirements are only assigned to Component 2.
+The column to the right of each requirement name shows the assigned points value. In the header row of each Phase, the Component columns display the total number of points that the Phase holds for each Component.
+
+By referring to the Scoring Summary one can easily verify multiple aspects of the scoring configuration at a quick glance.
 
 ---
 
