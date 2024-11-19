@@ -139,7 +139,7 @@
 
     - View & Assess: bidders included in this list will be able to view submitted data and files as well as assess and score for this component.
     - View: bidders included in this list will be able to view submitted data and files for this component, but will not be able to assess or score.
-
+    
     Begin typing the username of the user who you wish to add to the relevant access list and select them from the dropdown:
 
     ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-13/dc7fc95d-8136-4622-a34e-8b566169a02f/ascreenshot.jpeg?tl_px=0,455&br_px=1376,1224&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=217,277)
