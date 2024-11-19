@@ -9,8 +9,12 @@ $(document).ready(function() {
         if ($(item).children('nav').length) {
             $(item).addClass("md-nav__item--nested");
             $(item).children('nav').children('ul').children('li').each(recursiveParentMod);
+            const toggleBoxO = $(toggleBox);
             $(item).children("a").append($(toggleSpan));
-            $(item).append($(toggleBox));
+            $(item).prepend(toggleBoxO);
+            $(item).click(function() {
+                toggleBoxO.click();
+            });
         }
     }
 
