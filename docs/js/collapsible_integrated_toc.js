@@ -72,7 +72,7 @@ $(document).ready(function() {
     }
   }
 
-  var targets = document.querySelector(".md-nav--primary > ul > .md-nav__item--nested > nav > ul li > a");
+  var targets = document.querySelectorAll(".md-nav--primary > ul > .md-nav__item--nested > nav > ul li > a");
 
   var observer = new MutationObserver(function(mutations) {
     mutations.forEach(function(mutation) {
@@ -91,11 +91,10 @@ $(document).ready(function() {
     });
   });
 
-  // Observer configuration
   var config = {
-    attributes: true, // Listen for attribute changes
-    attributeFilter: ["class"], // Only observe changes to the 'class' attribute
-    attributeOldValue: true, // Store the previous value of the class attribute
+    attributes: true,
+    attributeFilter: ["class"],
+    attributeOldValue: true,
   };
 
   // Start observing the target element
@@ -105,6 +104,5 @@ $(document).ready(function() {
     console.log("No matching targets found");
   }
 
-  // To stop observing later
   // observer.disconnect();
 });
