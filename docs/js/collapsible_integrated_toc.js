@@ -75,6 +75,7 @@ $(document).ready(function() {
 
   var observer = new MutationObserver(function(mutations) {
     mutations.forEach(function(mutation) {
+        console.log(mutation);
       if (
         mutation.type === "attributes" &&
         mutation.attributeName === "class"
@@ -99,6 +100,8 @@ $(document).ready(function() {
   // Start observing the target element
   if (target) {
     observer.observe(target, config);
+  } else {
+    console.log('NO TARGET');
   }
 
   // To stop observing later
