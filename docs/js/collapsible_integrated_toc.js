@@ -33,8 +33,8 @@ $(document).ready(function() {
             if (!$(item).children('input').length) {
                 const toggleBoxO = $(toggleBox);
                 $(item).prepend(toggleBoxO);
-            } else if ($(item).children(input).attr("id") == "__toc") {
-                $(item).children(input).attr('checked', true);
+            } else if ($(item).children('input').attr("id") == "__toc") {
+                $(item).children('input').attr('checked', true);
             }
             // $(item).off('click').on('click', function() {
             //     console.log('clicked');
