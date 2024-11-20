@@ -64,14 +64,15 @@ $(document).ready(function() {
   });
 
   function openActiveItem(el) {
-    if (thisToggleBox = $(el).prev('input')) {
+    const thisToggleBox = $(el).prev("input");
+    if (thisToggleBox) {
         if (!thisToggleBox.is(":checked")) {
             thisToggleBox.attr('checked', true);
         }
     }
   }
 
-  var target = document.querySelector(".md-nav--primary > ul > .md-nav__item--nested > nav > ul li > a");
+  var targets = document.querySelector(".md-nav--primary > ul > .md-nav__item--nested > nav > ul li > a");
 
   var observer = new MutationObserver(function(mutations) {
     mutations.forEach(function(mutation) {
@@ -82,8 +83,8 @@ $(document).ready(function() {
       ) {
         console.log(mutation.target.className);
 
-        if (!(mutation.oldValue.includes("md-nav__link--active"))
-            && mutation.target.className.includes("md-nav__link--active")) {
+        if (!(mutation.oldValue.contains("md-nav__link--active"))
+            && mutation.target.className.contains("md-nav__link--active")) {
                 openActiveItem(mutation.target);
         }
       }
@@ -98,10 +99,10 @@ $(document).ready(function() {
   };
 
   // Start observing the target element
-  if (target) {
-    observer.observe(target, config);
+  if (targets.length > 0) {
+    targets.forEach((target) => {observer.observe(target, config);});
   } else {
-    console.log('NO TARGET');
+    console.log("No matching targets found");
   }
 
   // To stop observing later
