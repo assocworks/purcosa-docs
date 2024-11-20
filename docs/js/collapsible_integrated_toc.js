@@ -75,6 +75,21 @@ $(document).ready(function() {
     }
   }
 
+  function checkForLastItemPassed(li) {
+    if (li.length && li.is(':last-child')) {
+      const parentItem = li.closest('nav').parent('li');
+      if (parentItem.length) {
+        const thisToggleBox = parentItem.children("input");
+        if (thisToggleBox.length) {
+          if (thisToggleBox.is(":checked")) {
+            thisToggleBox.prop("checked", false);
+            checkForLastItemPassed(parentItem);
+          }
+        }
+      }
+    }
+  }
+
   var targets = document.querySelectorAll(".md-nav--primary > ul > .md-nav__item--nested > nav > ul li > a");
 
   var observer = new MutationObserver(function(mutations) {
@@ -90,8 +105,8 @@ $(document).ready(function() {
             && mutation.target.className.includes("md-nav__link--active")) {
                 console.log($(mutation.target).parent("li"));
                 openActiveItem($(mutation.target).parent('li'));
-        } else if (!mutation.target.className.includes("md-nav__link--active")) {
-          
+        } else if (mutation.target.className.includes("md-nav__link--passed")) {
+          checkForLastItemPassed($(mutation.target).parent('li'));
         }
       }
     });
