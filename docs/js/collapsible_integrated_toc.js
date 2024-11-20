@@ -39,7 +39,7 @@ $(document).ready(function() {
       if (!$(item).children("input").length) {
         const toggleBoxO = $(toggleBox);
         $(item).prepend(toggleBoxO);
-        if ($(item).children("a").hasClass("md-nav__link--active")) {
+        if ($(item).find(".md-nav__link--active").length) {
           toggleBoxO.prop("checked", true);
         }
       } else if ($(item).children("input").attr("id") == "__toc") {
@@ -88,9 +88,10 @@ $(document).ready(function() {
 
         if (!(mutation.oldValue.includes("md-nav__link--active"))
             && mutation.target.className.includes("md-nav__link--active")) {
+                console.log($(mutation.target).parent("li"));
                 openActiveItem($(mutation.target).parent('li'));
-        } else if (!mutation.target.classList.includes("md-nav__link--active")) {
-
+        } else if (!mutation.target.className.includes("md-nav__link--active")) {
+          
         }
       }
     });
