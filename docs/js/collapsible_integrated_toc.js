@@ -6,7 +6,10 @@ $(document).ready(function() {
     const toggleBox = "<input class='md-nav__toggle md-toggle' type='checkbox'>";
 
     $(document).on('click', '.md-nav__item--nested', function(e) {
-        if ($(e.target).closest(".md-nav__item--nested").is(this) && !$(e.target).is('input')) {
+        if (
+          $(e.target).closest(".md-nav__item").is(this) &&
+          !$(e.target).is("input")
+        ) {
           console.log("clicked");
           e.stopPropagation();
           $(this).children("input").click();
@@ -30,6 +33,8 @@ $(document).ready(function() {
             if (!$(item).children('input').length) {
                 const toggleBoxO = $(toggleBox);
                 $(item).prepend(toggleBoxO);
+            } else if ($(item).children(input).attr("id") == "__toc") {
+                $(item).children(input).attr('checked', true);
             }
             // $(item).off('click').on('click', function() {
             //     console.log('clicked');
