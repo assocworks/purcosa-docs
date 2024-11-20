@@ -40,10 +40,10 @@ $(document).ready(function() {
         const toggleBoxO = $(toggleBox);
         $(item).prepend(toggleBoxO);
         if ($(item).children("a").hasClass("md-nav__link--active")) {
-          toggleBoxO.attr("checked", true);
+          toggleBoxO.prop("checked", true);
         }
       } else if ($(item).children("input").attr("id") == "__toc") {
-        $(item).children("input").attr("checked", true);
+        $(item).children("input").prop("checked", true);
       }
       // $(item).off('click').on('click', function() {
       //     console.log('clicked');
@@ -63,12 +63,15 @@ $(document).ready(function() {
       });
   });
 
-  function openActiveItem(el) {
-    const thisToggleBox = $(el).prev("input");
-    if (thisToggleBox) {
+  function openActiveItem(li) {
+    if (li.length) {
+      const thisToggleBox = li.children("input");
+      if (thisToggleBox.length) {
         if (!thisToggleBox.is(":checked")) {
-            thisToggleBox.attr('checked', true);
+          thisToggleBox.prop("checked", true);
         }
+      }
+      openActiveItem(li.closest("nav").parent("li"));
     }
   }
 
@@ -83,9 +86,11 @@ $(document).ready(function() {
       ) {
         console.log(mutation.target.className);
 
-        if (!(mutation.oldValue.contains("md-nav__link--active"))
-            && mutation.target.className.contains("md-nav__link--active")) {
-                openActiveItem(mutation.target);
+        if (!(mutation.oldValue.includes("md-nav__link--active"))
+            && mutation.target.className.includes("md-nav__link--active")) {
+                openActiveItem($(mutation.target).parent('li'));
+        } else if (!mutation.target.classList.includes("md-nav__link--active")) {
+
         }
       }
     });
