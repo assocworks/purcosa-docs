@@ -15,12 +15,15 @@ $(document).ready(function() {
           $(this).children("input").click();
           if (
             $(this).hasClass("md-nav__item--active") &&
-            $(this).children("nav").hasClass("md-nav--secondary")
+            $(this).is(".md-nav--primary > ul > li > nav > ul > li")
           ) {
             e.stopImmediatePropagation();
             e.preventDefault();
-            $(this).removeClass("md-nav__item--active");
-            $(this).children("nav").removeClass("md-nav--secondary");
+            if ($(this).children("nav").hasClass("md-nav--secondary")) {
+              $(this).children("nav").removeClass("md-nav--secondary");
+            } else {
+              $(this).children("nav").addClass("md-nav--secondary");
+            }
           }
         }
     });
