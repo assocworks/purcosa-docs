@@ -14,8 +14,8 @@ nav:
     - 'Allocating access': './tenderboxes/allocating-access.md'
     - 'Publishing and unpublishing': './tenderboxes/publishing-unpublishing.md'
     - 'Helping a supplier with access': './tenderboxes/supplier-access.md'
+    - 'Viewing & Assessing Bids': './tenderboxes/viewing-and-assessing-bids.md'
     - 'Downloading submitted files': './tenderboxes/downloading-files.md'
-    - 'Assessing Bids': './tenderboxes/assessing-bids.md'
   - Contracts:
     - 'Viewing & Exporting Contracts': './contracts/viewing-contracts.md'
     - 'Contract Document Management': './contracts/managing-contract-documents.md'

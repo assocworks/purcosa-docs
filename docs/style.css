@@ -91,3 +91,7 @@ hr {
     vertical-align: -.1rem;
     width: 100%;
 }
+.md-nav__item--nested .md-nav__toggle:checked~.md-nav__link .md-nav__icon:after,
+.md-nav__item--nested .md-toggle--indeterminate~.md-nav__link .md-nav__icon:after {
+    transform: rotate(90deg);
+}
