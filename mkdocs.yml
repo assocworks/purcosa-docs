@@ -11,11 +11,11 @@ nav:
     - 'The Tender Dashboard': './tenders/tender-dashboard.md'
   - TenderBoxes:
     - 'Creating a TenderBox': './tenderboxes/creating-a-tenderbox.md'
-    - 'Allocating access': './tenderboxes/allocating-access.md'
-    - 'Publishing and unpublishing': './tenderboxes/publishing-unpublishing.md'
-    - 'Helping a supplier with access': './tenderboxes/supplier-access.md'
+    - 'Allocating Access': './tenderboxes/allocating-access.md'
+    - 'Publishing and Unpublishing': './tenderboxes/publishing-unpublishing.md'
+    - 'Helping a Supplier with Access': './tenderboxes/supplier-access.md'
     - 'Viewing & Assessing Bids': './tenderboxes/viewing-and-assessing-bids.md'
-    - 'Downloading submitted files': './tenderboxes/downloading-files.md'
+    - 'Downloading Submitted Files & Data': './tenderboxes/downloading-files.md'
   - Contracts:
     - 'Viewing & Exporting Contracts': './contracts/viewing-contracts.md'
     - 'Contract Document Management': './contracts/managing-contract-documents.md'
