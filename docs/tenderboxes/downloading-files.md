@@ -38,7 +38,7 @@ The below screenshot shows a Submission Register spreadsheet exported by using t
 
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-11/2241775a-9ca9-408f-9b1e-25f15691c08e/screenshot.jpeg?tl_px=0,0&br_px=1648,902&force_format=jpeg&q=100&width=1120.0)
 
-See [Download Range Options](./downloading-submitted-files.md) if you wish to include only a specific range of submissions.
+See [Download Range Options](./downloading-files.md#download-range-options) if you wish to include only a specific range of submissions.
 
 ### Structured File Archive
 
@@ -47,7 +47,7 @@ We recommend selecting the "TAR Archive (Tenderbox)" option for downloading all 
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-11/3a7cda3b-6a87-460a-894f-5b39bb0230c9/ascreenshot.jpeg?tl_px=0,419&br_px=1376,1188&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=58,277)
 
 - The resulting downloaded archive will contain each bidder's files in a separate subfolder.
-- A [Submission Register Spreadsheet](./downloading-submitted-files.md#submission-register-spreadsheet) is included.
+- A [Submission Register Spreadsheet](./downloading-files.md#submission-register-spreadsheet) is included.
 - This is the only option that will work for large downloads (multiple gigabytes).
 
 You may need a third-party application like 7-Zip or WinZip to extract the TAR file if your system cannot open it, check with your ICT department.
@@ -74,7 +74,7 @@ To change this click "Download range options" towards the bottom of the download
 ### Specifying a Single Bid
 
 1. Select "Submissions by number from".
-2. Enter the submission number of the desired submission in the input box provided. (Submission numbers are provided in the first column of the [Submission Register Spreadsheet](./downloading-submitted-files.md#submission-register-spreadsheet))
+2. Enter the submission number of the desired submission in the input box provided. (Submission numbers are provided in the first column of the [Submission Register Spreadsheet](./downloading-files.md#submission-register-spreadsheet))
 
     ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-11-11/ce243e6b-25a4-4491-8e9b-69371222288f/ascreenshot.jpeg?tl_px=0,250&br_px=1376,1019&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/ee0000_standard.png&wat_pad=309,277)
 

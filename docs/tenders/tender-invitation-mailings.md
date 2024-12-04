@@ -2,7 +2,7 @@
 
 Tender invitation mailings are automatically created (as unsent drafts) when a new tender is created, and automatically updated when editing an existing tender (provided of course that mailing has not yet been sent).
 
-If for any reason more than one invitation email is required, additional drafts should be created manually but rather through the Emails tab in the **Tender Dashboard**. See [Tender Dashboard - Emails Tab](./tender-dashboard/#emails-tab). This ensures the additional emails are correctly linked to the tender record.
+If for any reason more than one invitation email is required, additional drafts should be created manually but rather through the Emails tab in the **Tender Dashboard**. See [Tender Dashboard - Emails Tab](./tender-dashboard#emails-tab). This ensures the additional emails are correctly linked to the tender record.
 
 ## Creating a Tender Mailing Group
 

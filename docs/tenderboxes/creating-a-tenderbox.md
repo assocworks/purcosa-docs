@@ -179,7 +179,7 @@ Each requirement "set" as a whole (not the included fields individually) can be 
 
 2. Enter a name for this requirement.
 
-3. On the right hand side of the screen, configure the fields to be included for this requirement. See [Field Types & Options](./creating-a-tenderbox.md/#field-types--options) for more information.
+3. On the right hand side of the screen, configure the fields to be included for this requirement. See [Field Types & Options](./creating-a-tenderbox.md#field-types--options) for more information.
 
     1. Select the field type for this field and configure any additional settings the field type provides.
 

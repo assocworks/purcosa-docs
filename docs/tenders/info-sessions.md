@@ -5,6 +5,7 @@
 We have adjusted the wording and design based on feedback from suppliers registering for Info Sessions. Key changes were made to enhance clarity and prevent misunderstandings.
 
 - **Common Issues Encountered**:
+
     1. Some suppliers failed to attend physical sessions, mistakenly waiting for online meeting details.
     2. Some suppliers thought that clicking the 'Register to attend' link automatically added them to the Attendance Register.
 
@@ -48,7 +49,7 @@ The Registration List is downloadable but is not to be used as an Attendance Reg
 
 ## Downloading the Attendance Register
 
-To download the official printable Attendance Register that should be used at the event, a link is provided in the Information Session tab of the Tender Dashboard. See [Tender Dashboard - Information Session Tab](./tender-dashboard/#information-session-tab).
+To download the official printable Attendance Register that should be used at the event, a link is provided in the Information Session tab of the Tender Dashboard. See [Tender Dashboard - Information Session Tab](./tender-dashboard#information-session-tab).
 
 ## Updating Who Attended
 
