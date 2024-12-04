@@ -1,5 +1,4 @@
 $(document).ready(function() {
-  console.log("worked");
 
   const toggleSpan = "<span class='md-nav__icon md-icon'></span>";
   const toggleBox = "<input class='md-nav__toggle md-toggle' type='checkbox'>";
@@ -7,15 +6,13 @@ $(document).ready(function() {
   $(document).on("click", ".md-nav__item--nested", function (e) {
     if (
       $(e.target).closest(".md-nav__item").is(this) &&
-      !$(e.target).is("input")
+      !$(e.target).is("input") &&
+      $(this).hasClass("md-nav__item--active")
     ) {
       console.log("clicked");
       e.stopPropagation();
       $(this).children("input").click();
-      if (
-        $(this).hasClass("md-nav__item--active") &&
-        $(this).is(".md-nav--primary > ul > li > nav > ul > li")
-      ) {
+      if ($(this).is(".md-nav--primary > ul > li > nav > ul > li")) {
         e.stopImmediatePropagation();
         e.preventDefault();
         if ($(this).children("nav").hasClass("md-nav--secondary")) {
@@ -99,8 +96,6 @@ $(document).ready(function() {
         mutation.type === "attributes" &&
         mutation.attributeName === "class"
       ) {
-        console.log(mutation.target.className);
-
         if (!(mutation.oldValue.includes("md-nav__link--active"))
             && mutation.target.className.includes("md-nav__link--active")) {
                 console.log($(mutation.target).parent("li"));
@@ -121,8 +116,6 @@ $(document).ready(function() {
   // Start observing the target element
   if (targets.length > 0) {
     targets.forEach((target) => {observer.observe(target, config);});
-  } else {
-    console.log("No matching targets found");
   }
 
   // observer.disconnect();
