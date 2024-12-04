@@ -49,7 +49,7 @@ The Registration List is downloadable but is not to be used as an Attendance Reg
 
 ## Downloading the Attendance Register
 
-To download the official printable Attendance Register that should be used at the event, a link is provided in the Information Session tab of the Tender Dashboard. See [Tender Dashboard - Information Session Tab](./tender-dashboard#information-session-tab).
+To download the official printable Attendance Register that should be used at the event, a link is provided in the Information Session tab of the Tender Dashboard. See [Tender Dashboard - Information Session Tab](./tender-dashboard.md#information-session-tab).
 
 ## Updating Who Attended
 

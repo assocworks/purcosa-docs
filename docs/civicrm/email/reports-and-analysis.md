@@ -10,7 +10,7 @@ You can view reports for individual mailings by navigating to **Mailings > Sched
 
 ### Delivery Summary
 
-![Delivery Summary Example](../img/report_email-en.png "Delivery Summary")
+![Delivery Summary Example](../../img/report_email-en.png "Delivery Summary")
 
 The delivery summary provides high-level statistics, with clickable links for detailed recipient lists.
 
@@ -52,7 +52,7 @@ If your server processes bounces, contacts with invalid email addresses will be 
 3. **Advanced Search**:
    - Use **Search > Advanced Search** and filter by bounce type in the Mailings area to identify and address specific bounce issues.
 
-![Advanced Search for Bounces](../img/advanced_search_mailing_bounce_type.png)
+![Advanced Search for Bounces](../../img/advanced_search_mailing_bounce_type.png)
 
 ---
 
@@ -66,7 +66,7 @@ This section provides detailed statistics for each link in your email.
   
 - **Unique Clicks**: The number of distinct recipients who clicked the link.
 
-![Click-Through Summary](../img/click_through_summary.png)
+![Click-Through Summary](../../img/click_through_summary.png)
 
 ---
 

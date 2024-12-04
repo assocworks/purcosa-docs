@@ -9,7 +9,7 @@ The standard flow for online registration follows these steps:
 3. **Confirmation**: A page summarizes the participant’s entered details and confirms their registration.
 4. **Thank You**: A final page informs participants that their registration is complete and they will receive a receipt via email.
 
-![schematical representation](../img/CiviCRM-CiviEvent-event_registrationflow_1-en.png "event_registrationflow_1")
+![schematical representation](../../img/CiviCRM-CiviEvent-event_registrationflow_1-en.png "event_registrationflow_1")
 
 ---
 
@@ -17,7 +17,7 @@ The standard flow for online registration follows these steps:
 
 To enable online registration, select **Allow Online Registration** in the **Online Registration** tab when creating or editing an event. Use the options on this tab to configure the registration process.
 
-![The fourth tab of the event form contains the online registration settings.](../img/event_online_rego_part_1.png)
+![The fourth tab of the event form contains the online registration settings.](../../img/event_online_rego_part_1.png)
 
 Key configurations include:
 
@@ -45,7 +45,7 @@ Configure the content displayed on the confirmation page, thank-you page, and in
 
 Enable **Send Confirmation Email** to ensure registrants receive an acknowledgment and, for paid events, a receipt. Set a valid **Confirm From Email** address to avoid delivery issues.
 
-![screenshot](../img/CiviCRM_update-CiviEvent-OnlineRegEmail-en.png "OnlineRegEmail")
+![screenshot](../../img/CiviCRM_update-CiviEvent-OnlineRegEmail-en.png "OnlineRegEmail")
 
 ---
 

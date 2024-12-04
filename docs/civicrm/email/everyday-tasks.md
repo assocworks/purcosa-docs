@@ -45,25 +45,25 @@ Adding images to your email is straightforward using the WYSIWYG editor.
 
 1. Click the **Image** button in the WYSIWYG editor.
 
-   ![Insert Image Button](../img/Screen_Shot_2015-04-25_at_3.06.40_PM.png)
+   ![Insert Image Button](../../img/Screen_Shot_2015-04-25_at_3.06.40_PM.png)
 
 2. In the **Image Properties** window, click **Browse Server** to locate the image.
 
-   ![Browse Server](../img/civimail_window_to_browse_server_2.png)
+   ![Browse Server](../../img/civimail_window_to_browse_server_2.png)
 
 3. If the image is already uploaded:
    - Navigate through the directories in the sidebar, locate the image, and select it.
 4. To upload a new image:
    - Click **Upload**, choose the image file from your computer, and click **Open**. You can upload multiple files at once.
 
-   ![File Directory](../img/civimail_file_directory_3.png)
+   ![File Directory](../../img/civimail_file_directory_3.png)
 
 5. Insert the image:
    - Double-click the selected image to return to the **Image Properties** window.
    - Adjust size, alignment, or border settings as needed.
    - Fill in the **Alternative Text** field for accessibility (displayed when the image is not loaded or for users with visual impairments).
 
-   ![Insert Image](../img/civimail_Insert_image_6.png)
+   ![Insert Image](../../img/civimail_Insert_image_6.png)
 
 6. Click **OK** to insert the image into your email.
 
