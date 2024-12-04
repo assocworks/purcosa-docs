@@ -30,6 +30,8 @@
 
 ## Tender Title and Description
 
+![Tender Title Field](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-10-11/f89028c2-75ec-4813-bb38-3df98c048f15/ascreenshot.jpeg?tl_px=0,55&br_px=1719,1016&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/b61208_standard.png&wat_pad=89,276)
+
 ### Tender Title 
 
 Enter a brief and concise title for the tender, such as "3-year contract for supply of audiovisual equipment."  
@@ -43,13 +45,11 @@ Provide a detailed description of the tender, including all relevant information
 - Do not use all capital letters.
 - The description field is important as it populates contract records for awarded tenders.
 
-![Tender Description Field](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-10-11/5M3XlmYrpemcgDMzerCuftpx/ascreenshot.jpeg?tl_px=0,0&br_px=1800,1200&force_format=jpeg&q=100&width=1120.0)
-
 Use this field to clearly describe the requirements and scope of the tender, ensuring that suppliers have all necessary details before making a submission.
 
 ---
 
-## Tender information
+## Tender Information
 
 ### Type
 
@@ -121,7 +121,7 @@ Select the category type (usually 'PRODUCTS' or 'SERVICES'), then the parent cat
 
 ---
 
-## Associated tender/s
+## Associated Tender/s
 
 This section allows you to optionally associate this tender with one or more previously existing tenders, particularly important in the case of a Re-tender.
 
@@ -137,7 +137,7 @@ You may add more than one associated tender if necessary:
 
 ---
 
-## Requirements & notes
+## Requirements & Notes
 
 Provide any specific requirements or notes for the tender. Examples include instructions for pre-purchase inquiries or details on related transactions.
 
@@ -147,7 +147,7 @@ You can format the notes using the provided rich text editor.
 
 ---
 
-## Payment terms
+## Payment Terms
 
 ### Fee payable to PURCO SA
 
@@ -155,13 +155,13 @@ Specify the fee that suppliers need to pay in order to access this tender. If th
 
   ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-10-11/cb043edd-617a-463f-9f12-7b84430d174a/ascreenshot.jpeg?tl_px=0,35&br_px=1719,996&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/b61208_standard.png&wat_pad=393,277)
 
-### Payment terms
+### Payment Terms
 
 If necessary, make adjustments to the Payment terms text.
 
 ---
 
-## Delivery of bids
+## Delivery of Bids
 
 ### Enable online submissions
 
@@ -169,13 +169,13 @@ Selected by default, this allows the creation of a **TenderBox**, to be used by 
 
   ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-10-11/42d3cd54-ade7-4d37-9828-acd25b08a5b2/ascreenshot.jpeg?tl_px=0,0&br_px=1719,961&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/b61208_standard.png&wat_pad=344,237)
 
-### Delivery requirements
+### Delivery Requirements
 
 If necessary, make adjustments to the delivery requirements text that appears in the 'Delivery' tab that suppliers see when viewing a tender.
 
 ---
 
-## Send documents to
+## Send Documents To
 
 If appropriate, select additional options for bid delivery.
 
@@ -185,7 +185,7 @@ Link to help page about adding possible values here ???
 
 ---
 
-## Information session
+## Information Session
 
 ### Create Information sessions
 
@@ -262,7 +262,7 @@ If appropriate select specific contacts who will handle pre-purchase enquiries d
 
 ---
 
-## Advertisement and supporting documents
+## Advertisement and Supporting Documents
 
 ### Advertisement date
 
@@ -280,7 +280,7 @@ The image below demonstrates where the links to these documents will appear when
 
 ---
 
-## Tender documents
+## Tender Documents
 
 Upload files by clicking 'Browse' or drag and drop multiple documents at a time.
 The three categories of files uploadable are explained below:
@@ -301,7 +301,7 @@ These files are not shared with suppliers.
 
 ---
 
-## Contract details
+## Contract Details
 
 ### Expense type
 
@@ -331,7 +331,7 @@ For the following three fields, search for and select the relevant staff member.
 
 ---
 
-## Completing the process
+## Completing the Process
 
 Click the 'Save' button.
 
