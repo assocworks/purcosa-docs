@@ -26,8 +26,8 @@ nav:
     - 'Searching and reporting': './civicrm/searching.md'
     - 'Relationships': './civicrm/relationships.md'
     - Events:
-      - 'What is CiviEvent': './civicrm/what-is-civievent.md'
-      - 'Online event registration': './civicrm/online-event-registration.md'
+      - 'What is CiviEvent': './civicrm/events/what-is-civievent.md'
+      - 'Online event registration': './civicrm/events/online-event-registration.md'
     - Email:
       - 'What is CiviMail': './civicrm/email/what-is-civimail.md'
       - 'What you need to know': './civicrm/email/what-you-need-to-know.md'

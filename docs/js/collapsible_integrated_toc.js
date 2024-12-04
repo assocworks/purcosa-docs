@@ -9,7 +9,6 @@ $(document).ready(function() {
       !$(e.target).is("input") &&
       $(this).hasClass("md-nav__item--active")
     ) {
-      console.log("clicked");
       e.stopPropagation();
       $(this).children("input").click();
       if ($(this).is(".md-nav--primary > ul > li > nav > ul > li")) {
