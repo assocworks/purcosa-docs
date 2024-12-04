@@ -1,107 +1,73 @@
-# Everyday tasks
+# Everyday Tasks
 
-This chapter contains step-by-step instructions for performing some important
-everyday tasks with email. Sending a mass mailing through CiviMail is covered
-in [Mass mailings using CiviMail](mass-mailings-using-civimail.md)
+This chapter provides step-by-step instructions for performing key everyday email tasks in this system. For sending mass mailings, refer to [Mass Mailings Using CiviMail](mass-mailings-using-civimail.md).
 
-## Send an email to one person (with CC and BCC)
+---
 
-You can use CiviCRM to send an email to individuals. Using CiviCRM for
-this purpose is useful if you want other people at your organisation to
-see the email or if you want to send an email based on a pre-defined
-template.
+## Send an Email to One Person (with CC and BCC)
 
-1.  Find the person you wish to email. There are two common ways to do
-    this:
-    -   Use the Quick Search box on the top left. Click inside the box
-        and begin typing a part of the person's name or email address.
-        Choose the person from the choices that are presented.
-    -   Navigate to **Search > Find Contact**. Enter part of the
-        person's name or email address. Click Search and click on the
-        person's name when it shows up on the search results screen.
-2.  From the contact summary page, click **Actions > Send an email** or
-    click the **Activities** tab and choose **Send an Email** from the
-    dropdown menu.
-3.  You can add additional recipients using the CC and BCC fields.
-4.  If you have templates defined, you can choose one from the Use
-    Template dropdown menu. Selecting a template populates the text
-    content and HTML content fields with the message content from the
-    particular template you have chosen. You can then edit that
-    content.
-5.  Enter your content or add content to your template. If you just wish
-    to send a Plain Text version of your email, ignore the HTML Format
-    section and click on the Plain Text Format section. Enter your
-    message in the box.
-6.  Click **Send** to send your message.
+You can send an email to an individual using CiviCRM, which is useful for maintaining a record of the communication or for using predefined templates.
 
-To see the activity that was just recorded of the email sent, click the
-**Activities** tab of the contact.
+1. **Find the contact to email**:
+   - Use the Quick Search box in the navigation menu. Start typing part of the person's name or email address and select them from the suggestions.
+   - Alternatively, go to **Search > Find Contact**, enter part of the contact's name or email, click **Search**, and select their name from the results.
+2. **Send the email**:
+   - From the contact summary page, select **Actions > Send an Email**, or go to the **Activities** tab and choose **Send an Email** from the dropdown menu.
+3. Add recipients in the CC and BCC fields as needed.
+4. If applicable, select a template from the **Use Template** dropdown menu. Templates prepopulate the email with content that you can edit.
+5. Enter your content:
+   - For a plain-text email, ignore the HTML Format section and enter your message in the **Plain Text Format** section.
+6. Click **Send**.
 
-## Sending a quick email to less than 50 contacts
+The email activity will be recorded under the **Activities** tab for both the sender and the recipient.
 
-In the results from a search, CiviCRM makes "Send Email to Contacts"
-available from the actions dropdown menu. This allows you to send an
-email to more than one contact at a time. Sending an email this way is
-relatively quick, but it provides no options for tracking email and
-doesn't give contacts the option to opt out. It is bad practice to use
-this method for mass mailings, which is why it is limited to 50
-contacts. For mass mailings, use CiviMail.
+---
 
-1.  Click **Search > Find Contacts** (or **Advanced
-    Search**). Choose your search criteria and click **Search** (or use
-    any other search to find the contacts that you wish to email).
-2.  From the search results screen, choose some or all of the contacts
-    and click **Actions > Email -send now (to 50 or less)**.
-3.  Follow the same steps as in sending an email to one person.
+## Send a Quick Email to Fewer Than 50 Contacts
 
-Each of the recipient contacts will have this email recorded as an
-Activity in their record. An activity will also be recorded for the
-sender. The activity record will also list all the other message
-recipients. Unlike with mass mailing (see below) there is no one place
-where all emails sent via the Send Email function are listed.
+For quick communication with a small group of contacts, you can send an email to up to 50 recipients directly from the search results.
+
+1. **Find the contacts**:
+   - Go to **Search > Find Contacts** (or use **Advanced Search** or another search method), enter your criteria, and click **Search**.
+2. From the results screen, select the desired contacts and choose **Actions > Email - send now (to 50 or less)**.
+3. Follow the same steps as for sending an email to one person.
+
+Each recipient’s email will be logged as an activity in their record, and the sender will also have the activity logged, listing all recipients.
 
 !!! note
-    If a message is sent to multiple recipients, each recipient
-    will see only their own email address in the To field. Because the
-    recipients don't see who else received the email, you might want to
-    mention whom you are sending it to in the text of your mail (for
-    instance: "TO: Members of the board, staff")
+    Recipients will only see their own email address in the **To** field. Consider mentioning the group of recipients in the email content, e.g., "TO: Members of the board, staff."
 
-## Inserting an image in an email
+---
 
-Click the **image button** in the WYSIWYG editor.
+## Insert an Image in an Email
 
-![](../img/Screen_Shot_2015-04-25_at_3.06.40_PM.png)
+Adding images to your email is straightforward using the WYSIWYG editor.
 
-The Image Properties window will appear. Click **Browse Server** to look
-for image files on your server.
+1. Click the **Image** button in the WYSIWYG editor.
 
-![](../img/civimail_window_to_browse_server_2.png)
+   ![Insert Image Button](../img/Screen_Shot_2015-04-25_at_3.06.40_PM.png)
 
-In the left sidebar, you will see a directory of files. If the image you
-need is already uploaded to your server, navigate to it in the directory
-and select it. If not, click **Upload** to choose a file from your
-computer.
+2. In the **Image Properties** window, click **Browse Server** to locate the image.
 
-![](../img/civimail_file_directory_3.png)
+   ![Browse Server](../img/civimail_window_to_browse_server_2.png)
 
-Your computer's file-browsing window will open. Find the image file you
-want,
-click to select it and click **Open**. You can repeat this process to
-upload multiple files to CiviCRM at once.
+3. If the image is already uploaded:
+   - Navigate through the directories in the sidebar, locate the image, and select it.
+4. To upload a new image:
+   - Click **Upload**, choose the image file from your computer, and click **Open**. You can upload multiple files at once.
 
-To insert, double click on the image you want. You'll return to the
-Image Properties window of your email.
+   ![File Directory](../img/civimail_file_directory_3.png)
 
-Here you can add adjust the size and alignment of the image and the
-border around it. You can also fill in the Alternative Text field, which
-is text that appears when the image is not available to the reader (if
-they choose not to load images in their email client, or are using
-a[](http://en.wikipedia.org/wiki/Screen_reader "Screen reader") screen
-reader due to a visual impairment). The alternative text ensures no
-information is lost; it's a best practice to always include alt text for
-images to make email accessible to all user communities.
+5. Insert the image:
+   - Double-click the selected image to return to the **Image Properties** window.
+   - Adjust size, alignment, or border settings as needed.
+   - Fill in the **Alternative Text** field for accessibility (displayed when the image is not loaded or for users with visual impairments).
 
-Click **OK** to insert the image.
+   ![Insert Image](../img/civimail_Insert_image_6.png)
 
-![](../img/civimail_Insert_image_6.png)
+6. Click **OK** to insert the image into your email.
+
+!!! tip
+    Always include descriptive alt text for images to make emails accessible for all users.
+
+---

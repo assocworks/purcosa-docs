@@ -1,127 +1,68 @@
 # What is CiviEvent?
 
-CiviEvent provides a set of tools for running events. These tools make
-you more effective as an event organiser and reduce the amount of
-administration required.
+CiviEvent provides tools for managing events efficiently, making the process easier for both organizers and participants. In this system, CiviEvent is primarily used to manage **information sessions**, which are events for suppliers interested in submitting bids for tenders.
 
-CiviCRM helps you manage both simple and complicated registration
-processes. Some key features include:
+Key features include:
 
--   self-registration for participants, including online credit card
-    payments
--   tracking sign-ups, cancellations, and attendance
--   promotion of your events on your website
--   streamline event set-up for similar, recurring events with event
-    templates and event copy functionality
--   participant check in on-site at the event from any computer with an
-    internet connection
+- Self-registration for participants
+- Tracking registrations, cancellations, and attendance
+- Promoting information sessions on your website
+- Streamlining session setup using templates and copy functionality
+- On-site check-in of participants using any internet-connected device
 
-## Scenario: Youth leadership workshop
+---
 
-A community arts group, Arts in Action, conducts leadership workshops
-for people under age 25 throughout the year. Their goals include
-attracting new youth to attend their workshops and enlisting past
-attendees to volunteer and teach. Youth from local schools and theater
-groups are invited to attend, and there are youth speakers and
-volunteers, as well as other speakers for the training workshops.
+## Scenario: Supplier Information Session
 
-The Arts in Action communications staff use CiviEvent to efficiently
-manage each workshop from the beginning of its planning to the end of
-its evaluation. First, a staff member creates an event page that
-includes an online registration form. Because this is a regular event, a
-staff member has previously created an event template, which fills in
-much of the information needed in the event set-up process. There is a
-flat fee for registration, with additional fees for optional workshops;
-attendees can select what they are registering for and pay for it
-online. The registration form also gathers information about
-participants' food and lodging preferences using a CiviCRM feature
-called a profile.
+Imagine a supplier organization running information sessions for suppliers interested in bidding on tenders. These sessions provide crucial details about the tender process and allow suppliers to ask questions.
 
-A targeted list of youth and groups is drawn from existing contacts, and
-staff send personalised invitations using CiviMail (also based on a
-template, so that information can be reused from one event to the next).
-The invitation includes a direct link to the event page so that
-participants can arrive at the online registration with a single
-click. The event is also announced publicly by posting it on the Arts in
-Action website, and the "Tell-a-friend" function is enabled so that the
-information can easily be spread through people's networks.
+For such sessions:
 
-A staff person is designated to manage the process by which participants
-register themselves, periodically checking to make sure that payments
-are being made, managing the wait list when participant sign-ups exceed
-the maximum number, and answering any questions.
+- An **event page** is created with an online registration form.
+- Using an event template, the setup process is streamlined, automatically filling much of the required information.
+- Registrants can complete their registration online, selecting available options, and pay fees if applicable.
+- The registration form can collect additional supplier information using a CiviCRM feature called **profiles**.
 
-On the day of the event, organisers can check in each attendee on-site
-to keep track in real time of who is attending and whether there are any
-no-shows. Participants with outstanding fees can also be asked to pay at
-this time. The database is updated immediately, freeing up spaces for
-those on the wait list and recording payments.
+### Workflow:
+1. A targeted list of suppliers is selected, and invitations are sent using CiviMail. The invitations include a direct link to the event registration page.
+2. The event is also announced on the organization’s website.
+3. A designated staff member monitors registrations, manages waitlists, and answers questions.
+4. During the session, participants check in on-site, and the system updates attendance records in real-time.
+5. After the session, reports are generated to review attendance and payment details.
 
-After each workshop, Arts in Action staff evaluate the success of the
-event and use CiviEvent to quickly generate reports such as the number
-of attendees, total event fees paid, and total amount still due. The
-event and mail templates can be updated if necessary and saved for the
-next event.
+---
 
-## Some key concepts
+## Key Concepts
 
-The chapters in this section take you through everything you need to
-know in order to get the most from CiviEvent. Below are a few concepts
-you might find helpful before you begin to set up your event.
-You will put these concepts into practical use when following the
-step-by-step tasks in the next chapters of this section.
+Understanding the following concepts will help you maximize the use of CiviEvent in this system:
 
-### Events, participants and contacts
+### Events, Participants, and Contacts
 
-First lets explain some basic concepts. CiviCRM allows you to create one
-or more **events** that your **contacts** can participate in. When a
-contact participates in an event, they are called a **participant**.
+CiviCRM allows you to create **events** (information sessions) that **contacts** (suppliers) can attend. When a contact attends an event, they become a **participant**.
 
 ### Event Types
 
-CiviCRM allows you to define different types of events, such as
-Conferences, Meetings and Fundraisers. Which event types to create is
-entirely up to you, according to the needs of your organization.
+CiviCRM supports different **event types**. In this system, events are categorized as **Information Sessions**. Event Types allow:
 
-Event Types come in handy if you have different requirements for types
-of events. For example, you can create custom fields to store and
-display additional data about an event by its Event Type. See the
-chapter [*Custom data on events*](https://docs.civicrm.org/user/en/latest/events/custom-data-for-events/) in this section for more information
-about this. They are also useful for categorizing and segmenting events
-and attendees, for example, you could easily find all contacts that have
-come to one of your Workshops or attended one of your Fundraising events.
-
+- Segmentation and categorization of events
+- Custom fields specific to the type of event
+- Easy tracking of participation in specific types of events
 
 ### Participant Default Roles
 
-Every contact that participates in an event is assigned a Participant Default
-Role. The most common is probably Attendee. Others include Volunteer, Host or
-Speaker.  Participant roles are fully customizable to match the types of
-events your organization conducts. This allows you to segment
-participants into meaningful categories based on their involvement in
-the event, for example for sending an email to Volunteers only or
-generating a list of past table captains for fundraisers. You can also
-create custom fields that apply only to specific roles, for example, to
-collect information about availability from Volunteers only.
+Participants in an event are assigned a default **role**, such as **Attendee**. Roles help organize and segment participants based on their involvement, which can be useful for:
 
-### Participant statuses
+- Sending targeted communications
+- Generating role-specific reports
 
-Participant statuses (for example, Registered, No-show, Attended or
-Cancelled) are used to track what stage the contact is at in their
-'event journey'. Participant statuses are fully customizable to match
-the way your organization does event registration. This allows you to
-segment participants into meaningful categories based on their behavior
-with respect to the event, for the purpose of things like generating
-sign-in sheets, tracking how many people are likely to come to an event,
-and tailoring email communications to registrants.
+Roles are customizable to fit your system’s needs.
 
-## Other parts of CiviCRM that work with CiviEvent
+### Participant Statuses
 
-CiviEvent is designed to work together with other parts of CiviCRM.  For
-example, you can promote the event to a targeted list and communicate
-with event participants via email before and after the event using
-CiviMail (see the *Email* section, particularly the [Set-up](../email/set-up.md) and
-[Scheduled Reminders](../email/scheduled-reminders.md) chapters, for more information). CiviEvent works
-with CiviContribute to allow you to accept event payments online. To do
-this, you must enable CiviContribute and set up a payment processor; see
-the [*Contributions*](https://docs.civicrm.org/user/en/latest/contributions/what-is-civicontribute/) section for more information.
+Statuses track participants’ progress through the event process, such as **Registered**, **Attended**, or **Cancelled**. These statuses:
+
+- Are customizable
+- Help monitor attendance and no-shows
+- Facilitate tailored communications
+
+---

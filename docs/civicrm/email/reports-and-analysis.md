@@ -1,110 +1,88 @@
-# Reports and analysis
+# Reports and Analysis
 
-CiviMail has a number of tools for reporting and analysis; indeed
-reporting is one of the key reasons to use CiviMail.
+CiviMail offers robust tools for tracking and analyzing your email campaigns. These tools help measure effectiveness, manage email deliverability, and understand recipient engagement.
 
-## Individual mail reports
+---
 
-You can view a report for each individual mailing from the **Mailings >
-Scheduled and Sent Mailings**. These reports are based on live
-information about your data; you can track your emails in real time by
-refreshing the page. Each mailing report is broken down into a few
-sections. The availability of data is dependent on you enabling tracking
-of the items when you set up your mailing. 
+## Individual Mail Reports
 
-### Delivery summary
+You can view reports for individual mailings by navigating to **Mailings > Scheduled and Sent Mailings**. These reports update in real time, allowing you to track email performance as data comes in. The availability of data depends on the tracking options enabled during mailing setup.
 
-![report_email](../img/report_email-en.png "report_email")
+### Delivery Summary
 
-The delivery summary shows some high-level statistics about the mailing.
-Clicking on the links in the Delivery Summary will show a list of the
-contacts that took the action.
+![Delivery Summary Example](../img/report_email-en.png "Delivery Summary")
 
-**Intended Recipients** shows the number of people that the mailing was
-intended to be sent to. 
+The delivery summary provides high-level statistics, with clickable links for detailed recipient lists.
 
-**Unique Opens** shows the number of people (or bots) that CiviCRM thinks have
-opened the email if you have chosen to enable *Open tracking*.
+**Key Metrics**:
 
-**Total Opens** shows the total number of times that CiviCRM thinks people (or bots) have
-opened the email if you have chosen to enable *Open tracking*.
+- **Intended Recipients**: The total number of contacts the email was intended for.
+  
+- **Unique Opens**: The number of unique recipients (or bots) who opened the email. This requires enabling *Open Tracking*.
+  
+- **Total Opens**: The total number of times the email was opened, including multiple opens by the same recipient.
 
-!!! info "How Open Tracking works"
-    In the world of email, there is no 100% reliable way of
-    knowing when someone has opened an email. CiviCRM uses a trick that is
-    common amongst mass mailers &mdash; it embeds a small image with a unique name
-    in each email. When a client views the email and downloads the image,
-    CiviCRM knows that they have read the email. Because this technique is
-    common, to protect people's privacy, most email clients ask users to
-    confirm whether they want to download images in emails. Hence your
-    report really tells you the number of people who downloaded the images;
-    the actual number of readers is higher than the number reported. Tracked
-    opens statistics should be taken as indicative, rather than accurate. In
-    our experience, a 30% reported opening rate can be considered good. This
-    is obviously different for each organisation and each group you send
-    emails to.
+  !!! info "How Open Tracking Works"
+      CiviCRM tracks opens by embedding a unique, small image in each email. When a recipient’s email client downloads this image, it registers as an "open." Since many email clients block image downloads by default, the actual number of readers is likely higher than reported. Use these statistics for comparative analysis rather than exact measurement.
 
-Don't focus too much on the absolute numbers, but rather use them as a
-way of comparing different mailings you send. You might want to use them
-to experiment with different layouts, writing styles, and lengths and
-see what works best for your constituents.
+- **Click-Throughs**: The total number of link clicks, available if *Click Tracking* is enabled.
 
-**Click-throughs** shows the total number of times that people have
-clicked links in your email *if you have enabled click tracking*.
+- **Forwards**: The number of times the email was forwarded using a provided forward link.
 
-**Forwards** show the number of times people have forwarded the email
-using the forward link (which is a [token](../common-workflows/tokens-and-mail-merge.md) that you can include in your
-mailing).
+- **Replies**: The number of recipient replies, available if *Reply Tracking* is enabled.
 
-**Replies** shows the number of times that people have replied to the
-email *if you have enabled reply tracking*.
+- **Bounces**: The number of undelivered emails, provided *Bounce Processing* is set up.
 
-**Bounces** show the number of email addresses that could not be
-successfully delivered to *if you have enabled bounce processing*. 
+- **Unsubscribe Requests**: The number of recipients who clicked on unsubscribe links.
 
-**Unsubscribe requests** shows the amount of people that have clicked on
-any unsubscribe links that you include in your email. 
+---
 
-## Managing bounces and contacts with invalid emails
+## Managing Bounces and Contacts with Invalid Emails
 
-If your server is set up to process bounces, contacts will be marked as
-**On Hold** when their email bounces. Further messages to those
-addresses will be suppressed. You can search for emails that are on hold
-either from the Bounces report or with an advanced search, and then
-investigate why the emails are bouncing.
+If your server processes bounces, contacts with invalid email addresses will be marked **On Hold**, preventing further emails from being sent to those addresses. You can address bounces as follows:
 
-You should review a list of bounces by clicking on the **Bounces** link
-in the Delivery Summary. You can see the reasons for individual bounces
-such as incorrect email addresses (e.g., contact@gooogle.com), fix them
-and remove their On Hold status. You can then re-use the mailing and
-simply add it to the EXCLUDE Recipients of These Mailing(s) list on the
-Select Recipients screen of the re-used mailing setup.
+1. **Review Bounces**:
+   - Click the **Bounces** link in the Delivery Summary to view detailed reasons for bounces.
+   - Common reasons include incorrect addresses (e.g., contact@gooogle.com).
 
-In the Mailings area of **Search > Advanced search** you can search by
-bounce type.
+2. **Fix Email Addresses**:
+   - Correct invalid email addresses and remove the **On Hold** status.
+   - You can reuse the mailing by excluding recipients of the original mailing during setup.
 
-![List of bounce types: AOL, Away, DNS, Host...](../img/advanced_search_mailing_bounce_type.png) 
+3. **Advanced Search**:
+   - Use **Search > Advanced Search** and filter by bounce type in the Mailings area to identify and address specific bounce issues.
 
-## Click-through summary
+![Advanced Search for Bounces](../img/advanced_search_mailing_bounce_type.png)
 
-In this section, click-through statistics are shown for each link.
-There are two statistics, **Clicks** (i.e., the number of times that a
-link has been clicked) and **Unique clicks** (i.e., the number of people
-that have clicked on links).
+---
 
-![screenshot](../img/click_through_summary.png)
+## Click-Through Summary
 
-## Mailing reports with CiviReport
+This section provides detailed statistics for each link in your email.
 
-CiviReport has four reports, Mail Bounce Report, Mail Summary Report,
-Mail Clickthrough Report and Mail Opened Report, which offer similar
-functionality to what is described above. The major advantages of
-looking at the reports via CiviReport (available from the **Reports**
-menu) are:
+**Metrics**:
 
--   You can run the reports for multiple mailings.
--   You have access to all the other cool features of CiviReport,
-    including the ability to add reports to dashboards, get reports
-    emailed, etc.
+- **Clicks**: The total number of times a link was clicked.
+  
+- **Unique Clicks**: The number of distinct recipients who clicked the link.
 
-Read the [Reporting](../reporting/what-is-civireport.md) section of this book for more information.
+![Click-Through Summary](../img/click_through_summary.png)
+
+---
+
+## Mailing Reports with CiviReport
+
+CiviReport offers advanced reporting capabilities that complement individual mailing reports. Key advantages include:
+
+- **Comprehensive Reporting**: Generate reports for multiple mailings simultaneously.
+  
+- **Advanced Features**:
+  - Add reports to dashboards.
+  - Schedule and email reports to team members.
+
+### Available Reports:
+
+- **Mail Bounce Report**: Details of bounced emails.
+- **Mail Summary Report**: High-level statistics for multiple mailings.
+- **Mail Clickthrough Report**: Summary of link engagement across mailings.
+- **Mail Opened Report**: Insights into email opens across campaigns.
