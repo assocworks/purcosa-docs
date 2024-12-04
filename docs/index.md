@@ -81,10 +81,7 @@ Staff have access to export features for:
 
 ## Getting Help
 
-If you encounter issues or have questions about your role or the systems you use, the following resources are available:
-- **Internal Knowledge Base**: Detailed articles and guides for all internal processes.
-- **Technical Support**: Contact the IT department for assistance with platform or system issues.
-- **Team Leads and Managers**: Reach out to your manager or team lead for guidance on specific tasks or responsibilities.
+If you encounter issues or have questions about the system, start by asking your colleagues or manager, if you still need system or technical assistance reach out to [info@assocworks.co.za](mailto:info@assocworks.co.za).
 
 ---
 
