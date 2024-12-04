@@ -1,5 +1,5 @@
 site_name: PURCO SA Staff Guide
-site_url: https://test3.purcosa.co.za/staff-guide/
+site_url: https://purcosa.co.za/staff-guide/
 
 nav:
   - Welcome: 'index.md'
@@ -38,7 +38,7 @@ nav:
 theme:
   name: material
   locale: en
-  navigation_depth: 3
+#   navigation_depth: 2
   palette:
     primary: custom
     accent: custom
