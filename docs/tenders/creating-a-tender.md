@@ -179,8 +179,6 @@ If necessary, make adjustments to the delivery requirements text that appears in
 
 If appropriate, select additional options for bid delivery.
 
-Link to help page about adding possible values here ???
-
   ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-10-11/9eae4d5e-a25a-4fdc-b7ba-c9040601b953/ascreenshot.jpeg?tl_px=0,55&br_px=1719,1016&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/b61208_standard.png&wat_pad=216,276)
 
 ---
