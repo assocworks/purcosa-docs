@@ -17,6 +17,7 @@ nav:
     - 'Viewing & Assessing Bids': './tenderboxes/viewing-and-assessing-bids.md'
     - 'Downloading Submitted Files & Data': './tenderboxes/downloading-files.md'
   - Contracts:
+    - 'Awarding Contracts': './contracts/awarding-contracts.md'
     - 'Viewing & Exporting Contracts': './contracts/viewing-contracts.md'
     - 'Contract Document Management': './contracts/managing-contract-documents.md'
   - CiviCRM:
