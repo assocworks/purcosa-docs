@@ -20,6 +20,7 @@ nav:
     - 'Awarding Contracts': './contracts/awarding-contracts.md'
     - 'Viewing & Exporting Contracts': './contracts/viewing-contracts.md'
     - 'Contract Document Management': './contracts/managing-contract-documents.md'
+    - 'The LOA Process': './contracts/loa-process.md'
   - CiviCRM:
     - 'Contacts': './civicrm/contacts.md'
     - 'Groups and tags': './civicrm/groups-and-tags.md'
