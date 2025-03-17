@@ -67,7 +67,7 @@ Upon marking the LOA's ERP capture as complete, the system will:
 
 ---
 
-## Checking the Status of Contracts and LOAs:
+## Checking the Status of Contracts and LOAs
 
 Any user with a Contract Admin or Finance role can check the status of contracts and LOAs by visiting the **LOA Captured Report** page.
 
