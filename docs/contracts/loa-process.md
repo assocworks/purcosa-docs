@@ -67,19 +67,13 @@ Upon marking the LOA's ERP capture as complete, the system will:
 
 ---
 
-## Checking the Status of Contracts and LOAs**:
+## Checking the Status of Contracts and LOAs:
 
 Any user with a Contract Admin or Finance role can check the status of contracts and LOAs by visiting the **LOA Captured Report** page.
 
 ![LOA Captured Report](https://purcosa.co.za/sites/purcosa.co.za/files/images/guides/Contract%20-%20LOA%20-%20LOA%20captured%20report.png)
 
 ![LOA Captured Report Page](https://purcosa.co.za/sites/purcosa.co.za/files/images/guides/Contract%20-%20LOA%20captured%20report%20page.png)
-
-4. **Reject LOA**:
-   - FinAdmins can also **reject** an LOA or request changes before capturing it on the ERP system.
-
-5. **FinAdmin Emails New Contracted Supplier**:
-   - When the Finance Administrator has captured the contract on the ERP, they can email the new supplier using a preformatted **Sales Report** email template in CiviCRM.
 
 ---
 
@@ -113,7 +107,7 @@ This is the process Finance Administrators will use to reject an LOA and **repor
 
 ---
 
-## Tender Author Process on Receiving a Revision Request
+## Responding to a Revision Request
 
 1. On receipt of the **Change Requested** email, the tender author should review and correct the issue.
 2. Once resolved, they should:
